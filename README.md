@@ -1,4 +1,3 @@
-# PBv2-PostFixes
-PlayBox v2 Post Fixes, Tweaks etc.
+# PlayBox v2 Post Fixes, Tweaks & Updates!
 
-Any post updates will be included here and applied automatically from the main PlayBox Setup updte script.
+Any post updates will be included here and applied automatically from the main PlayBox Setup upadte script found in the new PlayBox ToolKit v2!!!
