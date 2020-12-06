@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./OpenTTD.sh</path>
+		<name>OpenTTD</name>
+	</game>
+	<game>
+		<path>./Freedoom - Phase II.sh</path>
+		<name>Doom - Freedoom - Phase II</name>
+		<desc>Phase 2 is the second major part of the single-player game, a massive 32-level chapter expanding upon the same concepts present in Phase 1, as well as containing additional monsters and the double-barreled shotgun! The levels in this game tend to demand more skillful play than the previous chapters. It is compatible with mods for Doom II.</desc>
+		<image>./boxart/freedom phase 2.jpg</image>
+		<video>./snaps/freedom p2.mp4</video>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<developer />
+		<publisher />
+		<genre>Action</genre>
+		<players />
+	</game>
+	<game>
+		<path>./Quake.sh</path>
+		<name>Quake</name>
+		<desc>In Quake, the player takes the role of the protagonist known as Ranger who was sent into a portal in order to stop an enemy code-named "Quake". The government had been experimenting with teleportation technology and developed a working prototype called a "Slipgate"; the mysterious Quake compromised the Slipgate by connecting it with its own teleportation system, using it to send death squads to the "Human" dimension in order to test the martial capabilities of humanity.    The sole surviving protagonist in "Operation Counterstrike" is Ranger, who must advance, starting each of the four episodes from an overrun human military base, before fighting his way into other dimensions, reaching them via the Slipgate or their otherworld equivalent. After passing through the Slipgate, Ranger's main objective is to collect four magic runes from four dimensions of Quake; these are the key to stopping the enemy later discovered as Shub-Niggurath and ending the invasion of Earth.</desc>
+		<image>./boxart/Quake.jpg</image>
+		<video>./snaps/Quake.mp4</video>
+		<rating>0</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>id Software, Inc.</publisher>
+		<genre>Action</genre>
+	</game>
+	<game>
+		<path>./Prince of Persia.sh</path>
+		<name>Prince Of Persia</name>
+		<desc>Prince of Persia was originally released in 1989 for the Apple II by Jordan Mechner. Mechner used film of his younger brother David running, jumping, and performing many of the Prince's actions. Mechner then rotoscoped the film to create the animations that give the Prince his fluid movement.    Part of the game's appeal was its then unique focus on environmental puzzle-solving, as well as its one-on-one sword duels. Mechner has stated that the game was inspired by the first ten minutes of Raiders of the Lost Ark, for the character's acrobatics in a dangerous environment.    Prince of Persia has since been ported to a number of different platforms, including the Amiga, Apple Macintosh, DOS, NES, Game Boy, Sega Genesis, Game Gear, SNES, Sharp X68000, Atari ST, and SAM Coupé.    The music was written by Jordan Mechner's father, Francis Mechner.</desc>
+		<image>./boxart/Prince of Persia.jpg</image>
+		<video>./snaps/Prince of Persia.mp4</video>
+		<rating>0.6</rating>
+		<releasedate>19891003T000000</releasedate>
+		<developer>Broderbund Software</developer>
+		<publisher>Broderbund Software</publisher>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Giana's Return.sh</path>
+		<name>Giana's Return</name>
+		<desc>Way before Lara Croft, back in the 1980's and early 1990's, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle. XRrick is an exact clone of Rick Dangerous, produced by carefully cracking and reverse-engineering the orignal IBM PC (x86 CPU) and Atari ST (68k CPU) versions of the game, and then porting to C.</desc>
+		<image>./boxart/Giana's Return.jpg</image>
+		<video>./snaps/Giana's Return.mp4</video>
+		<developer>Core Design, Stéphane Gay </developer>
+		<publisher>Rainbird Software</publisher>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Sonic Robo Blast 2.sh</path>
+		<name>Sonic Robo Blast 2</name>
+		<desc>Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built using a modified version of the Doom Legacy port of Doom. SRB2 is closely inspired by the original Sonic games from the Sega Genesis, and attempts to recreate the design in 3D. While SRB2 isn't fully completed, it already features tons of levels, enemies, speed, and quite a lot of the fun that the original Sonic games provided. Months after Eggman's defeat in Sonic Robo Blast, Dr. Eggman took an interest in harnessing the Black Rock's energy. After claiming it as his own battleship, Eggman chose Greenflower Mountain as his first target.
+		Sonic was enjoying a long overdue vacation when he was suddenly alerted by the presence of Eggman's massive fleet. Sonic gazed at the giant battleship aimed toward Greenflower, and had already bolted towards it in a blink of an eye. Even though Sonic rushed to save Greenflower Mountain as quickly as possible, it had already been defaced by the time he arrived. Now, after a quick reunion with the evil doctor, Sonic and friends journey off onto another quest to save the world from Dr. Eggman.</desc>
+		<image>./boxart/Sonic Robo Blast 2.jpg</image>
+		<video>./snaps/Sonic Robo Blast 2.mp4</video>
+		<developer>Sonic Team Junior</developer>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Super Flappy Birds.sh</path>
+		<name>Super Flappy Birds</name>
+		<desc>Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves persistently to the right. The player is tasked with navigating Faby through pairs of pipes that have equally sized gaps placed at random heights. Faby automatically descends and only ascends when the player taps the touchscreen. Each successful pass through a pair of pipes awards the player one point. Colliding with a pipe or the ground ends the gameplay. During the game over screen, the player is awarded a bronze medal if they reached ten or more points, a silver medal from twenty points, a gold medal from thirty points, and a platinum medal from forty points.</desc>
+		<image>./boxart/Super Flappy Birds.jpg</image>
+		<video>./snaps/Super Flappy Birds.mp4</video>
+		<developer>dotGears</developer>
+		<genre>Arcade</genre>
+	</game>
+	<game>
+		<path>./Super Mario War.sh</path>
+		<name>Super Mario War</name>
+		<desc>The gameplay is somewhat simple. In various game modes, players may jump on each other's heads to defeat each other or they may use items found in the power-up boxes. The game has a variety of such configurable settings to determine when certain items spawn in the power-up boxes, the way players spawn onscreen, and more.</desc>
+		<image>./boxart/SMW.jpg</image>
+		<video>./snaps/SMW.mp4</video>
+		<rating>0</rating>
+		<releasedate>20061216T144414</releasedate>
+		<developer>Michael Schaffer</developer>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Ur-quan Masters.sh</path>
+		<name>Ur-quan Masters</name>
+		<desc>The Ur-Quan Masters HD is an enhanced and updated port of Star Control II, an excellent, but older game. Star Control II was an action-adventure science fiction game, set in an open universe. It features ship-to-ship combat based on the original Star Control, but removes the first game's strategy gameplay to focus on story and dialog, as seen in other adventure games. The player's goal is to free Earth from the evil Ur-Quan, by recruiting aliens to help. The main gameplay elements are exploring the galaxy, gathering resources, building a fleet, defeating enemy ships, and conversing with aliens.</desc>
+		<image>./boxart/Ur-quan Masters.jpg</image>
+		<video>./snaps/Ur-quan Masters.mp4</video>
+		<developer>	Paul Reiche III, Fred Ford</developer>
+		<genre>Adventure, shoot 'em up</genre>
+	</game>
+	<game>
+		<path>./Wolfenstein 3D - Spear of Destiny.sh</path>
+		<name>Wolfenstein 3D - Spear of Destiny</name>
+		<desc>The first three episodes of the game focus on William "B.J." Blazkowicz's attempts to escape from Castle Wolfenstein and overthrow the Nazi regime.  In the first episode, Escape from Castle Wolfenstein, B.J., an Allied spy, has been captured while trying to find the plans for Operation Eisenfaust, and was imprisoned in Castle Wolfenstein. Initially armed only with a knife and a Walther P38 (obtained by overpowering the guard in his cell), B.J. tries to escape the castle prison. Taking on SS guards, he eventually finds himself face to face with head prison guard Hans Grosse.  In the second episode, Operation: Eisenfaust, B.J. finds out that the operation is real, and that Nazis are creating an army of undead mutants in Castle Hollehammer. B.J. enters the castle and confronts the mad scientist Dr. Schabbs, creator of the mutants. His defeat signals the end of this biological war.  Die, Führer, Die! is, chronologically, the final episode. Fighting through Nazi soldiers, and attacking the bunker under the Reichstag, he finds himself up against Adolf Hitler himself (equipped with a robotic suit and 4 Gatling guns).</desc>
+		<image>./boxart/Wolfenstein 3D.jpg</image>
+		<video>./snaps/Wolfenstein 3D.mp4</video>
+		<rating>0.6</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>Apogee</publisher>
+		<genre>Action</genre>
+	</game>
+	<game>
+		<path>./XRick.sh</path>
+		<name>XRick</name>
+		<desc>Way before Lara Croft, back in the 1980's and early 1990's, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle. XRrick is an exact clone of Rick Dangerous, produced by carefully cracking and reverse-engineering the orignal IBM PC (x86 CPU) and Atari ST (68k CPU) versions of the game, and then porting to C.</desc>
+		<image>./boxart/XRick.jpg</image>
+		<video>./snaps/XRick.mp4</video>
+		<developer>Core Design, Stéphane Gay </developer>
+		<publisher>Rainbird Software</publisher>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Duke Nukem 3D.sh</path>
+		<name>Duke Nukem 3d</name>
+		<desc>Duke Nukem, the politically incorrect action hero and ultimate alien ass kicker, defends Earth and its babes from alien invasion in Duke Nukem 3D. This is the award winning game that helped define the FPS genre, introducing unparalleled interactivity, and a main character that spoke. Take the fight to the aliens across 39 levels featuring Hollywood, Los Angeles, a moon base, and alien spacecraft. Innovative items like the Jetpack, HoloDuke, Shrink Ray, or Pipe Bombs allow you to fight the aliens in any style you want. Defeat the aliens, so Duke can get back to some R&amp;R with a stogie, a warm belly, and a bottle of Jack.</desc>
+		<image>./boxart/Duke Nukem 3D.jpg</image>
+		<video>./snaps/Duke Nukem 3D.mp4</video>
+		<rating>0.85</rating>
+		<releasedate>19960129T000000</releasedate>
+		<developer>3D Realms</developer>
+		<publisher>GT Interactive</publisher>
+		<genre>Action</genre>
+	</game>
+	<game>
+		<path>./VVVVVV.sh</path>
+		<name>VVVVVV</name>
+		<desc>Unlike most platforming games, in VVVVVV the player is not able to jump, but instead can reverse the direction of gravity when standing on a surface, causing Captain Viridian to fall either upwards or downwards.[8] This feature was first seen in the 1986 8-bit game Terminus. The player uses this mechanic to traverse the game's environment and avoid various hazards, including stationary spikes and moving enemies. VVVVVV contains eight main levels, including an intro level, four levels which can be accessed in a non-linear sequence, two intermission levels, and one final level, only seen outside Dimension VVVVVV (in a "polar dimension"). These are situated inside a large open world for the player to explore, spanning more than 400 individual rooms.</desc>
+		<image>./boxart/VVVVVV.jpg</image>
+		<video>./snaps/VVVVVV.mp4</video>
+		<developer>Terry Cavanagh</developer>
+		<publisher>Nicalis</publisher>
+		<genre>Platform, puzzle</genre>
+	</game>
+	<game>
+		<path>./Cannonball - OutRun Engine.sh</path>
+		<name>Cannonball - OutRun Engine</name>
+		<desc>Cannonball is an enhanced version of Sega’s classic 1986 game Outrun available for Windows, Mac OS, Linux, Pandora and Android. Although it requires the same ROMs that popular arcade emulators use to play the game,  this is no mere emulator. Cannonball is a complete re-write of the game engine which adds a variety of enhancements such as true widescreen support, high-resolution graphics with improved sprite scaling, several bug fixes, additional view modes and support for both analog and digital gamepads.</desc>
+		<image>./boxart/Cannonball - OutRun Engine.jpg</image>
+		<video>./snaps/Cannonball - OutRun Engine.mp4</video>
+		<developer>reassembler djyt</developer>
+		<genre>Racing</genre>
+	</game>
+	<game>
+		<path>./Cave Story.sh</path>
+		<name>Cave Story</name>
+		<desc>Cave Story takes you into a rare world where a curious race of innocent, rabbit-like creatures called Mimiga run free. You wake up in a dark cave with no memory of who you are, where you came from or why you're in such a place. Uncovering Mimiga Village, you discover that the once-carefree Mimiga are in danger at the hands of a maniacal scientist. Their only hope rests squarely on the shoulders of a quiet, amnesiac boy who can't remember his own name. Take control, learn the origins of this world's power, stop the delusional villain and save the Mimiga.</desc>
+		<image>./boxart/cave story.jpg</image>
+		<video>./snaps/cave story.mp4</video>
+		<rating>0.9</rating>
+		<releasedate>20041220T000000</releasedate>
+		<developer>Pixel Studios</developer>
+		<publisher>Pixel Studios</publisher>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Descent 2 Rebirth.sh</path>
+		<name>Descent 2 Rebirth</name>
+		<desc>It is the second game in the Descent video game series and a sequel to Descent. Unlike standard first-person shooters, the player must control a flying ship that has a six degrees of freedom movement scheme, allowing the player to move in any 3D direction. The original soundtrack features industrial metal contributed by notable musicians such as Type O Negative, Ogre and Mark Walk of Skinny Puppy, and Brian Luzietti.</desc>
+		<image>./boxart/Descent 2 Rebirth.jpg</image>
+		<video>./snaps/Descent 2 Rebirth.mp4</video>
+		<developer>Parallax Software</developer>
+		<publisher>Interplay Productions</publisher>
+		<genre>First-person shooter</genre>
+	</game>
+	<game>
+		<path>./Descent Rebirth.sh</path>
+		<name>Descent Rebirth</name>
+		<desc>Descent is a first-person shooter (FPS) game developed by Parallax Software and released by Interplay Productions in 1995 for MS-DOS, and later for Macintosh, PlayStation, and RISC OS.
+	It popularized a subgenre of FPS games employing six degrees of freedom and was the first FPS to feature entirely true-3D graphics. The player is cast as a mercenary hired to eliminate the threat of a mysterious extraterrestrial computer virus infecting off-world mining robots. In a series of mines throughout the Solar System, the protagonist pilots a spaceship and must locate and destroy the mine's power reactor and escape being caught in the mine's self-destruction, defeating opposing robots along the way.
+	Descent was a commercial success. Together with its sequel, it sold over 1.1 million units as of 1998 and was critically acclaimed.</desc>
+		<image>./boxart/Descent Rebirth.jpg</image>
+		<video>./snaps/Descent Rebirth.mp4</video>
+		<developer>Parallax Software</developer>
+		<publisher>Interplay Productions</publisher>
+		<genre>First-person shooter</genre>
+	</game>
+	<game>
+		<path>./Quake III Arena.sh</path>
+		<name>Quake III Arena</name>
+		<desc>Quake III Arena is a 1999 multiplayer-focused first-person shooter developed by id Software. It is the third game in the Quake series; it differs from previous games by excluding a story-based single-player mode and highly focusing on multiplayer gameplay. The single-player mode is played against computer-controlled bots. It features music composed by Sonic Mayhem and Front Line Assembly founder Bill Leeb.
+
+Notable features of Quake III Arena include the minimalist design, lacking rarely used items and features, the extensive customizability of player settings such as field of view, texture detail and enemy model, and advanced movement features such as strafe-jumping and rocket-jumping.</desc>
+		<image>./boxart/Quake III Arena.jpg</image>
+		<video>./snaps/Quake III Arena.mp4</video>
+		<developer>id Software</developer>
+		<publisher>	id Software</publisher>
+		<genre>First-person shooter</genre>
+	</game>
+	<game>
+		<path>./Jump 'n Bump.sh</path>
+		<name>Jump 'n Bump</name>
+		<desc>ump 'n Bump has no plot, other than that it involves up to four rabbits in multiplayer deathmatch: Dott, Jiffy, Fizz, and Mijji, trying to hop onto each other's heads to squish each other and score a point, while sending gibs flying everywhere. The rabbits are controlled by players on the same computer, using the keyboard, mouse, and/or joystick.</desc>
+		<image>./boxart/Jump 'n Bump.jpg</image>
+		<video>./snaps/Jump 'n Bump.mp4</video>
+		<developer>Brainchild Design</developer>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./SuperTux.sh</path>
+		<name>SuperTux</name>
+		<desc>SuperTux is similar to Super Mario Bros. Tux can jump under bonus blocks marked with question marks to gain coins or retrieve power-ups such as the egg, which makes Tux bigger and allows him to take an extra hit before dying. Other objects such as trampolines and invincibility granting stars can also be obtained from these blocks. Tux can defeat some bad guys by jumping on them, and most can be defeated or frozen by shooting bullets after collecting a fire flower or an ice flower. Earth flowers grant Tux a miner helmet with a spotlight for dark areas and can give invincibility for a few seconds, and air flowers allow Tux to glide in the air, jump higher and move faster. If Tux gets hit after he collected a flower, he loses his helmet and transforms back into big Tux. The objective of each level is to get to the end, usually marked by checker-patterned poles. At the end of "Icy Island", the first world in the game, the Yeti boss awaits Tux. At the end of each world is a boss, such as the Yeti boss on Icy Island. .</desc>
+		<image>./boxart/SuperTux.jpg</image>
+		<video>./snaps/SuperTux.mp4</video>
+		<developer>	SuperTux Development Team</developer>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./OpenTyrian.sh</path>
+		<name>OpenTyrian</name>
+		<desc>OpenTyrian is an open-source port of the DOS game Tyrian. Tyrian is an arcade-style vertical scrolling shooter.  The story is set in 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed to fight MicroSol and save the galaxy. Tyrian features a story mode, one- and two-player arcade modes, and networked multiplayer..</desc>
+		<image>./boxart/OpenTyrian.jpg</image>
+		<video>./snaps/OpenTyrian.mp4</video>
+		<developer>Jason Emery</developer>
+		<genre>Scrolling shooter</genre>
+	</game>
+	<game>
+		<path>./C-Dogs SDL.sh</path>
+		<name>C-Dogs SDL</name>
+		<desc>C-Dogs, the sequel to Cyberdogs, is a shoot 'em up computer game where players work cooperatively during missions, and against each other in "dogfight" deathmatch mode.</desc>
+		<image>./boxart/C-Dogs.jpg</image>
+		<video>./snaps/C-Dogs.mp4</video>
+		<developer>Ronny Wester</developer>
+		<genre>Action</genre>
+	</game>
+	<game>
+		<path>./Commander Genius.sh</path>
+		<name>Commander Genius</name>
+		<desc>Commander Keen is a series of side-scrolling platform video games developed primarily by id Software. The series consists of six main episodes, a "lost" episode, and a final game. The series follows the eponymous Commander Keen, the secret identity of the eight-year-old genius Billy Blaze, as he defends the Earth and the galaxy from alien threats with his homemade spaceship, rayguns, and pogo stick.</desc>
+		<image>./boxart/Commander Genius.jpg</image>
+		<video>./snaps/Commander Genius.mp4</video>
+		<developer>id Software</developer>
+		<publisher>id Software</publisher>
+		<genre>Platform</genre>
+	</game>
+	<game>
+		<path>./Freedoom - Phase I.sh</path>
+		<name>Doom - Freedoom - Phase I</name>
+		<desc>Phase 1 is the first part of the single-player game, containing four chapters which are nine levels each, smoothly paced for beginner players. It is compatible with mods for the original Doom and The Ultimate Doom.</desc>
+		<image>./boxart/freedom phase 1.jpg</image>
+		<video>./snaps/freedom p1.mp4</video>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<developer />
+		<publisher />
+		<genre>Action</genre>
+		<players />
+	</game>
+	<game>
+		<path>./Doom.sh</path>
+		<name>Doom, Brutal v21.5</name>
+		<desc>The Ultimate Doom takes you far beyond the realms of your experience. All three original episodes of the greatest, splattertastic, adrenaline pumping game ever made are here - that's 27 levels of doomogerous gameplay to challenge even the most hardened gamer. But that's just for starters... Then, but only if you're tough enough, you can pick up the gauntlet of an all-new episode... Thy Flesh Consumed. Those fiendish geniuses for id have delved deep into their twisted psyches to present you with the ultimate Doom experience yet - nine new levels of the most torturous, twisting and toughest action imaginable. Will you prove big enough to meet the challenge?</desc>
+		<image>./boxart/Brutal Doom v21exp5.jpg</image>
+		<video>./snaps/Brutal Doom v21exp5.mp4</video>
+		<rating>0.85</rating>
+		<releasedate>19950430T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>GT Interactive</publisher>
+		<genre>Action</genre>
+	</game>
+	<game>
+		<path>./Ion Fury.sh</path>
+		<name>Ion Fury</name>
+		<desc>Ion Fury (originally titled Ion Maiden[1]) is a 2019 cyberpunk first-person shooter video game developed by Voidpoint and published by 3D Realms. It is a prequel to the 2016 video game Bombshell.
+	In Ion Fury, the player assumes the role of Shelly "Bombshell" Harrison, a bomb disposal expert aligned to the Global Defense Force. Dr. Jadus Heskel, a transhumanist cult leader, unleashes an army of cybernetically-enhanced soldiers on the futuristic dystopian city of Neo D.C., which Shelly is tasked with fighting through.</desc>
+		<image>./boxart/Ion Fury.jpg</image>
+		<video>./snaps/Ion Fury.mp4</video>
+		<developer>Voidpoint General Arcade</developer>
+		<publisher>	3D Realms</publisher>
+		<genre>First-person shooter</genre>
+	</game>
+	<game>
+		<path>./minecraft-pi.sh</path>
+		<name>MineCraft Pi</name>
+		<desc>Minecraft is a sandbox video game developed by Mojang. The game was created by Markus "Notch" Persson in the Java programming language. Following several early test versions, it was released as a paid public alpha for personal computers in 2009 before releasing in November 2011, with Jens Bergensten taking over development. Minecraft has since been ported to several other platforms and is the best-selling video game of all time, with 200 million copies sold and 126 million monthly active users as of 2020.
+
+In Minecraft, players explore a blocky, procedurally-generated 3D world with infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures or earthworks. Depending on game mode, players can fight computer-controlled "mobs", as well as cooperate with or compete against other players in the same world. Game modes include a survival mode, in which players must acquire resources to build the world and maintain health, and a creative mode, where players have unlimited resources. Players can modify the game to create new gameplay mechanics, items, and assets.</desc>
+		<image>./boxart/minecraft-pi.jpg</image>
+		<video>./snaps/minecraft-pi.mp4</video>
+		<developer>Mojang</developer>
+		<publisher>Mojang, Microsoft Studios, Sony Interactive Entertainment Games</publisher>
+		<genre>Puzzle, Sandbox, Survival</genre>
+	</game>
+	<game>
+		<path>./MysticMine.sh</path>
+		<name>Mystic Mine</name>
+		<desc>Guide your gold car through a mine, switching rails with a single button. You can only go down, but thanks to an optic illusion in the levels, you can always reach every point. Play this game alone or invite some friends and play against each other. The game supports up to 6 people on one keyboard. Everyone can enjoy this family friendly game, regardless of age or experience.</desc>
+		<image>./boxart/MysticMine.jpg</image>
+		<video>./snaps/MysticMine.mp4</video>
+		<developer>Koen Witters (koonsolo)</developer>
+		<genre>Puzzle</genre>
+	</game>
+	<game>
+		<path>./Doom II.sh</path>
+		<name>Doom II</name>
+		<desc>The continuous 30 levels are divided into four areas; UAC Underground, UAC's Starport (Hellish Outpost), City, and Hell.</desc>
+		<image>./boxart/Doom2.jpg</image>
+		<video>./snaps/Doom2.mp4</video>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<developer></developer>
+		<publisher></publisher>
+		<genre>Action</genre>
+		<players></players>
+	</game>
+	<game>
+		<path>./Fish_Fillets_NG.sh</path>
+		<name>Fish Fillets - Next Generation</name>
+		<desc>Fish Fillets NG is strictly a puzzle game. The goal in every of the seventy levels is always the same: find a safe way out. The fish utter witty remarks about their surroundings, the various inhabitants of their underwater realm quarrel among themselves or comment on the efforts of your fish. The whole game is accompanied by quiet, comforting music.</desc>
+		<image>./boxart/Fish_Fillets_NG.jpg</image>
+		<video>./snaps/Fish_Fillets_NG.mp4</video>
+		<developer>Ivo Danihelka</developer>
+		<publisher>Altar Games</publisher>
+		<genre>Puzzle</genre>
+	</game>
+	<game>
+		<path>./SOTB_Legacy.sh</path>
+		<name>Shadow Of The Beast Legacy Project (I,II,III)</name>
+		<desc>This project's goal is to recreate the definitive versions of all three Shadow of the Beast games in a Mario All-Stars-like package.
+
+SOTB1 - 100% - the game is done, but still requires testing and tweaks. Might add extras to it at a later date.
+SOTB 2 - 15% Can run around Karamoon. There are some generic enemies and some unfinished puzzle elements, but not much else.
+SOTB 3 - 99% The whole game is there from start to finish at a pretty decent level of polish. Got to iron out a few bugs and finish expanding the game-over and ending screens to higher resolution.</desc>
+		<image>./boxart/SOTB_Legacy.jpg</image>
+		<video>./snaps/SOTB_Legacy.mp4</video>
+		<developer>Reflections Interactive</developer>
+		<publisher>Psygnosis</publisher>
+		<genre>Action-Adventure</genre>
+	</game>
+	<game>
+        <path>./Mr.Boom.sh</path>
+        <name>Mr.Boom</name>
+        <desc>Bomberman clone. Gameplay is exactly the same and even the graphic style seems very similar to Bomberman.</desc>
+        <image>./boxart/mrboom.jpg</image>
+        <video>./snaps/mrboom.mp4</video>
+        <rating>0.85</rating>
+        <releasedate>19990430T000000</releasedate>
+        <developer>Remdy Software</developer>
+        <publisher>Remdy Software</publisher>
+        <genre>Puzzle</genre>
+        <lastplayed>20201206T110833</lastplayed>
+    </game>
+</gameList>
