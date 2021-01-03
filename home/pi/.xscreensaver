@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.42 for pi on Sun Jan  3 12:50:34 2021.
+# Written by xscreensaver-demo 5.42 for pi on Sun Jan  3 13:54:44 2021.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:05:00
@@ -65,7 +65,7 @@ programs:								      \
 -				bouboule -root				    \n\
 -				braid -root				    \n\
 -				coral -root				    \n\
-				deco -root				    \n\
+-				deco -root				    \n\
 -				drift -root				    \n\
 -				fadeplot -root				    \n\
 				galaxy -root				    \n\
@@ -93,7 +93,7 @@ programs:								      \
 -				swirl -root				    \n\
 -				triangle -root				    \n\
 -				xjack -root				    \n\
-				xlyap -root				    \n\
+-				xlyap -root				    \n\
 - GL: 				atlantis -root				    \n\
 -				bsod -root				    \n\
 - GL: 				bubble3d -root				    \n\
@@ -245,7 +245,7 @@ programs:								      \
 - GL: 				hilbert -root				    \n\
 - GL: 				tronbit -root				    \n\
 - GL: 				geodesic -root				    \n\
-				hexadrop -root				    \n\
+-				hexadrop -root				    \n\
 - GL: 				kaleidocycle -root			    \n\
 - GL: 				quasicrystal -root			    \n\
 - GL: 				unknownpleasures -root			    \n\
