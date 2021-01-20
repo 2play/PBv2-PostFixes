@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Sony Playstation 3</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Sony Electronics, Foxconn, Asus</text>
+    <fontSize>0.048</fontSize>
+    <origin>0 0</origin>
+    <pos>0.05 0.142</pos>
+    <size>0 0</size>
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Playstation 3</text>
+    <fontSize>0.18</fontSize>
+    <origin>0 0</origin>
+    <pos>0.05 0.16</pos>
+    <size>0 0</size>
+</text>
+  <text name="shortdescription" extra="true">
+   <text>2003  · CROSS PLATFORM SOFTWARE</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>It is the successor to PlayStation 2, and is part of the PlayStation brand of consoles. CPU 3.2 GHz Cell Broadband Engine with 1 PPE and 8 SPEs, 20-500GB, RAM 256MB, 550 MHz Nvidia/SCEI RSX Reality Synthesizer. Release date JP: 11 Nov '06 NA: 17 Nov '06 EU: 23 Mar '07.</text> 
+  </text>
+ </view>
+</theme>
