@@ -48,6 +48,25 @@ custom_viewport_height = "805"
 custom_viewport_x = "420"
 custom_viewport_y = "150"
 
+Naomi Cabinet DX
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\_generic_naomi_dx.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1055"
+custom_viewport_height = "787"
+custom_viewport_x = "436"
+custom_viewport_y = "123"
+
+Naomi Cabinet Vetical
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\_generic_naomi_vertical.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "724"
+custom_viewport_height = "984"
+custom_viewport_x = "569"
+custom_viewport_y = "48"
+
+
 
 ******************************
 
