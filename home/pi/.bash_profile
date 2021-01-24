@@ -22,14 +22,14 @@ Uptime    : ${UPTIME}
 Last Login: `exec -- last | head -1`
 $(tput setaf 7)
 ...SYSTEM INFO...$(tput setaf 3)
-                  Size	Used	Avail 	Used%
-Boot Partition  : `df -h | grep '/dev/mmcblk0p1' | awk '{print $2,"	"$3,"	"$4," 	"$5}'`
-Root Partition  : `df -h | grep '/dev/root' | awk '{print " "$2,"	"$3,"	"$4," 	"$5}'`
-USB  Partition  : `df -h | grep '/dev/sda1' | awk '{print " "$2,"	"$3,"	"$4," 	"$5}'`
+                            Size 	Used	Avail 	Used%
+SD Boot         Partition: `df -h | grep '/dev/mmcblk0p1' | awk '{print " "$2,"	"$3," 	"$4," 	 "$5}'`
+SD/USB Root     Partition: `df -h | grep '/dev/root' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
+Ext-USB/USBBoot Partition: `df -h | grep '/dev/sda1' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
 $(tput setaf 1)
 $(tput setaf 7)`grep Model /proc/cpuinfo`
 
-$(tput setaf 1)SoC Temperature : `exec -- /home/pi/RetroPie/extras+/.pb-fixes/_scripts/temperature.sh`
+$(tput setaf 1)SoC Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`
 CPU `grep Hardware /proc/cpuinfo` - `lscpu | grep "Model name"`
 CPU Max Speed   : `lscpu | grep max`
 GPU Version     : `exec -- /opt/vc/bin/vcgencmd version`
