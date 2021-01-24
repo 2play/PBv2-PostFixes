@@ -2,8 +2,7 @@
 sdl2-config --version
 modetest -s 89:#1
 vulkaninfo | more
-glxinfo | grep OpenGL
-sudo raspi-config
+glxinfo | grep OpenGLsudo raspi-config
 Skyscraper
 startx
 sudo ~/RetroPie-Setup/retropie_setup.sh
