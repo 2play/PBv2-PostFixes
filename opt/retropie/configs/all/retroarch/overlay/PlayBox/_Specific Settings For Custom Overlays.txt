@@ -1,0 +1,421 @@
+- Lines 5 & 6 in PlayBox v2 retroarch.cfg files or anywhere above for other builds.
+or anywhere above for other builds: 
+#include "/opt/retropie/configs/all/retroarch.cfg"
+
+input_overlay_enable = "true"
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/systemname.cfg"
+
+- Lines 13-17 in PlayBox v2 retroarch.cfg files
+or anywhere above for other builds: 
+#include "/opt/retropie/configs/all/retroarch.cfg"
+
+Amiga 1084 Monitor & Commodore 1084 Plain Monitor (in Room)
+\\Playbox\configs\all\retroarch\overlay\PlayBox\commodore_1084.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1010"
+custom_viewport_height = "713"
+custom_viewport_x = "455"
+custom_viewport_y = "183"
+
+******************************
+
+
+Arcade Cabinet
+\\Playbox\configs\all\retroarch\overlay\PlayBox\arcade_cabinet.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "936"
+custom_viewport_height = "729"
+custom_viewport_x = "487"
+custom_viewport_y = "72"
+
+Atomiswave Cabinet
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\Bezel_Sammy_Atomiswave_Mr_RetroLust.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1205"
+custom_viewport_height = "865"
+custom_viewport_x = "360"
+custom_viewport_y = "115"
+
+Naomi Cabinet
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\_generic_naomi.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1070"
+custom_viewport_height = "805"
+custom_viewport_x = "420"
+custom_viewport_y = "150"
+
+Naomi Cabinet DX
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\_generic_naomi_dx.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1055"
+custom_viewport_height = "787"
+custom_viewport_x = "436"
+custom_viewport_y = "123"
+
+Naomi Cabinet Vetical
+\\Playbox\configs\all\retroarch\overlay\SystemBezels\_generic_naomi_vertical.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "724"
+custom_viewport_height = "984"
+custom_viewport_x = "569"
+custom_viewport_y = "48"
+
+
+
+******************************
+
+Monitor PC
+\\Playbox\configs\all\retroarch\overlay\PlayBox\pc_monitor.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1002"
+custom_viewport_height = "591"
+custom_viewport_x = "458"
+custom_viewport_y = "54"
+
+
+Monitor2_43 White & Atari White Monitor
+\\Playbox\configs\all\retroarch\overlay\PlayBox\pc_monitor2_43.cfg
+\\Playbox\configs\all\retroarch\overlay\PlayBox\atari_monitor.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "908"
+custom_viewport_height = "681"
+custom_viewport_x = "556"
+custom_viewport_y = "156"
+
+
+Monitor_bl (Black)
+\\Playbox\configs\all\retroarch\overlay\PlayBox\pc_monitor_bl.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1074"
+custom_viewport_height = "713"
+custom_viewport_x = "428"
+custom_viewport_y = "181"
+
+Monitor X1 (Sharp X1 Red Black)
+\\Playbox\configs\all\retroarch\overlay\PlayBox
+
+aspect_ratio_index = "23"
+custom_viewport_width = "728"
+custom_viewport_height = "515"
+custom_viewport_x = "606"
+custom_viewport_y = "344"
+
+
+******************************
+
+Home Cinema Room
+\\Playbox\configs\all\retroarch\overlay\PlayBox\home_cinema.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1510"
+custom_viewport_height = "850"
+custom_viewport_x = "203"
+custom_viewport_y = "32"
+
+
+Home Cinema Room 2
+\\Playbox\configs\all\retroarch\overlay\PlayBox\home_cinema2.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1416"
+custom_viewport_height = "840"
+custom_viewport_x = "252"
+custom_viewport_y = "85"
+
+
+Home Cinema Room 3
+\\Playbox\configs\all\retroarch\overlay\PlayBox\home_cinema3.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1465"
+custom_viewport_height = "863"
+custom_viewport_x = "221"
+custom_viewport_y = "40"
+
+
+******************************
+
+TV Room 1
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_room.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1468"
+custom_viewport_height = "824"
+custom_viewport_x = "227"
+custom_viewport_y = "32"
+
+
+TV Room 2
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_room2.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1494"
+custom_viewport_height = "842"
+custom_viewport_x = "222"
+custom_viewport_y = "51"
+
+
+TV Room 3
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_room3.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1192"
+custom_viewport_height = "676"
+custom_viewport_x = "352"
+custom_viewport_y = "28"
+
+
+******************************
+
+TV Vintage (old crt)
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_vintage.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1057"
+custom_viewport_height = "798"
+custom_viewport_x = "301"
+custom_viewport_y = "156"
+
+
+TV Vintage 2 (Black crt 4:3)
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_vintage2.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "960"
+custom_viewport_height = "716"
+custom_viewport_x = "476"
+custom_viewport_y = "112"
+
+
+TV Vintage 3 (Silver crt 4:3)
+\\Playbox\configs\all\retroarch\overlay\PlayBox\tv_vintage3.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "948"
+custom_viewport_height = "715"
+custom_viewport_x = "484"
+custom_viewport_y = "134"
+
+
+******************************
+
+Atari Lynx
+\\Playbox\configs\all\retroarch\overlay\PlayBox\atarilynx.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "802"
+custom_viewport_height = "511"
+custom_viewport_x = "559"
+custom_viewport_y = "285"
+
+Atari Lynx Full Handheld
+\\Playbox\configs\all\retroarch\overlay\PlayBox\atarilynx_full.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "608"
+custom_viewport_height = "397"
+custom_viewport_x = "661"
+custom_viewport_y = "334"
+
+
+Atari Lynx Big Handheld
+\\Playbox\configs\all\retroarch\overlay\PlayBox\atarilynx_big.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1029"
+custom_viewport_height = "672"
+custom_viewport_x = "444"
+custom_viewport_y = "204"
+
+Gameboy
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gb.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "665"
+custom_viewport_height = "610"
+custom_viewport_x = "629"
+custom_viewport_y = "235"
+
+Gameboy as gb_sameboy
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gb_sameboy.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1243"
+custom_viewport_height = "1080"
+custom_viewport_x = "339"
+custom_viewport_y = "0"
+
+Gameboy Advance Big
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gba-big.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1009"
+custom_viewport_height = "682"
+custom_viewport_x = "455"
+custom_viewport_y = "199"
+
+Gameboy Color Handheld
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gbc_hand.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "742"
+custom_viewport_height = "679"
+custom_viewport_x = "588"
+custom_viewport_y = "200"
+
+
+Neogeo Pocket Color
+\\Playbox\configs\all\retroarch\overlay\PlayBox\ngpc.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "790"
+custom_viewport_height = "744"
+custom_viewport_x = "568"
+custom_viewport_y = "193"
+
+
+Neogeo Pocket
+\\Playbox\configs\all\retroarch\overlay\PlayBox\ngp.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "789"
+custom_viewport_height = "724"
+custom_viewport_x = "563"
+custom_viewport_y = "109"
+
+
+GameGear Small
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gamegear_small.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "668"
+custom_viewport_height = "496"
+custom_viewport_x = "643"
+custom_viewport_y = "119"
+
+GameGear Big
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gamegear_big.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "932"
+custom_viewport_height = "693"
+custom_viewport_x = "486"
+custom_viewport_y = "153"
+
+Game And Watch
+\\Playbox\configs\all\retroarch\overlay\PlayBox\gameandwatch.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "821"
+custom_viewport_height = "476"
+custom_viewport_x = "554"
+custom_viewport_y = "225"
+
+
+SwanCrystal
+\\Playbox\configs\all\retroarch\overlay\PlayBox\swancrystal.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "975"
+custom_viewport_height = "592"
+custom_viewport_x = "493"
+custom_viewport_y = "201"
+
+
+WonderSwan Color
+\\Playbox\configs\all\retroarch\overlay\PlayBox\wonderswancolor.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "960"
+custom_viewport_height = "619"
+custom_viewport_x = "545"
+custom_viewport_y = "189"
+
+
+WonderSwan
+\\Playbox\configs\all\retroarch\overlay\PlayBox\wonderswan.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "996"
+custom_viewport_height = "642"
+custom_viewport_x = "536"
+custom_viewport_y = "236"
+
+PSP old
+\\Playbox\configs\all\retroarch\overlay\PlayBox\psp_old.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1080"
+custom_viewport_height = "612"
+custom_viewport_x = "424"
+custom_viewport_y = "206"
+
+
+PSP New
+\\Playbox\configs\all\retroarch\overlay\PlayBox\psp_new.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1087"
+custom_viewport_height = "621"
+custom_viewport_x = "417"
+custom_viewport_y = "225"
+
+
+PSP Go/Minis
+\\Playbox\configs\all\retroarch\overlay\PlayBox\psp_go.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "867"
+custom_viewport_height = "502"
+custom_viewport_x = "532"
+custom_viewport_y = "75"
+
+NDS
+\\Playbox\configs\all\retroarch\overlay\PlayBox\nds.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "495"
+custom_viewport_height = "924"
+custom_viewport_x = "712"
+custom_viewport_y = "73"
+
+
+VirtualBoy
+\\Playbox\configs\all\retroarch\overlay\PlayBox\virtualboy.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1405"
+custom_viewport_height = "620"
+custom_viewport_x = "261"
+custom_viewport_y = "254"
+
+Some RA (Animated) overlays use (2Play! Note)
+
+aspect_ratio_index = "23"
+custom_viewport_width = "1157"
+custom_viewport_height = "1013"
+custom_viewport_x = "381"
+custom_viewport_y = "33"
+
+
+******************************
+
+Vectrex Monitor Generic
+\\Playbox\configs\all\retroarch\overlay\PlayBox\vectrex.cfg
+
+aspect_ratio_index = "23"
+custom_viewport_width = "504"
+custom_viewport_height = "632"
+custom_viewport_x = "670"
+custom_viewport_y = "120"
+
+******************************
