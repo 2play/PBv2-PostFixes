@@ -95,10 +95,10 @@ Monitor_bl (Black)
 \\Playbox\configs\all\retroarch\overlay\PlayBox\pc_monitor_bl.cfg
 
 aspect_ratio_index = "23"
-custom_viewport_width = "1053"
-custom_viewport_height = "755"
-custom_viewport_x = "439"
-custom_viewport_y = "164"
+custom_viewport_width = "1074"
+custom_viewport_height = "713"
+custom_viewport_x = "428"
+custom_viewport_y = "181"
 
 Monitor X1 (Sharp X1 Red Black)
 \\Playbox\configs\all\retroarch\overlay\PlayBox
