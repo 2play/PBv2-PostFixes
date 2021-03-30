@@ -112,10 +112,10 @@ Apple White Monitor (Apple Monitor)
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/apple_monitor.cfg"
 
 aspect_ratio_index = "23"
-custom_viewport_width = "968"
-custom_viewport_height = "697"
-custom_viewport_x = "473"
-custom_viewport_y = "209"
+custom_viewport_width = "988"
+custom_viewport_height = "719"
+custom_viewport_x = "463"
+custom_viewport_y = "205"
 
 ******************************
 
