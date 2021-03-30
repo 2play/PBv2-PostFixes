@@ -1,16 +1,16 @@
-- Lines 5 & 6 in PlayBox v2 retroarch.cfg files or anywhere above for other builds.
+- Lines 5 & 6 in PlayBox v2 retroarch.cfg" files or anywhere above for other builds.
 or anywhere above for other builds: 
 #include "/opt/retropie/configs/all/retroarch.cfg"
 
 input_overlay_enable = "true"
-input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/systemname.cfg"
+input_overlay = "input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/systemname.cfg"
 
-- Lines 13-17 in PlayBox v2 retroarch.cfg files
+- Lines 13-17 in PlayBox v2 retroarch.cfg" files
 or anywhere above for other builds: 
 #include "/opt/retropie/configs/all/retroarch.cfg"
 
 Amiga 1084 Monitor & Commodore 1084 Plain Monitor (in Room)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/commodore_1084.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/commodore_1084.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1010"
@@ -20,9 +20,8 @@ custom_viewport_y = "183"
 
 ******************************
 
-
 Arcade Cabinet
-/opt/retropie/emulators/retroarch/overlays/PlayBox/arcade_cabinet.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/arcade_cabinet.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "936"
@@ -31,7 +30,7 @@ custom_viewport_x = "487"
 custom_viewport_y = "72"
 
 Atomiswave Cabinet
-/opt/retropie/emulators/retroarch/overlays/SystemBezels/Bezel_Sammy_Atomiswave_Mr_RetroLust.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/SystemBezels/Bezel_Sammy_Atomiswave_Mr_RetroLust.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1205"
@@ -40,7 +39,7 @@ custom_viewport_x = "360"
 custom_viewport_y = "115"
 
 Naomi Cabinet
-/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1070"
@@ -49,7 +48,7 @@ custom_viewport_x = "420"
 custom_viewport_y = "150"
 
 Naomi Cabinet DX
-/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi_dx.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi_dx.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1055"
@@ -58,7 +57,7 @@ custom_viewport_x = "436"
 custom_viewport_y = "123"
 
 Naomi Cabinet Vetical
-/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi_vertical.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/SystemBezels/_generic_naomi_vertical.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "724"
@@ -71,7 +70,7 @@ custom_viewport_y = "48"
 ******************************
 
 Monitor PC
-/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1002"
@@ -81,8 +80,8 @@ custom_viewport_y = "54"
 
 
 Monitor2_43 White & Atari White Monitor
-/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor2_43.cfg
-/opt/retropie/emulators/retroarch/overlays/PlayBox/atari_monitor.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor2_43.cfg"
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atari_monitor.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "908"
@@ -92,7 +91,7 @@ custom_viewport_y = "156"
 
 
 Monitor_bl (Black)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor_bl.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor_bl.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1074"
@@ -101,7 +100,7 @@ custom_viewport_x = "428"
 custom_viewport_y = "181"
 
 Monitor X1 (Sharp X1 Red Black)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/x1.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/x1.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "728"
@@ -109,11 +108,19 @@ custom_viewport_height = "515"
 custom_viewport_x = "606"
 custom_viewport_y = "344"
 
+Apple White Monitor (Apple Monitor)
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/apple_monitor.cfg"
+
+aspect_ratio_index = "23"
+custom_viewport_width = "968"
+custom_viewport_height = "697"
+custom_viewport_x = "473"
+custom_viewport_y = "209"
 
 ******************************
 
 Home Cinema Room
-/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1510"
@@ -123,7 +130,7 @@ custom_viewport_y = "32"
 
 
 Home Cinema Room 2
-/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema2.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema2.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1416"
@@ -133,7 +140,7 @@ custom_viewport_y = "85"
 
 
 Home Cinema Room 3
-/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema3.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/home_cinema3.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1465"
@@ -145,7 +152,7 @@ custom_viewport_y = "40"
 ******************************
 
 TV Room 1
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1468"
@@ -155,7 +162,7 @@ custom_viewport_y = "32"
 
 
 TV Room 2
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room2.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room2.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1494"
@@ -165,7 +172,7 @@ custom_viewport_y = "51"
 
 
 TV Room 3
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room3.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_room3.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1192"
@@ -177,7 +184,7 @@ custom_viewport_y = "28"
 ******************************
 
 TV Vintage (old crt)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1057"
@@ -187,7 +194,7 @@ custom_viewport_y = "156"
 
 
 TV Vintage 2 (Black crt 4:3)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage2.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage2.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "960"
@@ -197,7 +204,7 @@ custom_viewport_y = "112"
 
 
 TV Vintage 3 (Silver crt 4:3)
-/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage3.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage3.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "948"
@@ -209,7 +216,7 @@ custom_viewport_y = "134"
 ******************************
 
 Atari Lynx
-/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "802"
@@ -218,7 +225,7 @@ custom_viewport_x = "559"
 custom_viewport_y = "285"
 
 Atari Lynx Full Handheld
-/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx_full.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx_full.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "608"
@@ -228,7 +235,7 @@ custom_viewport_y = "334"
 
 
 Atari Lynx Big Handheld
-/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx_big.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atarilynx_big.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1029"
@@ -237,7 +244,7 @@ custom_viewport_x = "444"
 custom_viewport_y = "204"
 
 Gameboy
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gb.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gb.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "665"
@@ -246,7 +253,7 @@ custom_viewport_x = "629"
 custom_viewport_y = "235"
 
 Gameboy as gb_sameboy
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gb_sameboy.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gb_sameboy.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1243"
@@ -255,7 +262,7 @@ custom_viewport_x = "339"
 custom_viewport_y = "0"
 
 Gameboy Advance Big
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gba-big.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gba-big.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1009"
@@ -264,7 +271,7 @@ custom_viewport_x = "455"
 custom_viewport_y = "199"
 
 Gameboy Color Handheld
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gbc_hand.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gbc_hand.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "742"
@@ -274,7 +281,7 @@ custom_viewport_y = "200"
 
 
 Neogeo Pocket Color
-/opt/retropie/emulators/retroarch/overlays/PlayBox/ngpc.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/ngpc.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "790"
@@ -284,7 +291,7 @@ custom_viewport_y = "193"
 
 
 Neogeo Pocket
-/opt/retropie/emulators/retroarch/overlays/PlayBox/ngp.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/ngp.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "789"
@@ -294,7 +301,7 @@ custom_viewport_y = "109"
 
 
 GameGear Small
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gamegear_small.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gamegear_small.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "668"
@@ -303,7 +310,7 @@ custom_viewport_x = "643"
 custom_viewport_y = "119"
 
 GameGear Big
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gamegear_big.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gamegear_big.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "932"
@@ -312,7 +319,7 @@ custom_viewport_x = "486"
 custom_viewport_y = "153"
 
 Game And Watch
-/opt/retropie/emulators/retroarch/overlays/PlayBox/gameandwatch.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/gameandwatch.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "821"
@@ -322,7 +329,7 @@ custom_viewport_y = "225"
 
 
 SwanCrystal
-/opt/retropie/emulators/retroarch/overlays/PlayBox/swancrystal.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/swancrystal.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "975"
@@ -332,7 +339,7 @@ custom_viewport_y = "201"
 
 
 WonderSwan Color
-/opt/retropie/emulators/retroarch/overlays/PlayBox/wonderswancolor.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/wonderswancolor.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "960"
@@ -342,7 +349,7 @@ custom_viewport_y = "189"
 
 
 WonderSwan
-/opt/retropie/emulators/retroarch/overlays/PlayBox/wonderswan.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/wonderswan.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "996"
@@ -351,7 +358,7 @@ custom_viewport_x = "536"
 custom_viewport_y = "236"
 
 PSP old
-/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_old.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_old.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1080"
@@ -361,7 +368,7 @@ custom_viewport_y = "206"
 
 
 PSP New
-/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_new.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_new.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1087"
@@ -371,7 +378,7 @@ custom_viewport_y = "225"
 
 
 PSP Go/Minis
-/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_go.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/psp_go.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "867"
@@ -380,7 +387,7 @@ custom_viewport_x = "532"
 custom_viewport_y = "75"
 
 NDS
-/opt/retropie/emulators/retroarch/overlays/PlayBox/nds.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/nds.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "495"
@@ -390,7 +397,7 @@ custom_viewport_y = "73"
 
 
 VirtualBoy
-/opt/retropie/emulators/retroarch/overlays/PlayBox/virtualboy.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/virtualboy.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "1405"
@@ -410,7 +417,7 @@ custom_viewport_y = "33"
 ******************************
 
 Vectrex Monitor Generic
-/opt/retropie/emulators/retroarch/overlays/PlayBox/vectrex.cfg
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/vectrex.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "504"
