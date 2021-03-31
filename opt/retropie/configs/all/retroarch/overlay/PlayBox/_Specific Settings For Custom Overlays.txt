@@ -82,6 +82,7 @@ custom_viewport_y = "54"
 Monitor2_43 White & Atari White Monitor
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor2_43.cfg"
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atari_monitor.cfg"
+input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/acorn_monitor.cfg"
 
 aspect_ratio_index = "23"
 custom_viewport_width = "970"
@@ -187,10 +188,10 @@ TV Vintage (old crt)
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/tv_vintage.cfg"
 
 aspect_ratio_index = "23"
-custom_viewport_width = "1057"
-custom_viewport_height = "798"
-custom_viewport_x = "301"
-custom_viewport_y = "156"
+custom_viewport_width = "1051"
+custom_viewport_height = "738"
+custom_viewport_x = "305"
+custom_viewport_y = "184"
 
 
 TV Vintage 2 (Black crt 4:3)
