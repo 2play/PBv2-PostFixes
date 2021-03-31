@@ -84,10 +84,10 @@ input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/pc_monitor2_
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/atari_monitor.cfg"
 
 aspect_ratio_index = "23"
-custom_viewport_width = "908"
-custom_viewport_height = "681"
-custom_viewport_x = "556"
-custom_viewport_y = "156"
+custom_viewport_width = "970"
+custom_viewport_height = "728"
+custom_viewport_x = "499"
+custom_viewport_y = "167"
 
 
 Monitor_bl (Black)
