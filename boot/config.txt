@@ -1,6 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
+# 01.04.2021
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -42,7 +43,8 @@ hdmi_group=1
 #hdmi_group=2
 hdmi_mode=16
 #hdmi_cvtX=800 480 60
-hdmi_ignore_edid=0xa5000080
+#hdmi_ignore_edid=0xa5000080
+
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 hdmi_drive=2
@@ -65,6 +67,7 @@ gpu_freq=600
 over_voltage=6
 #gpu_freq=750
 #over_voltage=8
+#force_turbo=1
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
