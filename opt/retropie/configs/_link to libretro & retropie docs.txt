@@ -1,0 +1,3 @@
+https://docs.libretro.com/guides/arcade-getting-started/
+
+https://retropie.org.uk/docs/
