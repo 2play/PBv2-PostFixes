@@ -104,10 +104,10 @@ Monitor X1 (Sharp X1 Red Black)
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/x1.cfg"
 
 aspect_ratio_index = "23"
-custom_viewport_width = "881"
-custom_viewport_height = "664"
-custom_viewport_x = "520"
-custom_viewport_y = "167"
+custom_viewport_width = "837"
+custom_viewport_height = "630"
+custom_viewport_x = "542"
+custom_viewport_y = "184"
 
 Apple White Monitor (Apple Monitor)
 input_overlay = "/opt/retropie/emulators/retroarch/overlays/PlayBox/apple_monitor.cfg"
