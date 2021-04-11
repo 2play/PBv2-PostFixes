@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/pi/Lightgun/Player2
+cd /home/pi/apps/Lightgun/Player2
 sudo mono-service LightgunMono2.exe
