@@ -2,7 +2,7 @@ state.ALSA {
 	control.1 {
 		iface MIXER
 		name 'PCM Playback Volume'
-		value -1622
+		value -160
 		comment {
 			access 'read write'
 			type INTEGER
@@ -10,7 +10,7 @@ state.ALSA {
 			range '-10239 - 400'
 			dbmin -9999999
 			dbmax 400
-			dbvalue.0 -1622
+			dbvalue.0 -160
 		}
 	}
 	control.2 {
