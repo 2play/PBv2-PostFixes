@@ -24,8 +24,8 @@ clear
 	read -p 'So which system would you like to Skyscrape?: ' sname
 	echo
 	if [ -d $sname ]; then 
-	Skyscraper -p $sname -s screenscraper --flags unattend,skipped,videos;
-	Skyscraper -p $sname --flags unattend,skipped,nobrackets,relative,videos;
+	Skyscraper -a artworkMix.xml -p $sname -s screenscraper --flags unattend,skipped,videos;
+	Skyscraper -a artworkMix.xml -p $sname --flags unattend,skipped,nobrackets,relative,videos;
 	rm -rf ~/.skyscraper/cache/$sname
 	clear
 	echo
