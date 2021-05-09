@@ -19,7 +19,8 @@ clear
 	read -n 1 -s -r -p "Press any key to continue..."
 	cd ~/RetroPie/roms/
 	echo
-	ls -d */ | column | more
+	#ls -d */ | column | more
+	echo -e 'Available platforms v3.6.11:\n* 3do\n* 3ds\n* amiga\n* amigacd32\n* amstradcpc\n* apple2\n* arcade\n* arcadia\n* astrocde\n* atari800\n* atari2600\n* atari5200\n* atari7800\n* atarijaguar\n* atarijaguarcd\n* atarilynx\n* atarist\n* atomiswave\n* c16\n* c64\n* c128\n* channelf\n* coco\n* coleco\n* daphne\n* dragon32\n* dreamcast\n* fba\n* fds\n* gameandwatch\n* gamegear\n* gb\n* gba\n* gbc\n* gc\n* genesis\n* intellivision\n* mame-advmame\n* mame-libretro\n* mame-mame4all\n* mastersystem\n* megacd\n* megadrive\n* msx\n* msx2\n* n64\n* naomi\n* nds\n* neogeo\n* neogeocd\n* nes\n* ngp\n* ngpc\n* openbor\n* oric\n* pc\n* pc88\n* pc98\n* pcfx\n* pcengine\n* pcenginecd\n* pokemini\n* ports\n* ps2\n* psp\n* psx\n* saturn\n* scummvm\n* sega32x\n* segacd\n* sg-1000\n* snes\n* steam\n* ti99\n* trs-80\n* vectrex\n* vic20\n* videopac\n* virtualboy\n* wii\n* wiiu\n* wonderswan\n* wonderswancolor\n* x68000\n* x1\n* zmachine\n* zx81\n* zxspectrum\n' | column | more
 	echo
 	read -p 'So which system would you like to Skyscrape?: ' sname
 	echo
