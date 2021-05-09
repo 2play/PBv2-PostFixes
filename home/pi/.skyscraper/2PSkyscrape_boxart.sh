@@ -34,7 +34,7 @@ clear
 		echo ""
 		read -p 'Whould you like to Skyscrape another system [y] or [n]? ' yn
 		case $yn in
-		[Yy]*) ~/.skyscraper/2PSkyscape_boxart.sh;;
+		[Yy]*) ~/.skyscraper/2PSkyscrape_boxart.sh;;
 		[Nn]*) exit;;
 		* ) echo ""; echo "Please answer yes or no.";;
 		esac
