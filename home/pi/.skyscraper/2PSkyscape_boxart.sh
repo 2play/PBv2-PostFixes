@@ -28,13 +28,13 @@ clear
 	Skyscraper -a artwork2P.xml -p $sname -s screenscraper --flags unattend,skipped,videos;
 	Skyscraper -a artwork2P.xml -p $sname --flags unattend,skipped,nobrackets,relative,videos;
 	rm -rf ~/.skyscraper/cache/$sname
-	clear
+	#clear
 	echo
 	while true; do
 		echo ""
 		read -p 'Whould you like to Skyscrape another system [y] or [n]? ' yn
 		case $yn in
-		[Yy]*) ~/.skyscraper/2Pskyscape.sh;;
+		[Yy]*) ~/.skyscraper/2PSkyscape_boxart.sh;;
 		[Nn]*) exit;;
 		* ) echo ""; echo "Please answer yes or no.";;
 		esac
