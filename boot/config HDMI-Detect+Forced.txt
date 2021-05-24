@@ -31,7 +31,7 @@ disable_overscan=1
 #framebuffer_height=720
 
 # uncomment if hdmi display is not detected and composite is being output
-#hdmi_force_hotplug=1
+hdmi_force_hotplug=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 # uncomment to define the custom video mode over hdmi
@@ -39,9 +39,9 @@ disable_overscan=1
 # command hdmi_cvt=<width required> <height required> <framerate required> <aspect no> <margins 0-1> <interlace 0-1> <rb 0-1>
 # aspect ratios numbers fro hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9
 #hdmi_group command options 0/(Auto) / 1(TVs CEA) / 2(Monitors DMT)
-hdmi_group=1
+#hdmi_group=1
 #hdmi_group=2
-hdmi_mode=16
+#hdmi_mode=16
 #hdmi_cvtX=800 480 60
 #hdmi_ignore_edid=0xa5000080
 
