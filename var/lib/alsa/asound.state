@@ -85,7 +85,7 @@ state.Headphones {
 	control.1 {
 		iface MIXER
 		name 'Headphone Playback Volume'
-		value -160
+		value -1610
 		comment {
 			access 'read write'
 			type INTEGER
@@ -93,7 +93,7 @@ state.Headphones {
 			range '-10239 - 400'
 			dbmin -9999999
 			dbmax 400
-			dbvalue.0 -160
+			dbvalue.0 -1610
 		}
 	}
 	control.2 {
