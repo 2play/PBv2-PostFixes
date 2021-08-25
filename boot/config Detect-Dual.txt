@@ -37,14 +37,22 @@ hdmi_force_hotplug=1
 # uncomment to define the custom video mode over hdmi
 # https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
 # command hdmi_cvt=<width required> <height required> <framerate required> <aspect no> <margins 0-1> <interlace 0-1> <rb 0-1>
-# aspect ratios numbers fro hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9
+# For the Pi4, to specify the HDMI port, you can add an index identifier to the config.txt. e.g. hdmi_cvt:0=... or hdmi_timings:1=.... If no port identifier is specified, the settings are applied to port 0
+# aspect ratios numbers for hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9, 7=21:9, 8=64:27
 #hdmi_group command options 0/(Auto) / 1(TVs CEA) / 2(Monitors DMT)
+
+# *** HDMI0 MAIN SCREEN ***
 #hdmi_group=1
 #hdmi_group=2
 #hdmi_mode=16
 #hdmi_cvtX=800 480 60
 #hdmi_ignore_edid=0xa5000080
 
+# *** HDMI1 TOP SCREEN ***
+#hdmi_cvt:1=1280 390 60 7
+#hdmi_group:1=2
+#hdmi_mode:1=87
+#hdmi_drive:1=2
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 hdmi_drive=2
@@ -86,12 +94,12 @@ over_voltage=6
 #hdmi_force_edid_audio
 #hdmi_ignore_edid_audio=1 
 dtparam=audio=on
-gpu_mem_256=128
-gpu_mem_512=256
-gpu_mem_1024=384
-gpu_mem_2048=512
-gpu_mem_4096=512
-gpu_mem_8192=512
+#gpu_mem_256=128
+#gpu_mem_512=256
+#gpu_mem_1024=384
+#gpu_mem_2048=512
+#gpu_mem_4096=512
+#gpu_mem_8192=512
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
