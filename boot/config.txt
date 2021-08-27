@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 24.05.2021
+# 27.08.2021
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -42,17 +42,20 @@ disable_overscan=1
 #hdmi_group command options 0/(Auto) / 1(TVs CEA) / 2(Monitors DMT)
 
 # *** HDMI0 MAIN SCREEN ***
-hdmi_group=1
-#hdmi_group=2
-hdmi_mode=16
-#hdmi_cvtX=800 480 60
+#[HDMI:0]
+hdmi_group:0=1
+#hdmi_group:0=2
+hdmi_mode:0=16
+#hdmi_cvt:0=800 480 60
+
+# *** HDMI1 TOP/SECOND SCREEN ***
+#[HDMI:1]
+hdmi_group:1=2
+hdmi_mode:1=85
+#hdmi_cvt:1=1280 720 60 3
+
 #hdmi_ignore_edid=0xa5000080
 
-# *** HDMI1 TOP SCREEN ***
-#hdmi_cvt:1=1280 390 60 7
-#hdmi_group:1=2
-#hdmi_mode:1=87
-#hdmi_drive:1=2
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 hdmi_drive=2
@@ -94,12 +97,12 @@ over_voltage=6
 #hdmi_force_edid_audio
 #hdmi_ignore_edid_audio=1 
 dtparam=audio=on
-#gpu_mem_256=128
-#gpu_mem_512=256
-#gpu_mem_1024=384
-#gpu_mem_2048=512
-#gpu_mem_4096=512
-#gpu_mem_8192=512
+gpu_mem_256=128
+gpu_mem_512=256
+gpu_mem_1024=384
+gpu_mem_2048=512
+gpu_mem_4096=512
+gpu_mem_8192=512
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
