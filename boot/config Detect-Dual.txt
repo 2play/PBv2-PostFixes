@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 24.05.2021
+# 27.08.2021
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -31,18 +31,29 @@ disable_overscan=1
 #framebuffer_height=720
 
 # uncomment if hdmi display is not detected and composite is being output
-hdmi_force_hotplug=1
+#hdmi_force_hotplug=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 # uncomment to define the custom video mode over hdmi
 # https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
 # command hdmi_cvt=<width required> <height required> <framerate required> <aspect no> <margins 0-1> <interlace 0-1> <rb 0-1>
-# aspect ratios numbers fro hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9
+# For the Pi4, to specify the HDMI port, you can add an index identifier to the config.txt. e.g. hdmi_cvt:0=... or hdmi_timings:1=.... If no port identifier is specified, the settings are applied to port 0
+# aspect ratios numbers for hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9, 7=21:9, 8=64:27
 #hdmi_group command options 0/(Auto) / 1(TVs CEA) / 2(Monitors DMT)
-#hdmi_group=1
-#hdmi_group=2
-#hdmi_mode=16
-#hdmi_cvtX=800 480 60
+
+# *** HDMI0 MAIN SCREEN ***
+#[HDMI:0]
+#hdmi_group:0=1
+#hdmi_group:0=2
+#hdmi_mode:0=16
+#hdmi_cvt:0=800 480 60
+
+# *** HDMI1 TOP/SECOND SCREEN ***
+#[HDMI:1]
+#hdmi_group:1=2
+#hdmi_mode:1=85
+#hdmi_cvt:1=1280 720 60 3
+
 #hdmi_ignore_edid=0xa5000080
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
