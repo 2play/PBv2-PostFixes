@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 27.08.2021
+# 02.02.2022
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -11,6 +11,7 @@ disable_splash=1
 
 #Ensures the LCD is not the default display
 display_default_lcd=0
+
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
 
@@ -58,7 +59,7 @@ disable_overscan=1
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
-hdmi_drive=2
+#hdmi_drive=2
 
 # uncomment to increase signal to HDMI, if you have interference, blanking, or
 # no display
@@ -73,12 +74,15 @@ hdmi_drive=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #uncomment to enable custom overclock settings
-arm_freq=2000
-gpu_freq=600
-over_voltage=6
-#gpu_freq=750
-#over_voltage=8
-#force_turbo=1
+#arm_freq=1350
+#total_mem=1024
+#gpu_freq=550
+#core_freq=550
+#sdram_freq=550
+#sdram_schmoo=0x02000020
+#over_voltage=6
+#sdram_over_voltage=2
+#v3d_freq=550
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
@@ -91,31 +95,31 @@ over_voltage=6
 
 # Uncomment this to enable the lirc-rpi module
 #dtoverlay=lirc-rpi
+
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
 #hdmi_force_edid_audio
 #hdmi_ignore_edid_audio=1 
 dtparam=audio=on
-gpu_mem_256=128
-gpu_mem_512=256
-gpu_mem_1024=384
-gpu_mem_2048=512
-gpu_mem_4096=512
-gpu_mem_8192=512
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
 dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
 
+[all]
+#dtoverlay=vc4-fkms-v3d
+#dtoverlay=vc4-kms-v3d
+#arm_64bit=1
+gpu_mem_256=128
+gpu_mem_512=256
+gpu_mem_1024=256
+
 [pi3]
 # Enables USB BOOT MODE on PI3B
 program_usb_boot_mode=1
 
-[all]
-#dtoverlay=vc4-fkms-v3d
-#dtoverlay=vc4-kms-v3d
 #overscan_scale=1
 #enable_uart=1
 

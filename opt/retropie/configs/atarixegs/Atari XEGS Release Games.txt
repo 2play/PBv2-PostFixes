@@ -1,8 +1,0 @@
-The XEGS release was backed by new games, including 
-Barnyard Blaster and Bug Hunt,
-plus cartridge ports of older games, such as 
-Fight Night (Accolade, 1985),
-Lode Runner (Broderbund, 1983),
-Necromancer (Synapse Software, 1982),
-Ballblazer (Lucasfilm Games, 1985).
-Support for the system was dropped in 1992 along with rest of Atari's 8-bit computers as well as the Atari 2600 and Atari 7800.
