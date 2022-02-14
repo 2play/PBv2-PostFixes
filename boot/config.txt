@@ -68,11 +68,11 @@ hdmi_mode=16
 #uncomment to enable custom overclock settings
 #arm_freq=1350
 #total_mem=1024
-#gpu_freq=550
-#core_freq=550
-#sdram_freq=550
+#gpu_freq=500
+#core_freq=500
+#sdram_freq=500
 #sdram_schmoo=0x02000020
-#over_voltage=6
+#over_voltage=2
 #sdram_over_voltage=2
 #v3d_freq=550
 
