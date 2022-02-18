@@ -75,7 +75,6 @@ disable_overscan=1
 #uncomment to overclock the arm. 700 MHz is the default.
 #uncomment to enable custom overclock settings
 #arm_freq=1400
-#total_mem=1024
 #gpu_freq=500
 #core_freq=500
 #sdram_freq=500
