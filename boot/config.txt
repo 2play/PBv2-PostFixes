@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 14.02.2022
+# 18.02.2022
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -66,13 +66,14 @@ hdmi_mode=16
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #uncomment to enable custom overclock settings
-#arm_freq=1350
+#arm_freq=1450
 #total_mem=1024
 #gpu_freq=500
 #core_freq=500
 #sdram_freq=500
 #sdram_schmoo=0x02000020
 #over_voltage=2
+#over_voltage=6
 #sdram_over_voltage=2
 #v3d_freq=550
 
