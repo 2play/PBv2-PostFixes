@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 18.02.2022
+# 26.02.2022
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -10,7 +10,7 @@
 disable_splash=1
 
 #Ensures the LCD is not the default display
-display_default_lcd=0
+#display_default_lcd=0
 
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
@@ -74,10 +74,10 @@ disable_overscan=1
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #uncomment to enable custom overclock settings
-#arm_freq=1400
-#gpu_freq=500
-#core_freq=500
-#sdram_freq=500
+#arm_freq=1100
+#gpu_freq=450
+#core_freq=450
+#sdram_freq=450
 #sdram_schmoo=0x02000020
 #over_voltage=4
 #over_voltage=6
@@ -120,7 +120,7 @@ gpu_mem_1024=256
 # Enables USB BOOT MODE on PI3B
 program_usb_boot_mode=1
 
-#overscan_scale=1
+overscan_scale=1
 #enable_uart=1
 
 #Onboard analogue audio options in config.txt (3.5mm jack) https://www.raspberrypi.org/documentation/configuration/config-txt/audio.md
