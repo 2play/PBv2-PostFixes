@@ -1,5 +1,3 @@
-# PlayBox Project
-# 02.02.2022
 conky.config = {
 
 background = true,

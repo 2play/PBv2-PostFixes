@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This example simply exports the boxart as cover unedited version,  of each artwork type coming directly from the scraping source -->
+<artwork>
+  <output type="screenshot" resource="cover"/>
+  <output type="marquee" resource="wheel"/>
+  <output type="wheel"/>
+</artwork>
