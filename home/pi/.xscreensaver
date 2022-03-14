@@ -1,7 +1,7 @@
 # PlayBox Project
 # 02.02.2022
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.42 for pi on Fri Jan 28 23:06:02 2022.
+# Written by xscreensaver-demo 5.42 for pi on Sun Mar 13 16:04:05 2022.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:05:00
@@ -70,7 +70,7 @@ programs:								      \
 -				deco -root				    \n\
 -				drift -root				    \n\
 -				fadeplot -root				    \n\
-				galaxy -root				    \n\
+-				galaxy -root				    \n\
 -				goop -root				    \n\
 -				grav -root				    \n\
 -				ifs -root				    \n\
