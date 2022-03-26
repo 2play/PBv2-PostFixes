@@ -28,6 +28,9 @@
 # Change this to the workgroup/NT-domain name your Samba server will part of
    workgroup = WORKGROUP
 
+# server string is the equivalent of the NT Description field
+   server string = %h server (Samba, Ubuntu)
+
 #### Networking ####
 
 # The specific set of interfaces / networks to bind to
@@ -166,6 +169,9 @@
 
 #======================= Share Definitions =======================
 
+# Un-comment the following (and tweak the other settings below to suit)
+# to enable the default home directory shares. This will share each
+# user's home directory as \\server\username
 [homes]
    comment = Home Directories
    browseable = no
@@ -184,8 +190,8 @@
 
 # By default, \\server\username shares can be connected to by anyone
 # with access to the samba server.
-# The following parameter makes sure that only "username" can connect
-# to \\server\username
+# Un-comment the following parameter to make sure that only "username"
+# can connect to \\server\username
 # This might need tweaking when using external authentication schemes
    valid users = %S
 
