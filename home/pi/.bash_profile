@@ -24,7 +24,7 @@ Ext-USB/USBBoot Partition: `df -h | grep '/dev/sda1' 	 | awk '{print " "$2,"	"$3
 
 $(tput bold)$(tput setaf 7)`grep Model /proc/cpuinfo`$(tput sgr0)
 CPU & Board     : `tr -d '\0' </proc/device-tree/model`
-GPU Version     : Mali™-T764 ARM MP4 GPU
+GPU Version     : Mali™-T860 ARM MP4 GPU
 
 $(tput bold)$(tput setaf 1)SoC Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`
 CPU Cur. Speed  : `cpumxs=$(($(cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq)/1000)); printf "$cpumxs MHz"`
