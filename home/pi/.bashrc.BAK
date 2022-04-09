@@ -119,3 +119,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 #pacmd set-default-sink alsa_output.platform-sound.stereo-fallback
+#pacmd set-default-sink $(pactl list short sinks | grep -i 'hdmi' | awk '{print $2}')
