@@ -93,7 +93,7 @@ disable_overscan=1
 # Enable audio (loads snd_bcm2835)
 #hdmi_force_edid_audio
 #hdmi_ignore_edid_audio=1 
-dtparam=audio=on
+#dtparam=audio=on
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
@@ -123,3 +123,27 @@ overscan_scale=1
 
 # By default, a 1.0LSB dither is applied to the audio stream if it is routed to the analogue audio output. This can create audible background "hiss" in some situations, for example when the ALSA volume is set to a low level
 #disable_audio_dither=1
+
+# *** Retroflag GPi Case ***
+avoid_safe_mode=1
+kernel=zImage
+#dtparam=audio=on
+display_rotate=1
+dtoverlay=dpi24GPi
+overscan_left=0
+overscan_right=0
+overscan_top=0
+overscan_bottom=0
+framebuffer_width=320
+framebuffer_height=240
+enable_dpi_lcd=1
+display_default_lcd=1
+dpi_group=2
+dpi_mode=87
+dpi_output_format=0x6016
+#hdmi_timings=320 0 28 18 28 480 0 2 2 4 0 0 0 60 0 32000000 6
+hdmi_timings=240 1 38 10 20 320 1 20 4 4 0 0 0 60 0 6400000 1
+dtoverlay=pwm-2chan,pin=18,func=2,pin2=19,func2=2
+disable_pvt=1
+disable_audio_dither=1
+dtoverlay=pwm-audio-pi-zeroGPi
