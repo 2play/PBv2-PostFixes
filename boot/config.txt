@@ -106,14 +106,13 @@ max_framebuffers=2
 #arm_64bit=1
 gpu_mem_256=128
 gpu_mem_512=256
-#gpu_mem_1024=256
-gpu_mem_1024=512
+gpu_mem_1024=256
 
 [pi3]
 # Enables USB BOOT MODE on PI3B
 program_usb_boot_mode=1
 
-overscan_scale=1
+#overscan_scale=1
 #enable_uart=1
 
 #Onboard analogue audio options in config.txt (3.5mm jack) https://www.raspberrypi.org/documentation/configuration/config-txt/audio.md
