@@ -128,7 +128,7 @@ avoid_safe_mode=1
 kernel=zImage
 #dtparam=audio=on
 display_rotate=1
-dtoverlay=dpi24GPi
+dtoverlay=dpi24
 overscan_left=0
 overscan_right=0
 overscan_top=0
@@ -145,4 +145,4 @@ hdmi_timings=240 1 38 10 20 320 1 20 4 4 0 0 0 60 0 6400000 1
 dtoverlay=pwm-2chan,pin=18,func=2,pin2=19,func2=2
 disable_pvt=1
 disable_audio_dither=1
-dtoverlay=pwm-audio-pi-zeroGPi
+dtoverlay=pwm-audio-pi-zero
