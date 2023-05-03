@@ -106,7 +106,7 @@ max_framebuffers=2
 #arm_64bit=1
 gpu_mem_256=128
 gpu_mem_512=256
-gpu_mem_1024=256
+gpu_mem_1024=384
 
 [pi3]
 # Enables USB BOOT MODE on PI3B
