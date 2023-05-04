@@ -66,12 +66,12 @@ hdmi_mode=16
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #uncomment to enable custom overclock settings
-#arm_freq=1400
+arm_freq=1400
 #gpu_freq=500
-#core_freq=500
+core_freq=500
 #sdram_freq=500
 #sdram_schmoo=0x02000020
-#over_voltage=4
+over_voltage=4
 #over_voltage=6
 #sdram_over_voltage=2
 #v3d_freq=550
