@@ -1,0 +1,71 @@
+<bookmarks>
+<group name="root">
+    <group name="Jazz">
+        <bookmark name="Smooth Jazz" url="http://smoothjazz.com/streams/smoothjazz_128.pls"/>
+        <bookmark name="The Jazz Groove" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1528122"/>
+        <bookmark name="1.FM - Adore Jazz" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1859817"/>
+        <bookmark name="Sonic Universe" url="http://somafm.com/sonicuniverse.pls"/>
+    </group>
+    <group name="Latin">
+        <bookmark name="Colombia Crossover" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99572214"/>
+        <bookmark name="Colombia Vallenata" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99506414"/>
+        <bookmark name="113.fm Salsa!" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1846053"/>
+    </group>
+    <group name="Classic Rock">
+        <bookmark name="Radio Caroline" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1364747"/>
+        <bookmark name=".977 Classic Rock" url="http://www.977music.com/tunein/web/classicrock.asx"/>
+        <bookmark name="1.FM - Classic Rock Replay" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1807142"/>
+    </group>
+    <group name="Classical">
+        <bookmark name="KDFC" url="http://provisioning.streamtheworld.com/pls/KDFCFM.pls"/>
+        <bookmark name="Classic FM" url="http://media-ice.musicradio.com/ClassicFMMP3.m3u"/>
+        <bookmark name="CINEMIX" url="http://cinemix.us/cine.asx"/>
+		<bookmark name="WCPE The Classical Station" url="http://www.ibiblio.org/wcpe/wcpe.pls"/>
+		<bookmark name="Sweet Melodies" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99503690"/>
+    </group>
+    <group name="Pop / Rock">
+        <bookmark name="Radio Paradise" url="http://www.radioparadise.com/musiclinks/rp_128.m3u"/>
+        <bookmark name=".977 The Hitz Channel" url="http://www.977music.com/tunein/web/hitz.asx"/>
+        <bookmark name="Indie Pop Rocks!" url="http://somafm.com/indiepop.pls"/>
+        <bookmark name="Covers" url="http://somafm.com/covers.pls"/>
+		<bookmark name="PopTron" url="http://somafm.com/poptron.pls"/>
+    </group>
+    <group name="Oldies">
+        <bookmark name="ANTENNE BAYERN Oldies but Goldies (Germany)" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99497958"/>
+        <bookmark name="Radio Caroline Flashback" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1420778"/>
+		<bookmark name="Radio Ekspres SI" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1472429"/>
+		<bookmark name="Illinois Street Lounge" url="http://somafm.com/illstreet.pls"/>
+    </group>
+    <group name="Chill / Lounge">
+        <bookmark name="Lounge Radio" url="http://www.lounge-radio.com/listen128.m3u"/>
+        <bookmark name="1.FM - Chillout Lounge" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1778139"/>
+        <bookmark name="Secret Agent" url="http://somafm.com/secretagent.pls"/>
+        <bookmark name="Groove Salad" url="http://somafm.com/groovesalad.pls"/>
+		<bookmark name="Beat Blender" url="http://somafm.com/beatblender.pls"/>
+    </group>
+    <group name="Country">
+        <bookmark name="America's Country" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1909361"/>
+		<bookmark name="Boot Liquor" url="http://somafm.com/bootliquor.pls"/>
+        <bookmark name="Country 108" url="http://www.country108.com/listen.pls"/>
+    </group>
+    <group name="Techno / Electronic">
+        <bookmark name="Space Station Soma" url="http://somafm.com/spacestation.pls"/>
+        <bookmark name="cliqhop idm" url="http://somafm.com/cliqhop.pls"/>
+        <bookmark name="Black Rock FM" url="http://somafm.com/brfm.pls"/>
+        <bookmark name="DubStep Beyond" url="http://somafm.com/play/dubstep32"/>
+		<bookmark name="Drone Zone" url="http://somafm.com/dronezone.pls"/>
+    </group>
+    <group name="Community / Talk Radio">
+        <bookmark name="Jupiter Broadcast" url="http://jblive.fm/"/>
+        <bookmark name="Truth Seeker JoshWho Talk Radio" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99551433"/>
+        <bookmark name="Alex Jones - Infowars.com" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1419651"/>
+    </group>
+	<group name="Various / Office">
+        <bookmark name="POWERHITZ.COM - THE OFFICEMIX - The Best Soft Rock And Pop" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1542116"/>
+        <bookmark name="Easy Hits Florida" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99527781"/>
+        <bookmark name="COOLfahrenheit | Easy Listening" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1916740"/>
+        <bookmark name="ANTENNE BAYERN Coffee Music" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=99497952"/>
+        <bookmark name="1.FM - Cafe Radio" url="http://yp.shoutcast.com/sbin/tunein-station.pls?id=1677115"/>
+    </group>
+</group>
+</bookmarks>
