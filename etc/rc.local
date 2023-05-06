@@ -23,5 +23,5 @@ echo "performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_gover
 # added for rpi_zram by novaspirit
 sudo /usr/local/bin/zram.sh &
 
-(sudo python /home/pi/.livewire.py) &
+#(sudo python /home/pi/.livewire.py) &
 exit 0
