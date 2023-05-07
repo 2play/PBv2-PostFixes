@@ -1,0 +1,3 @@
+#reference "sharp-bilinear-scanlines.slangp"
+SCANLINE_BASE_BRIGHTNESS = "0.900000"
+SCANLINE_VERTICAL_MODULATION = "0.150000"
