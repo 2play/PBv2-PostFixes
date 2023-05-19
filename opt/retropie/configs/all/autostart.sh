@@ -6,4 +6,4 @@ if [[ $HDMI2ON == "2" ]]; then
 /usr/bin/python /opt/retropie/configs/all/PieMarquee2/PieMarquee2.py > /dev/null 2>&1 &
 fi
 #/home/pi/scripts/themerandom.sh
-emulationstation --no-splash #auto
+emulationstation #auto
