@@ -82,7 +82,7 @@ over_voltage=6
 #force_turbo=1
 
 # Uncomment some or all of these to enable the optional hardware interfaces
-#dtparam=i2c_arm=on
+dtparam=i2c_arm=on
 #dtparam=i2s=on
 #dtparam=spi=on
 
@@ -111,7 +111,7 @@ max_framebuffers=2
 #arm_64bit=1
 gpu_mem_256=128
 gpu_mem_512=256
-gpu_mem_1024=256
+gpu_mem_1024=384
 gpu_mem_2048=512
 gpu_mem_4096=512
 gpu_mem_8192=512
