@@ -59,7 +59,7 @@ state.b1 {
 	control.1 {
 		iface MIXER
 		name 'HDMI Playback Volume'
-		value -159
+		value -135
 		comment {
 			access 'read write'
 			type INTEGER
@@ -67,7 +67,7 @@ state.b1 {
 			range '-10239 - 400'
 			dbmin -9999999
 			dbmax 400
-			dbvalue.0 -159
+			dbvalue.0 -135
 		}
 	}
 	control.2 {
