@@ -111,6 +111,7 @@ input_joypad_driver = "udev"
 
 # Menu driver to use. ("rgui", "xmb", "glui")
 menu_driver = "ozone"
+ozone_menu_color_theme = "3"
 
 # Record driver. Used when recording video.
 # record_driver =
