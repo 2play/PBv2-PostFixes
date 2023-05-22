@@ -44,15 +44,15 @@ disable_overscan=1
 
 # *** HDMI0 MAIN SCREEN ***
 #[HDMI:0]
-#hdmi_group:0=1
+hdmi_group:0=1
 #hdmi_group:0=2
-#hdmi_mode:0=16
+hdmi_mode:0=16
 #hdmi_cvt:0=800 480 60
 
 # *** HDMI1 TOP/SECOND SCREEN ***
 #[HDMI:1]
-#hdmi_group:1=2
-#hdmi_mode:1=85
+hdmi_group:1=2
+hdmi_mode:1=85
 #hdmi_cvt:1=1280 720 60 3
 
 #hdmi_ignore_edid=0xa5000080
