@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 05.03.2022
+# 25.05.2023
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -36,7 +36,7 @@ disable_overscan=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 # uncomment to define the custom video mode over hdmi
-# https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+# https://www.raspberrypi.com/documentation/computers/config_txt.html#video-options
 # command hdmi_cvt=<width required> <height required> <framerate required> <aspect no> <margins 0-1> <interlace 0-1> <rb 0-1>
 # For the Pi4, to specify the HDMI port, you can add an index identifier to the config.txt. e.g. hdmi_cvt:0=... or hdmi_timings:1=.... If no port identifier is specified, the settings are applied to port 0
 # aspect ratios numbers for hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9, 7=21:9, 8=64:27
@@ -104,6 +104,11 @@ dtparam=audio=on
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
 dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
+# Enable: Firmware will automatically load overlays for displays that it recognises. Pi OS images from Bullseye onwards come with this setting by default.
+#display_auto_detect=1
+# 4K Resolutions Disabled
+hdmi_max_pixel_freq:0=200000000
+hdmi_max_pixel_freq:1=200000000
 
 [all]
 #dtoverlay=vc4-fkms-v3d
