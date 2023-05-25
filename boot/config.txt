@@ -51,8 +51,8 @@ hdmi_mode:0=16
 
 # *** HDMI1 TOP/SECOND SCREEN ***
 #[HDMI:1]
-hdmi_group:1=2
-hdmi_mode:1=85
+#hdmi_group:1=2
+#hdmi_mode:1=85
 #hdmi_cvt:1=1280 720 60 3
 
 #hdmi_ignore_edid=0xa5000080
