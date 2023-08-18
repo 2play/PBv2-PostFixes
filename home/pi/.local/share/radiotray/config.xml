@@ -1,0 +1,10 @@
+<config>
+  <option name="volume_increment" value="0.05"/>
+  <option name="volume_level" value="1.0"/>
+  <option name="url_timeout" value="100"/>
+  <option name="enable_application_indicator_support" value="false"/>
+  <!-- valid options are 'appindicator', 'systray' and 'chooser' -->
+  <option name="gui_engine" value="systray"/>
+  <option name="active_plugins"><item>Notifications</item><item>StationSwitcher</item></option>
+  <option name="buffer_size" value="164000"/>
+<option name="last_station" value="Easy Hits Florida"/></config>
