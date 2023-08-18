@@ -1,0 +1,10 @@
+{
+	"bookmarks" : "/home/pi/.config/radiotray-ng/bookmarks.json",
+	"last-station" : "Smooth Jazz",
+	"last-station-group" : "Jazz",
+	"last-station-notifications" : true,
+	"notification-verbose" : true,
+	"notifications" : true,
+	"split-title" : true,
+	"volume-level" : 100
+}
