@@ -1,0 +1,47 @@
+{
+   "checksum": "c26067359f709fe04cdd8f2e6b5b729a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13326214878206688",
+            "guid": "1ac3715c-32b4-4441-9b32-13a6c9ac1ecf",
+            "id": "5",
+            "name": "Netflix  - Watch TV Shows Online, Watch Movies Online",
+            "type": "url",
+            "url": "https://www.netflix.com/"
+         }, {
+            "date_added": "13326214906098279",
+            "guid": "2ba15bcd-94d2-4c4c-87f0-4c485c59e25a",
+            "id": "6",
+            "name": "Welcome to Prime Video",
+            "type": "url",
+            "url": "https://www.primevideo.com/"
+         } ],
+         "date_added": "13326213894040680",
+         "date_modified": "13326214906098279",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13326213894040687",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13326213894040696",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
