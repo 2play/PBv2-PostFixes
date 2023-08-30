@@ -8,7 +8,7 @@ After=network.target
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/bin/true
-ExecStop=/usr/bin/mpv --ontop /home/pi/PlayBox-Setup/turnoff.mp4 >/dev/null 2>&1
+ExecStop=/usr/bin/mpv --ontop --vo=drm /home/pi/PlayBox-Setup/turnoff.mp4 >/dev/null 2>&1
 
 [Install]
 WantedBy=multi-user.target
