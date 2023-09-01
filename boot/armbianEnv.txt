@@ -1,18 +1,6 @@
-verbosity=0
+verbosity=1
 bootlogo=false
 overlay_prefix=rockchip
-rootdev=UUID=1ef00ceb-d496-4a63-950c-08266f34199e
+rootdev=UUID=4be42dbf-50b1-4dc6-9316-8cb357c44510
 rootfstype=ext4
-overlays=rk3399-opp-2ghz
-console=tty3
-#With plymouth splash
-#Rotate console vertical
-#extraargs=vt.global_cursor_default=0 quiet splash fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=3
-#Normal orientation
-extraargs=vt.global_cursor_default=0 quiet splash plymouth.ignore-serial-consoles loglevel=3
-#With no plymouth splash
-#Rotate console vertical
-#extraargs=vt.global_cursor_default=0 quiet fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=3
-#Normal orientation
-#extraargs=vt.global_cursor_default=0 quiet plymouth.ignore-serial-consoles loglevel=3
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
