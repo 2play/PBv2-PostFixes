@@ -183,7 +183,7 @@
   <system>
     <name>amiga1200</name>
     <fullname>Commodore Amiga 1200</fullname>
-    <path>/home/pi/RetroPie/roms/amiga</path>
+    <path>/home/pi/RetroPie/roms/amiga1200</path>
     <extension>.adf .adz .chd .cue .dms .ipf .lha .m3u .sh .uae .zip .ADF .ADZ .CHD .CUE .DMS .IPF .LHA .M3U .SH .UAE .ZIP</extension>
     <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ amiga1200 %ROM%</command>
     <platform>amiga1200, amiga</platform>
@@ -192,7 +192,7 @@
   <system>
     <name>amigacd32</name>
     <fullname>Commodore AmigaCD32</fullname>
-    <path>/home/pi/RetroPie/roms/amiga</path>
+    <path>/home/pi/RetroPie/roms/amigacd32</path>
     <extension>.adf .adz .chd .cue .dms .ipf .lha .m3u .sh .uae .zip .ADF .ADZ .CHD .CUE .DMS .IPF .LHA .M3U .SH .UAE .ZIP</extension>
     <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ amigacd32 %ROM%</command>
     <platform>amigacd32, amiga</platform>
