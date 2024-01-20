@@ -361,6 +361,15 @@
     <theme>ngpc</theme>
   </system>
   <system>
+    <name>solarus</name>
+    <fullname>Solarus Engine</fullname>
+    <path>/home/pi/RetroPie/roms/solarus</path>
+    <extension>.solarus .zip .SOLARUS .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ solarus %ROM%</command>
+    <platform>solarus</platform>
+    <theme>solarus</theme>
+  </system>
+  <system>
     <name>pc</name>
     <fullname>PC</fullname>
     <path>/home/pi/RetroPie/roms/pc</path>
