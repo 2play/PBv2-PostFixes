@@ -36,7 +36,8 @@
 # This config file is used to expose core-specific options.
 # It will be written to by RetroArch.
 # A default path will be assigned if not set.
-core_options_path = "/opt/retropie/configs/all/retroarch-core-options.cfg"
+#core_options_path = "/opt/retropie/configs/all/retroarch-core-options.cfg"
+core_options_path = ""
 
 # Path to content history file.
 # RetroArch keeps track of all content loaded in the menu and from CLI directly for convenient quick loading.
@@ -864,6 +865,7 @@ rgui_browser_directory = "/home/pi/RetroPie/roms"
 
 # Directory to dump screenshots to.
 # screenshot_directory =
+screenshot_directory = "~/ScreenShots"
 
 # Directory for joypad autoconfigs.
 # If a joypad is plugged in, that joypad will be autoconfigured if a config file
