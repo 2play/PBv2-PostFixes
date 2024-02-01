@@ -49,7 +49,7 @@
     <name>arcade</name>
     <fullname>Arcade</fullname>
     <path>/home/pi/RetroPie/roms/arcade</path>
-    <extension>.7z .cue .fba .iso .zip .7Z .CUE .FBA .ISO .ZIP</extension>
+    <extension>.7z .cue .fba .iso .zip .cdi .chd .cue .gdi .lst .7Z .CUE .FBA .ISO .CDI .CHD .CUE .GDI .LST</extension>
     <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ arcade %ROM%</command>
     <platform>arcade</platform>
     <theme>arcade</theme>
