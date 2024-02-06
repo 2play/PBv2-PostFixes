@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Plank
+Exec=/usr/bin/plank onboot
+Icon=plank
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+Hidden=false
+NoDisplay=false

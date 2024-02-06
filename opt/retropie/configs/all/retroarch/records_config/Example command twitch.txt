@@ -1,0 +1,1 @@
+retroarch --record rtmp://live.twitch.tv/app/$YOUR_TWITCH_ID --recordconfig twitch.cfg

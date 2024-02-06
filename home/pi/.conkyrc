@@ -1,5 +1,3 @@
-# PlayBox Project
-# 02.02.2022
 conky.config = {
 
 background = true,
@@ -25,7 +23,7 @@ default_shade_color = 'white',
 default_outline_color = 'blue',
 alignment = 'top_right',
 gap_x = 20,
-gap_y = 110,
+gap_y = 275,
 no_buffers = true,
 uppercase = false,
 cpu_avg_samples = 2,

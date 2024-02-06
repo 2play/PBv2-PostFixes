@@ -1,7 +1,7 @@
 # For more options and information see
 # http://rpf.io/configtxt
 # Some settings may impact device functionality. See link above for details
-# 02.2024
+# 25.05.2023
 
 # Avoid Warnings symbols (Not Recommended)
 #avoid_warnings=1
@@ -11,6 +11,7 @@ disable_splash=1
 
 #Ensures the LCD is not the default display
 display_default_lcd=0
+
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
 
@@ -35,7 +36,7 @@ disable_overscan=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 # uncomment to define the custom video mode over hdmi
-# https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+# https://www.raspberrypi.com/documentation/computers/config_txt.html#video-options
 # command hdmi_cvt=<width required> <height required> <framerate required> <aspect no> <margins 0-1> <interlace 0-1> <rb 0-1>
 # For the Pi4, to specify the HDMI port, you can add an index identifier to the config.txt. e.g. hdmi_cvt:0=... or hdmi_timings:1=.... If no port identifier is specified, the settings are applied to port 0
 # aspect ratios numbers for hdmi_cvt command 1=4:3, 2=14:9, 3=16:9, 4=5:4, 5=16:10, 6=15:9, 7=21:9, 8=64:27
@@ -43,15 +44,15 @@ disable_overscan=1
 
 # *** HDMI0 MAIN SCREEN ***
 #[HDMI:0]
-hdmi_group:0=1
+#hdmi_group:0=1
 #hdmi_group:0=2
-hdmi_mode:0=16
+#hdmi_mode:0=16
 #hdmi_cvt:0=800 480 60
 
 # *** HDMI1 TOP/SECOND SCREEN ***
 #[HDMI:1]
-hdmi_group:1=2
-hdmi_mode:1=85
+#hdmi_group:1=2
+#hdmi_mode:1=85
 #hdmi_cvt:1=1280 720 60 3
 
 #hdmi_ignore_edid=0xa5000080
@@ -97,17 +98,22 @@ over_voltage=6
 #hdmi_force_edid_audio
 #hdmi_ignore_edid_audio=1 
 dtparam=audio=on
+[pi4]
+# Enable DRM VC4 V3D driver on top of the dispmanx display stack
+dtoverlay=vc4-fkms-v3d
+max_framebuffers=2
+# Enable: Firmware will automatically load overlays for displays that it recognises. Pi OS images from Bullseye onwards come with this setting by default.
+#display_auto_detect=1
+# 4K Resolutions Disabled
+hdmi_max_pixel_freq:0=200000000
+hdmi_max_pixel_freq:1=200000000
+
 gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1024=384
 gpu_mem_2048=512
 gpu_mem_4096=512
 gpu_mem_8192=512
-
-[pi4]
-# Enable DRM VC4 V3D driver on top of the dispmanx display stack
-dtoverlay=vc4-fkms-v3d
-max_framebuffers=2
 
 [pi3]
 # Enables USB BOOT MODE on PI3B
@@ -116,6 +122,7 @@ program_usb_boot_mode=1
 [all]
 #dtoverlay=vc4-fkms-v3d
 #dtoverlay=vc4-kms-v3d
+#arm_64bit=1
 #overscan_scale=1
 #enable_uart=1
 

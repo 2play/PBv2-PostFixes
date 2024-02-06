@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Conky
+Type=Application
+Exec=bash -c 'sleep 5;conky -q -d'
+Terminal=false
+Icon=/home/pi/pi-apps/apps/Conky/icon-64.png
+Comment=system monitoring tool.
+Categories=Utility;

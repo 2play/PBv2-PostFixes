@@ -1,3 +1,5 @@
+rm -f ~/.musicpaused.flag
+/home/pi/.local/bin/esbgm > /dev/null 2>&1 &
 #fbset -fb /dev/fb0 -g 1920 1080 1920 1080 16
 HDMI2ON=`tvservice -l |grep "HDMI" |wc -l`
 if [[ $HDMI2ON == "2" ]]; then
