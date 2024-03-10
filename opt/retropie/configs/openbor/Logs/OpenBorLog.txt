@@ -1,0 +1,1266 @@
+Total Ram: 1636966400 Bytes
+ Free Ram: 489406464 Bytes
+ Used Ram: 1764352 Bytes
+
+debug:nativeWidth, nativeHeight, bpp, Hz  1920, 1080, 32, 60
+OpenBoR v3.0 Build , Compile Date: Sep 28 2020
+
+Game Selected: /home/pi/RetroPie/roms/openbor/SOR2X_V2.1.pak
+
+FileCaching System Init......	Enabled
+Initializing video............
+Reading video settings from 'data/video.txt'.
+Initialized video.............	480x272 (Mode: 1)
+
+Loading menu.txt.............	Done!
+Loading fonts................	1 2 3 4 5 6 7 8 9 10 Done!
+Timer init...................	Done!
+Initialize Sound..............	
+Loading sprites..............	Done!
+Loading level order..........	Done!
+Loading model constants......	Done!
+Loading script settings......	Done!
+Loading scripts..............	Done!
+Loading models...............
+
+Loaded 32-bit background 'data/bgs/loading'
+Joystick: "UNKNOWN" connected at port: 0 at 2021-03-24 20:33:25
+Joystick: "UNKNOWN" connected at port: 1 at 2021-03-24 20:33:25
+Cacheing 'Flash' from data/chars/misc/flash/flash.txt
+Cacheing 'Flash_B' from data/chars/misc/flash/flash_b.txt
+Cacheing 'NoFlash' from data/chars/misc/flash/noflash.txt
+Cacheing 'Block' from data/chars/misc/block/block.txt
+Cacheing 'Block_B' from data/chars/misc/block/block_b.txt
+Cacheing 'Burn' from data/chars/misc/burn/burn.txt
+Cacheing 'Burn_B' from data/chars/misc/burn/burn_b.txt
+Cacheing 'Shock' from data/chars/misc/shock/shock.txt
+Cacheing 'Shock_B' from data/chars/misc/shock/shock_b.txt
+Cacheing 'Impact' from data/chars/misc/impact/impact.txt
+Cacheing 'Impact_B' from data/chars/misc/impact/impact_b.txt
+Cacheing 'Escape' from data/chars/misc/escape/escape.txt
+Cacheing 'Escape_B' from data/chars/misc/escape/escape_b.txt
+Cacheing 'Dust' from data/chars/misc/dust/dust.txt
+Cacheing 'Dust_B' from data/chars/misc/dust/dust_b.txt
+Cacheing 'Blast' from data/chars/misc/explosion/blast.txt
+Cacheing 'Destruction' from data/chars/misc/explosion/destruction.txt
+Cacheing 'Destruction_B' from data/chars/misc/explosion/destruction_b.txt
+Cacheing 'Explosion' from data/chars/misc/explosion/explosion.txt
+Cacheing 'Explosion_B' from data/chars/misc/explosion/explosion_b.txt
+Cacheing 'QuakeLow' from data/chars/misc/quake/quakelow.txt
+Cacheing 'QuakeHigh' from data/chars/misc/quake/quakehigh.txt
+Cacheing 'Smoke' from data/chars/misc/smoke/smoke.txt
+Cacheing 'Smoke_B' from data/chars/misc/smoke/smoke_b.txt
+Cacheing 'Gas' from data/chars/misc/gas/gas.txt
+Cacheing 'Gas_B' from data/chars/misc/gas/gas_b.txt
+Cacheing 'BloodHit' from data/chars/misc/bloodhit/bloodhit.txt
+Cacheing 'LaserHit' from data/chars/misc/laserhit/laserhit.txt
+Cacheing 'FallHit' from data/chars/misc/fallhit/fallhit.txt
+Cacheing 'Counter' from data/chars/misc/counter/counter.txt
+Cacheing 'Super' from data/chars/misc/super/super.txt
+Cacheing 'Rage' from data/chars/misc/rage/rage.txt
+Cacheing 'RageSpend' from data/chars/misc/rage/ragespend.txt
+Cacheing 'Splash' from data/chars/misc/splash/splash.txt
+Cacheing 'Water' from data/chars/misc/water/water.txt
+Cacheing 'Nitro' from data/chars/misc/nitro/nitro.txt
+Cacheing 'Knife' from data/chars/weapons/knife.txt
+Cacheing 'KnifeT' from data/chars/weapons/knifeT.txt
+Cacheing 'Kunai' from data/chars/weapons/kunai.txt
+Cacheing 'KunaiT' from data/chars/weapons/kunaiT.txt
+Cacheing 'Pipe' from data/chars/weapons/pipe.txt
+Cacheing 'PipeT' from data/chars/weapons/pipeT.txt
+Cacheing 'Sword' from data/chars/weapons/sword.txt
+Cacheing 'SwordT' from data/chars/weapons/swordT.txt
+Cacheing 'Cartridge' from data/chars/weapons/cartridge.txt
+Cacheing '1up' from data/chars/itens/1up.txt
+Cacheing 'Apple' from data/chars/itens/apple.txt
+Cacheing 'Cash' from data/chars/itens/cash.txt
+Cacheing 'Chicken' from data/chars/itens/chicken.txt
+Cacheing 'Gold' from data/chars/itens/gold.txt
+Cacheing 'None' from data/chars/itens/none.txt
+Cacheing 'Arcade' from data/chars/obstacles/arcade.txt
+Cacheing 'Barrel_A' from data/chars/obstacles/barrel_a.txt
+Cacheing 'Barrel_B' from data/chars/obstacles/barrel_b.txt
+Cacheing 'Barrel_Drop' from data/chars/obstacles/barrel_drop.txt
+Cacheing 'Barrel_Roll' from data/chars/obstacles/barrel_roll.txt
+Cacheing 'Bin_A' from data/chars/obstacles/bin_a.txt
+Cacheing 'Bin_B' from data/chars/obstacles/bin_b.txt
+Cacheing 'Board' from data/chars/obstacles/board.txt
+Cacheing 'Box_A' from data/chars/obstacles/box_a.txt
+Cacheing 'Box_B' from data/chars/obstacles/box_b.txt
+Cacheing 'Box_C' from data/chars/obstacles/box_c.txt
+Cacheing 'Box_D' from data/chars/obstacles/box_d.txt
+Cacheing 'Box_E' from data/chars/obstacles/box_e.txt
+Cacheing 'Cart' from data/chars/obstacles/cart.txt
+Cacheing 'Chair' from data/chars/obstacles/chair.txt
+Cacheing 'Computer' from data/chars/obstacles/computer.txt
+Cacheing 'ComputerS' from data/chars/obstacles/computerS.txt
+Cacheing 'Drum' from data/chars/obstacles/drum.txt
+Cacheing 'Egg' from data/chars/obstacles/egg.txt
+Cacheing 'Floater' from data/chars/obstacles/floater.txt
+Cacheing 'Menu' from data/chars/obstacles/menu.txt
+Cacheing 'RoadBlock_A' from data/chars/obstacles/roadblock_a.txt
+Cacheing 'RoadBlock_B' from data/chars/obstacles/roadblock_b.txt
+Cacheing 'Sandbag' from data/chars/obstacles/sandbag.txt
+Cacheing 'Statue_A' from data/chars/obstacles/statue_a.txt
+Cacheing 'Statue_B' from data/chars/obstacles/statue_b.txt
+Cacheing 'Table' from data/chars/obstacles/table.txt
+Cacheing 'Tire' from data/chars/obstacles/tire.txt
+Cacheing 'Trash' from data/chars/obstacles/trash.txt
+Cacheing 'Vase' from data/chars/obstacles/vase.txt
+Cacheing 'Lantern' from data/chars/obstacles/lantern.txt
+Cacheing 'Wall' from data/chars/obstacles/wall.txt
+Cacheing 'Bike' from data/chars/vehicles/bike.txt
+Cacheing 'Boat' from data/chars/vehicles/boat.txt
+Cacheing 'Bulldozer' from data/chars/vehicles/bulldozer.txt
+Cacheing 'Train' from data/chars/vehicles/train.txt
+Cacheing 'Select_Back' from data/bgs/select/select_back.txt
+Cacheing 'Cursor' from data/bgs/select/cursor.txt
+Cacheing 'Route_Up' from data/bgs/route/route_up.txt
+Cacheing 'Route_Down' from data/bgs/route/route_down.txt
+Cacheing 'Route_Left' from data/bgs/route/route_left.txt
+Cacheing 'Route_Right' from data/bgs/route/route_right.txt
+Cacheing 'RouteS' from data/bgs/route/routeS.txt
+Cacheing 'St1_Dunk_a' from data/bgs/sor2_st1/dunk_a.txt
+Cacheing 'St1_Dunk_b' from data/bgs/sor2_st1/dunk_b.txt
+Cacheing 'St1_Rim' from data/bgs/sor2_st1/rim.txt
+Cacheing 'St1_Blockade' from data/bgs/sor2_st1/blockade.txt
+Cacheing 'St1_Lamp' from data/bgs/sor2_st1/lamp.txt
+Cacheing 'St1_Manhole' from data/bgs/sor2_st1/manhole.txt
+Cacheing 'St1_Gate' from data/bgs/sor2_st1/gate.txt
+Cacheing 'St1_Light' from data/bgs/sor2_st1/light.txt
+Cacheing 'St1_Light_B' from data/bgs/sor2_st1/light_b.txt
+Cacheing 'St1_Rain' from data/bgs/sor2_st1/rain.txt
+Cacheing 'St1_Rain_B' from data/bgs/sor2_st1/rain_b.txt
+Cacheing 'St1_Drop' from data/bgs/sor2_st1/drop.txt
+Cacheing 'St1_Drop_B' from data/bgs/sor2_st1/drop_b.txt
+Cacheing 'St1_Ray' from data/bgs/sor2_st1/ray.txt
+Cacheing 'St1_Ray_B' from data/bgs/sor2_st1/ray_b.txt
+Cacheing 'St1_Thunder' from data/bgs/sor2_st1/thunder.txt
+Cacheing 'St1_Thunder_B' from data/bgs/sor2_st1/thunder_b.txt
+Cacheing 'St2_City1' from data/bgs/sor2_st2/city1.txt
+Cacheing 'St2_City2' from data/bgs/sor2_st2/city2.txt
+Cacheing 'St2_Truck' from data/bgs/sor2_st2/truck.txt
+Cacheing 'St2_RearTruck' from data/bgs/sor2_st2/reartruck.txt
+Cacheing 'St2_Lamp' from data/bgs/sor2_st2/lamp.txt
+Cacheing 'St3_Entrance1' from data/bgs/sor2_st3/entrance1.txt
+Cacheing 'St3_Entrance2' from data/bgs/sor2_st3/entrance2.txt
+Cacheing 'St3_Entrance3' from data/bgs/sor2_st3/entrance3.txt
+Cacheing 'St3_Entrance3S' from data/bgs/sor2_st3/entrance3S.txt
+Cacheing 'St3_Fliper' from data/bgs/sor2_st3/fliper.txt
+Cacheing 'St3_Blockade' from data/bgs/sor2_st3/blockade.txt
+Cacheing 'St3_Lamp1' from data/bgs/sor2_st3/lamp1.txt
+Cacheing 'St3_Lamp2' from data/bgs/sor2_st3/lamp2.txt
+Cacheing 'St3_Lamp3' from data/bgs/sor2_st3/lamp3.txt
+Cacheing 'St3_Lamp4' from data/bgs/sor2_st3/lamp4.txt
+Cacheing 'St3_Gate' from data/bgs/sor2_st3/gate.txt
+Cacheing 'St4_People' from data/bgs/sor2_st4/people.txt
+Cacheing 'St5_Panel1' from data/bgs/sor2_st5/panel1.txt
+Cacheing 'St5_Panel2' from data/bgs/sor2_st5/panel2.txt
+Cacheing 'St6_Beach' from data/bgs/sor2_st6/beach.txt
+Cacheing 'St6_Blockade' from data/bgs/sor2_st6/blockade.txt
+Cacheing 'St7_Machine1' from data/bgs/sor2_st7/machine1.txt
+Cacheing 'St7_Machine1S' from data/bgs/sor2_st7/machine1S.txt
+Cacheing 'St7_Machine2' from data/bgs/sor2_st7/machine2.txt
+Cacheing 'St7_Machine2S' from data/bgs/sor2_st7/machine2S.txt
+Cacheing 'St7_Elevator' from data/bgs/sor2_st7/elevator.txt
+Cacheing 'St7_ElevatorS' from data/bgs/sor2_st7/elevatorS.txt
+Cacheing 'St7_Backchange' from data/bgs/sor2_st7/backchange.txt
+Cacheing 'St8_Elevator' from data/bgs/sor2_st8/elevator.txt
+Cacheing 'St8_ElevatorS' from data/bgs/sor2_st8/elevatorS.txt
+Cacheing 'Moves' from data/chars/misc/text/moves.txt
+Cacheing 'Fight' from data/chars/misc/text/fight.txt
+Cacheing 'Stage' from data/chars/misc/text/stage.txt
+Cacheing 'Number' from data/chars/misc/text/number.txt
+Cacheing 'Start' from data/chars/misc/text/start.txt
+Cacheing 'Survival_Menu' from data/chars/misc/text/survival_menu.txt
+Cacheing 'Fade' from data/chars/misc/text/fade.txt
+Cacheing '0' from data/chars/misc/text/0.txt
+Cacheing '1' from data/chars/misc/text/1.txt
+Cacheing '2' from data/chars/misc/text/2.txt
+Cacheing '3' from data/chars/misc/text/3.txt
+Cacheing '4' from data/chars/misc/text/4.txt
+Cacheing '5' from data/chars/misc/text/5.txt
+Cacheing '6' from data/chars/misc/text/6.txt
+Cacheing '7' from data/chars/misc/text/7.txt
+Cacheing '8' from data/chars/misc/text/8.txt
+Cacheing '9' from data/chars/misc/text/9.txt
+Cacheing 'null' from data/chars/misc/text/null.txt
+Cacheing 'Axel' from data/chars/heroes/axel/axel.txt
+Cacheing 'Axel_Slash' from data/chars/heroes/axel/slash/slash.txt
+Cacheing 'Axel_SlashS' from data/chars/heroes/axel/slash/slashS.txt
+Cacheing 'AxelS' from data/chars/heroes/axel/axelS.txt
+Cacheing 'AxelSW' from data/chars/heroes/axel/axelSW.txt
+Cacheing 'Axel_Knife' from data/chars/heroes/axel/axel_knife.txt
+Cacheing 'Axel_Sword' from data/chars/heroes/axel/axel_sword.txt
+Cacheing 'Axel_Pipe' from data/chars/heroes/axel/axel_pipe.txt
+Cacheing 'Axel_Kunai' from data/chars/heroes/axel/axel_kunai.txt
+Cacheing 'Axel_Bike' from data/chars/heroes/axel/axel_bike.txt
+Cacheing 'Blaze' from data/chars/heroes/blaze/blaze.txt
+Cacheing 'Blaze_Orb' from data/chars/heroes/blaze/orb/orb.txt
+Cacheing 'Blaze_Orb_B' from data/chars/heroes/blaze/orb/orb_b.txt
+Cacheing 'BlazeS' from data/chars/heroes/blaze/blazeS.txt
+Cacheing 'BlazeSW' from data/chars/heroes/blaze/blazeSW.txt
+Cacheing 'Blaze_Knife' from data/chars/heroes/blaze/blaze_knife.txt
+Cacheing 'Blaze_Sword' from data/chars/heroes/blaze/blaze_sword.txt
+Cacheing 'Blaze_Pipe' from data/chars/heroes/blaze/blaze_pipe.txt
+Cacheing 'Blaze_Kunai' from data/chars/heroes/blaze/blaze_kunai.txt
+Cacheing 'Blaze_Bike' from data/chars/heroes/blaze/blaze_bike.txt
+Cacheing 'Max' from data/chars/heroes/max/max.txt
+Cacheing 'MaxS' from data/chars/heroes/max/maxS.txt
+Cacheing 'MaxSW' from data/chars/heroes/max/maxSW.txt
+Cacheing 'Max_Knife' from data/chars/heroes/max/max_knife.txt
+Cacheing 'Max_Sword' from data/chars/heroes/max/max_sword.txt
+Cacheing 'Max_Pipe' from data/chars/heroes/max/max_pipe.txt
+Cacheing 'Max_Kunai' from data/chars/heroes/max/max_kunai.txt
+Cacheing 'Max_Bike' from data/chars/heroes/max/max_bike.txt
+Cacheing 'Sammy' from data/chars/heroes/sammy/sammy.txt
+Cacheing 'SammyS' from data/chars/heroes/sammy/sammyS.txt
+Cacheing 'SammySW' from data/chars/heroes/sammy/sammySW.txt
+Cacheing 'Sammy_Knife' from data/chars/heroes/sammy/sammy_knife.txt
+Cacheing 'Sammy_Sword' from data/chars/heroes/sammy/sammy_sword.txt
+Cacheing 'Sammy_Pipe' from data/chars/heroes/sammy/sammy_pipe.txt
+Cacheing 'Sammy_Kunai' from data/chars/heroes/sammy/sammy_kunai.txt
+Cacheing 'Sammy_Bike' from data/chars/heroes/sammy/sammy_bike.txt
+Cacheing 'Adam' from data/chars/heroes/adam/adam.txt
+Cacheing 'Adam_Wave' from data/chars/heroes/adam/wave/wave.txt
+Cacheing 'AdamS' from data/chars/heroes/adam/adamS.txt
+Cacheing 'AdamSW' from data/chars/heroes/adam/adamSW.txt
+Cacheing 'Adam_Knife' from data/chars/heroes/adam/adam_knife.txt
+Cacheing 'Adam_Sword' from data/chars/heroes/adam/adam_sword.txt
+Cacheing 'Adam_Pipe' from data/chars/heroes/adam/adam_pipe.txt
+Cacheing 'Adam_Kunai' from data/chars/heroes/adam/adam_kunai.txt
+Cacheing 'Adam_Bike' from data/chars/heroes/adam/adam_bike.txt
+Cacheing 'Zan' from data/chars/heroes/zan/zan.txt
+Cacheing 'Zan_Shot' from data/chars/heroes/zan/shot/shot.txt
+Cacheing 'Zan_Shot_B' from data/chars/heroes/zan/shot/shot_b.txt
+Cacheing 'Zan_Orb1' from data/chars/heroes/zan/orb/orb1.txt
+Cacheing 'Zan_Orb2' from data/chars/heroes/zan/orb/orb2.txt
+Cacheing 'Zan_Orb3' from data/chars/heroes/zan/orb/orb3.txt
+Cacheing 'Zan_OrbS' from data/chars/heroes/zan/orb/orbS.txt
+Cacheing 'ZanS' from data/chars/heroes/zan/zanS.txt
+Cacheing 'ZanSW' from data/chars/heroes/zan/zanSW.txt
+Cacheing 'Zan_Knife' from data/chars/heroes/zan/zan_knife.txt
+Cacheing 'Zan_Sword' from data/chars/heroes/zan/zan_sword.txt
+Cacheing 'Zan_Pipe' from data/chars/heroes/zan/zan_pipe.txt
+Cacheing 'Zan_Kunai' from data/chars/heroes/zan/zan_kunai.txt
+Cacheing 'Zan_Bike' from data/chars/heroes/zan/zan_bike.txt
+Cacheing 'Galsia' from data/chars/enemies/galsia/galsiaP.txt
+Cacheing 'Galsia_KnifeP' from data/chars/enemies/galsia/galsia_knifeP.txt
+Cacheing 'Donovan' from data/chars/enemies/donovan/donovanP.txt
+Cacheing 'Donovan_PipeP' from data/chars/enemies/donovan/donovan_pipeP.txt
+Cacheing 'Signal' from data/chars/enemies/signal/signalP.txt
+Cacheing 'Signal_Bottle1' from data/chars/enemies/signal/bottle/bottle1.txt
+Cacheing 'Signal_Bottle2' from data/chars/enemies/signal/bottle/bottle2.txt
+Cacheing 'Signal_Bottle3' from data/chars/enemies/signal/bottle/bottle3.txt
+Cacheing 'Fog' from data/chars/enemies/fog/fogP.txt
+Cacheing 'Fog_Grenade' from data/chars/enemies/fog/grenade/grenade.txt
+Cacheing 'Fog_Molotov' from data/chars/enemies/fog/molotov/molotov.txt
+Cacheing 'Fog_PipeP' from data/chars/enemies/fog/fog_pipeP.txt
+Cacheing 'Hakuyo' from data/chars/enemies/hakuyo/hakuyoP.txt
+Cacheing 'Kusanagi' from data/chars/enemies/kusanagi/kusanagiP.txt
+Cacheing 'Kusanagi_Star' from data/chars/enemies/kusanagi/star/star.txt
+Cacheing 'KusanagiS' from data/chars/enemies/kusanagi/kusanagiS.txt
+Cacheing 'KusanagiSW1' from data/chars/enemies/kusanagi/kusanagiSW1.txt
+Cacheing 'KusanagiSW2' from data/chars/enemies/kusanagi/kusanagiSW2.txt
+Cacheing 'Kusanagi_KunaiP' from data/chars/enemies/kusanagi/kusanagi_kunaiP.txt
+Cacheing 'Kusanagi_SwordP' from data/chars/enemies/kusanagi/kusanagi_swordP.txt
+Cacheing 'Raven' from data/chars/enemies/raven/ravenP.txt
+Cacheing 'Big-Ben' from data/chars/enemies/bigben/bigbenP.txt
+Cacheing 'Electra_' from data/chars/enemies/reine/reineP.txt
+Cacheing 'Reine_Shock' from data/chars/enemies/reine/whip/shock.txt
+Cacheing 'Reine_Whip' from data/chars/enemies/reine/whip/whip.txt
+Cacheing 'Jack' from data/chars/enemies/jack/jackP.txt
+Cacheing 'Jack_KnifeP' from data/chars/enemies/jack/jack_knifeP.txt
+Cacheing 'Barbon' from data/chars/bosses/barbon/barbonP.txt
+Cacheing 'BarbonS' from data/chars/bosses/barbon/barbonS.txt
+Cacheing 'Jet' from data/chars/bosses/jet/jetP.txt
+Cacheing 'JetS' from data/chars/bosses/jet/jetS.txt
+Cacheing 'Zamza' from data/chars/bosses/zamza/zamzaP.txt
+Cacheing 'ZamzaS' from data/chars/bosses/zamza/zamzaS.txt
+Cacheing 'Abadede' from data/chars/bosses/abadede/abadedeP.txt
+Cacheing 'AbadedeS' from data/chars/bosses/abadede/abadedeS.txt
+Cacheing 'R._Bear' from data/chars/bosses/bear/bearP.txt
+Cacheing 'BearS' from data/chars/bosses/bear/bearS.txt
+Cacheing 'Harakiri' from data/chars/bosses/harakiri/harakiriP.txt
+Cacheing 'Harakiri_Star' from data/chars/bosses/harakiri/star/star.txt
+Cacheing 'HarakiriS' from data/chars/bosses/harakiri/harakiriS.txt
+Cacheing 'Particle' from data/chars/bosses/particle/particleP.txt
+Cacheing 'Particle_Laser' from data/chars/bosses/particle/laser/laser.txt
+Cacheing 'Particle_LaserR' from data/chars/bosses/particle/laser/laserR.txt
+Cacheing 'Particle_LaserR_B' from data/chars/bosses/particle/laser/laserR_b.txt
+Cacheing 'ParticleS' from data/chars/bosses/particle/particleS.txt
+Cacheing 'Shiva' from data/chars/bosses/shiva/shivaP.txt
+Cacheing 'ShivaS' from data/chars/bosses/shiva/shivaS.txt
+Cacheing 'Mr._X' from data/chars/bosses/mrx/mrxP.txt
+Cacheing 'Mrx_Shot1' from data/chars/bosses/mrx/shot/shot1.txt
+Cacheing 'Mrx_Shot2' from data/chars/bosses/mrx/shot/shot2.txt
+Cacheing 'Mrx_Shot3' from data/chars/bosses/mrx/shot/shot3.txt
+Cacheing 'Galsia0' from data/chars/enemies/galsia/galsia0.txt
+Cacheing 'Galsia1' from data/chars/enemies/galsia/galsia1.txt
+Cacheing 'Galsia2' from data/chars/enemies/galsia/galsia2.txt
+Cacheing 'Galsia3' from data/chars/enemies/galsia/galsia3.txt
+Cacheing 'Galsia4' from data/chars/enemies/galsia/galsia4.txt
+Cacheing 'Galsia_Knife' from data/chars/enemies/galsia/galsia_knife.txt
+Cacheing 'Galsia0_Hide' from data/chars/enemies/galsia/galsia0_hide.txt
+Cacheing 'Galsia0_Jump' from data/chars/enemies/galsia/galsia0_jump.txt
+Cacheing 'Galsia1_Boat' from data/chars/enemies/galsia/galsia1_boat.txt
+Cacheing 'Galsia2_Seat' from data/chars/enemies/galsia/galsia2_seat.txt
+Cacheing 'Galsia2_Wait' from data/chars/enemies/galsia/galsia2_wait.txt
+Cacheing 'Galsia3_Jump' from data/chars/enemies/galsia/galsia3_Jump.txt
+Cacheing 'Donovan0' from data/chars/enemies/donovan/donovan0.txt
+Cacheing 'Donovan1' from data/chars/enemies/donovan/donovan1.txt
+Cacheing 'Donovan2' from data/chars/enemies/donovan/donovan2.txt
+Cacheing 'Donovan3' from data/chars/enemies/donovan/donovan3.txt
+Cacheing 'Donovan4' from data/chars/enemies/donovan/donovan4.txt
+Cacheing 'Donovan_Pipe' from data/chars/enemies/donovan/donovan_pipe.txt
+Cacheing 'Donovan_Bulldozer' from data/chars/enemies/donovan/donovan_bulldozer.txt
+Cacheing 'Donovan0_Wait' from data/chars/enemies/donovan/donovan0_wait.txt
+Cacheing 'Donovan0_Hide' from data/chars/enemies/donovan/donovan0_hide.txt
+Cacheing 'Donovan1_Manhole' from data/chars/enemies/donovan/donovan1_manhole.txt
+Cacheing 'Donovan1_Boat' from data/chars/enemies/donovan/donovan1_boat.txt
+Cacheing 'Donovan2_Wait' from data/chars/enemies/donovan/donovan2_wait.txt
+Cacheing 'Donovan4_Wait' from data/chars/enemies/donovan/donovan4_wait.txt
+Cacheing 'Signal0' from data/chars/enemies/signal/signal0.txt
+Cacheing 'Signal1' from data/chars/enemies/signal/signal1.txt
+Cacheing 'Signal2' from data/chars/enemies/signal/signal2.txt
+Cacheing 'Signal3' from data/chars/enemies/signal/signal3.txt
+Cacheing 'Signal4' from data/chars/enemies/signal/signal4.txt
+Cacheing 'Signal0_Wait' from data/chars/enemies/signal/signal0_wait.txt
+Cacheing 'Signal1_Gate' from data/chars/enemies/signal/signal1_gate.txt
+Cacheing 'Signal1_Jump' from data/chars/enemies/signal/signal1_jump.txt
+Cacheing 'Signal2_Wait' from data/chars/enemies/signal/signal2_wait.txt
+Cacheing 'Signal5_Bottle' from data/chars/enemies/signal/signal5_bottle.txt
+Cacheing 'Fog0' from data/chars/enemies/fog/fog0.txt
+Cacheing 'Fog1' from data/chars/enemies/fog/fog1.txt
+Cacheing 'Fog2' from data/chars/enemies/fog/fog2.txt
+Cacheing 'Fog3' from data/chars/enemies/fog/fog3.txt
+Cacheing 'Fog4' from data/chars/enemies/fog/fog4.txt
+Cacheing 'Fog_Pipe' from data/chars/enemies/fog/fog_pipe.txt
+Cacheing 'Fog_Grenadier' from data/chars/enemies/fog/fog_grenadier.txt
+Cacheing 'Fog0_Wait' from data/chars/enemies/fog/fog0_wait.txt
+Cacheing 'Fog1_Wait' from data/chars/enemies/fog/fog1_wait.txt
+Cacheing 'Fog2_Wait' from data/chars/enemies/fog/fog2_wait.txt
+Cacheing 'Fog3_Wait' from data/chars/enemies/fog/fog3_wait.txt
+Cacheing 'Moto0' from data/chars/enemies/fog/moto0.txt
+Cacheing 'Moto1' from data/chars/enemies/fog/moto1.txt
+Cacheing 'Moto2' from data/chars/enemies/fog/moto2.txt
+Cacheing 'Moto3' from data/chars/enemies/fog/moto3.txt
+Cacheing 'Moto4' from data/chars/enemies/fog/moto4.txt
+Cacheing 'Moto5' from data/chars/enemies/fog/moto5.txt
+Cacheing 'Hakuyo0' from data/chars/enemies/hakuyo/hakuyo0.txt
+Cacheing 'Hakuyo1' from data/chars/enemies/hakuyo/hakuyo1.txt
+Cacheing 'Hakuyo2' from data/chars/enemies/hakuyo/hakuyo2.txt
+Cacheing 'Hakuyo3' from data/chars/enemies/hakuyo/hakuyo3.txt
+Cacheing 'Hakuyo4' from data/chars/enemies/hakuyo/hakuyo4.txt
+Cacheing 'Hakuyo0_Wait' from data/chars/enemies/hakuyo/hakuyo0_wait.txt
+Cacheing 'Hakuyo2_Wait' from data/chars/enemies/hakuyo/hakuyo2_wait.txt
+Cacheing 'Kusanagi0' from data/chars/enemies/kusanagi/kusanagi0.txt
+Cacheing 'Kusanagi1' from data/chars/enemies/kusanagi/kusanagi1.txt
+Cacheing 'Kusanagi2' from data/chars/enemies/kusanagi/kusanagi2.txt
+Cacheing 'Kusanagi3' from data/chars/enemies/kusanagi/kusanagi3.txt
+Cacheing 'Kusanagi4' from data/chars/enemies/kusanagi/kusanagi4.txt
+Cacheing 'Kusanagi5' from data/chars/enemies/kusanagi/kusanagi5.txt
+Cacheing 'Kusanagi_Kunai' from data/chars/enemies/kusanagi/kusanagi_kunai.txt
+Cacheing 'Kusanagi_Sword' from data/chars/enemies/kusanagi/kusanagi_sword.txt
+Cacheing 'Kusanagi0_Wait' from data/chars/enemies/kusanagi/kusanagi0_wait.txt
+Cacheing 'Kusanagi1_Wait' from data/chars/enemies/kusanagi/kusanagi1_wait.txt
+Cacheing 'Kusanagi2_Wait' from data/chars/enemies/kusanagi/kusanagi2_wait.txt
+Cacheing 'Kusanagi3_Wait' from data/chars/enemies/kusanagi/kusanagi3_wait.txt
+Cacheing 'Kusanagi4_Wait' from data/chars/enemies/kusanagi/kusanagi4_wait.txt
+Cacheing 'Kusanagi5_Bush' from data/chars/enemies/kusanagi/kusanagi5_bush.txt
+Cacheing 'Raven0' from data/chars/enemies/raven/raven0.txt
+Cacheing 'Raven1' from data/chars/enemies/raven/raven1.txt
+Cacheing 'Raven2' from data/chars/enemies/raven/raven2.txt
+Cacheing 'Raven3' from data/chars/enemies/raven/raven3.txt
+Cacheing 'Raven4' from data/chars/enemies/raven/raven4.txt
+Cacheing 'Bigben0' from data/chars/enemies/bigben/bigben0.txt
+Cacheing 'Bigben1' from data/chars/enemies/bigben/bigben1.txt
+Cacheing 'Bigben2' from data/chars/enemies/bigben/bigben2.txt
+Cacheing 'Bigben3' from data/chars/enemies/bigben/bigben3.txt
+Cacheing 'Bigben4' from data/chars/enemies/bigben/bigben4.txt
+Cacheing 'Reine0' from data/chars/enemies/reine/reine0.txt
+Cacheing 'Reine1' from data/chars/enemies/reine/reine1.txt
+Cacheing 'Reine2' from data/chars/enemies/reine/reine2.txt
+Cacheing 'Reine3' from data/chars/enemies/reine/reine3.txt
+Cacheing 'Reine4' from data/chars/enemies/reine/reine4.txt
+Cacheing 'Reine0_Wait' from data/chars/enemies/reine/reine0_wait.txt
+Cacheing 'Reine_Shawl' from data/chars/enemies/reine/shawl/shawl.txt
+Cacheing 'Reine_Cup' from data/chars/enemies/reine/cup/cup.txt
+Cacheing 'Jack0' from data/chars/enemies/jack/jack0.txt
+Cacheing 'Jack1' from data/chars/enemies/jack/jack1.txt
+Cacheing 'Jack2' from data/chars/enemies/jack/jack2.txt
+Cacheing 'Jack_Knife' from data/chars/enemies/jack/jack_knife.txt
+Cacheing 'Vehelits' from data/chars/enemies/vehelits/vehelits.txt
+Cacheing 'Vehelits_Tail' from data/chars/enemies/vehelits/tail.txt
+Cacheing 'Barbon0' from data/chars/bosses/barbon/barbon0.txt
+Cacheing 'Barbon1' from data/chars/bosses/barbon/barbon1.txt
+Cacheing 'Barbon2' from data/chars/bosses/barbon/barbon2.txt
+Cacheing 'Barbon3' from data/chars/bosses/barbon/barbon3.txt
+Cacheing 'Barbon_Cocktail' from data/chars/bosses/barbon/barbon_cocktail.txt
+Cacheing 'Barbon_Jacket1' from data/chars/bosses/barbon/jacket/jacket1.txt
+Cacheing 'Barbon_Jacket2' from data/chars/bosses/barbon/jacket/jacket2.txt
+Cacheing 'Barbon_Jacket3' from data/chars/bosses/barbon/jacket/jacket3.txt
+Cacheing 'Barbon_Jacket4' from data/chars/bosses/barbon/jacket/jacket4.txt
+Cacheing 'Barbon_Jacket5' from data/chars/bosses/barbon/jacket/jacket5.txt
+Cacheing 'Barbon_Jacket6' from data/chars/bosses/barbon/jacket/jacket6.txt
+Cacheing 'Barbon_Jacket7' from data/chars/bosses/barbon/jacket/jacket7.txt
+Cacheing 'Jet0' from data/chars/bosses/jet/jet0.txt
+Cacheing 'Jet1' from data/chars/bosses/jet/jet1.txt
+Cacheing 'Jet2' from data/chars/bosses/jet/jet2.txt
+Cacheing 'Jet3' from data/chars/bosses/jet/jet3.txt
+Cacheing 'Jet4' from data/chars/bosses/jet/jet4.txt
+Cacheing 'Jet5' from data/chars/bosses/jet/jet5.txt
+Cacheing 'Zamza0' from data/chars/bosses/zamza/zamza0.txt
+Cacheing 'Zamza1' from data/chars/bosses/zamza/zamza1.txt
+Cacheing 'Zamza2' from data/chars/bosses/zamza/zamza2.txt
+Cacheing 'Abadede0' from data/chars/bosses/abadede/abadede0.txt
+Cacheing 'Abadede1' from data/chars/bosses/abadede/abadede1.txt
+Cacheing 'Abadede2' from data/chars/bosses/abadede/abadede2.txt
+Cacheing 'Bear0' from data/chars/bosses/bear/bear0.txt
+Cacheing 'Bear1' from data/chars/bosses/bear/bear1.txt
+Cacheing 'Bear2' from data/chars/bosses/bear/bear2.txt
+Cacheing 'Harakiri0' from data/chars/bosses/harakiri/harakiri0.txt
+Cacheing 'Harakiri1' from data/chars/bosses/harakiri/harakiri1.txt
+Cacheing 'Harakiri2' from data/chars/bosses/harakiri/harakiri2.txt
+Cacheing 'Particle0' from data/chars/bosses/particle/particle0.txt
+Cacheing 'Particle1' from data/chars/bosses/particle/particle1.txt
+Cacheing 'Particle2' from data/chars/bosses/particle/particle2.txt
+Cacheing 'Particle3' from data/chars/bosses/particle/particle3.txt
+Cacheing 'Shiva0' from data/chars/bosses/shiva/shiva0.txt
+Cacheing 'Shiva1' from data/chars/bosses/shiva/shiva1.txt
+Cacheing 'Mrx0' from data/chars/bosses/mrx/mrx0.txt
+Cacheing 'Mrx1' from data/chars/bosses/mrx/mrx1.txt
+Cacheing 'Axel_' from data/chars/heroes/axel/axel_.txt
+Cacheing 'Axel_Bike_' from data/chars/heroes/axel/axel_bike_.txt
+Cacheing 'Blaze_' from data/chars/heroes/blaze/blaze_.txt
+Cacheing 'Blaze_Bike_' from data/chars/heroes/blaze/blaze_bike_.txt
+Cacheing 'Max_' from data/chars/heroes/max/max_.txt
+Cacheing 'Max_Bike_' from data/chars/heroes/max/max_bike_.txt
+Cacheing 'Sammy_' from data/chars/heroes/sammy/sammy_.txt
+Cacheing 'Sammy_Bike_' from data/chars/heroes/sammy/sammy_bike_.txt
+Cacheing 'Adam_' from data/chars/heroes/adam/adam_.txt
+Cacheing 'Adam_Bike_' from data/chars/heroes/adam/adam_bike_.txt
+Cacheing 'Zan_' from data/chars/heroes/zan/zan_.txt
+Cacheing 'Zan_Bike_' from data/chars/heroes/zan/zan_bike_.txt
+Cacheing 'St1_Siren' from data/bgs/sor3_st1/siren.txt
+Cacheing 'St1_Chains' from data/bgs/sor3_st1/chains.txt
+Cacheing 'St1_Waves' from data/bgs/sor3_st1/waves.txt
+Cacheing 'St1_Wave_Splash' from data/bgs/sor3_st1/wave_splash.txt
+Cacheing 'St1_Cat' from data/bgs/sor3_st1/cat.txt
+Cacheing 'St2_Telephone' from data/bgs/sor3_st2/telephone.txt
+Cacheing 'St2_Semaphore' from data/bgs/sor3_st2/semaphore.txt
+Cacheing 'St2_Smiley' from data/bgs/sor3_st2/smiley.txt
+Cacheing 'St2_Light' from data/bgs/sor3_st2/light.txt
+Cacheing 'St2_Light_B' from data/bgs/sor3_st2/light_b.txt
+Cacheing 'St2_Ground' from data/bgs/sor3_st2/ground.txt
+Cacheing 'St2_Disco1' from data/bgs/sor3_st2/disco1.txt
+Cacheing 'St2_Disco2' from data/bgs/sor3_st2/disco2.txt
+Cacheing 'St2_People' from data/bgs/sor3_st2/people.txt
+Cacheing 'St2_Blink' from data/bgs/sor3_st2/blink.txt
+Cacheing 'St2_Bar' from data/bgs/sor3_st2/bar.txt
+Cacheing 'St2_Fish1' from data/bgs/sor3_st2/fish1.txt
+Cacheing 'St2_Fish2' from data/bgs/sor3_st2/fish2.txt
+Cacheing 'St3_Lamps' from data/bgs/sor3_st3/lamps.txt
+Cacheing 'St3_Gate1' from data/bgs/sor3_st3/gate1.txt
+Cacheing 'St3_Gate1S' from data/bgs/sor3_st3/gate1S.txt
+Cacheing 'St3_Gate2' from data/bgs/sor3_st3/gate2.txt
+Cacheing 'St3_Siren' from data/bgs/sor3_st3/siren.txt
+Cacheing 'St3_Trash1' from data/bgs/sor3_st3/trash1.txt
+Cacheing 'St3_Trash2' from data/bgs/sor3_st3/trash2.txt
+Cacheing 'St3_City1' from data/bgs/sor3_st3/city1.txt
+Cacheing 'St3_City2' from data/bgs/sor3_st3/city2.txt
+Cacheing 'St3_Column' from data/bgs/sor3_st3/column.txt
+Cacheing 'St3_Elevator' from data/bgs/sor3_st3/elevator.txt
+Cacheing 'St3_ElevatorS' from data/bgs/sor3_st3/elevatorS.txt
+Cacheing 'St3_ElevatorG' from data/bgs/sor3_st3/elevatorG.txt
+Cacheing 'St4_Lights' from data/bgs/sor3_st4/lights.txt
+Cacheing 'St4_RailsX1' from data/bgs/sor3_st4/railsX1.txt
+Cacheing 'St4_RailsX2' from data/bgs/sor3_st4/railsX2.txt
+Cacheing 'St4_Lamps' from data/bgs/sor3_st4/lamps.txt
+Cacheing 'St4_Door1' from data/bgs/sor3_st4/door1.txt
+Cacheing 'St4_Door2' from data/bgs/sor3_st4/door2.txt
+Cacheing 'St5_Lamps' from data/bgs/sor3_st5/lamps.txt
+Cacheing 'St5_Lights' from data/bgs/sor3_st5/lights.txt
+Cacheing 'St5_Elevator' from data/bgs/sor3_st5/elevator.txt
+Cacheing 'St5_ElevatorS' from data/bgs/sor3_st5/elevatorS.txt
+Cacheing 'St5_City' from data/bgs/sor3_st5/city.txt
+Cacheing 'St6_Elevator' from data/bgs/sor3_st6/elevator.txt
+Cacheing 'St6_Panel1' from data/bgs/sor3_st6/panel1.txt
+Cacheing 'St6_Panel2' from data/bgs/sor3_st6/panel2.txt
+Cacheing 'St6_Lights' from data/bgs/sor3_st6/lights.txt
+Cacheing 'St6_City' from data/bgs/sor3_st6/city.txt
+Cacheing 'St6_Door1' from data/bgs/sor3_st6/door1.txt
+Cacheing 'St6_Door2' from data/bgs/sor3_st6/door2.txt
+Cacheing 'St6_Door3' from data/bgs/sor3_st6/door3.txt
+Cacheing 'St6_Door4' from data/bgs/sor3_st6/door4.txt
+Cacheing 'St6_Exit' from data/bgs/sor3_st6/exit.txt
+Cacheing 'St6_Locks' from data/bgs/sor3_st6/locks.txt
+Cacheing 'St6_Alarm' from data/bgs/sor3_st6/alarm.txt
+Cacheing 'St6_Gas' from data/bgs/sor3_st6/gas.txt
+Cacheing 'St7_Fountain' from data/bgs/sor3_st7/fountain.txt
+Cacheing 'St7_Mansion' from data/bgs/sor3_st7/mansion.txt
+Cacheing 'St7_Stage' from data/bgs/sor3_st7/stage.txt
+Cacheing 'St7_Light' from data/bgs/sor3_st7/light.txt
+Cacheing 'St7_Light_B' from data/bgs/sor3_st7/light_b.txt
+Cacheing 'St7_People' from data/bgs/sor3_st7/people.txt
+Cacheing 'St7_Tv' from data/bgs/sor3_st7/tv.txt
+Cacheing 'St7_Flash' from data/bgs/sor3_st7/flash.txt
+Cacheing 'St7_Truck' from data/bgs/sor3_st7/truck.txt
+Cacheing 'St8_Lights' from data/bgs/sor3_st8/lights.txt
+Cacheing 'St8_Machine1' from data/bgs/sor3_st8/machine1.txt
+Cacheing 'St8_Machine1S' from data/bgs/sor3_st8/machine1S.txt
+Cacheing 'St8_Machine2' from data/bgs/sor3_st8/machine2.txt
+Cacheing 'St8_Machine2S' from data/bgs/sor3_st8/machine2S.txt
+Cacheing 'St8_Machine3' from data/bgs/sor3_st8/machine3.txt
+Cacheing 'St8_Machine3Sa' from data/bgs/sor3_st8/machine3Sa.txt
+Cacheing 'St8_Machine3Sb' from data/bgs/sor3_st8/machine3Sb.txt
+Cacheing 'St8_Machine3Sc' from data/bgs/sor3_st8/machine3Sc.txt
+Cacheing 'St8_Leds' from data/bgs/sor3_st8/leds.txt
+Cacheing 'St8_Computer' from data/bgs/sor3_st8/computer.txt
+Cacheing 'St8_ElevatorF' from data/bgs/sor3_st8/elevatorF.txt
+Cacheing 'St8_ElevatorFS' from data/bgs/sor3_st8/elevatorFS.txt
+Cacheing 'St8_Bush' from data/bgs/sor3_st8/bush.txt
+Cacheing 'St8_Doctor' from data/bgs/sor3_st8/doctor.txt
+Cacheing 'St8_DoctorS' from data/bgs/sor3_st8/doctorS.txt
+Cacheing 'St8_Cannon' from data/bgs/sor3_st8/cannon.txt
+Cacheing 'St8_Laser' from data/bgs/sor3_st8/laser.txt
+Cacheing 'St8_Dr_Zero' from data/bgs/sor3_st8/zero.txt
+Cacheing 'St8_Ray' from data/bgs/sor3_st8/ray.txt
+Cacheing 'St8_Right_Wall' from data/bgs/sor3_st8/right_wall.txt
+Cacheing 'St8_Left_Wall' from data/bgs/sor3_st8/left_wall.txt
+Cacheing 'St8_Liquid' from data/bgs/sor3_st8/liquid.txt
+Cacheing 'St8_Bubble' from data/bgs/sor3_st8/bubble.txt
+Cacheing 'St8_Alarm' from data/bgs/sor3_st8/alarm.txt
+Cacheing 'St8_Emergency' from data/bgs/sor3_st8/emergency.txt
+Cacheing 'Slum' from data/chars/enemies/slum/slumP.txt
+Cacheing 'Vice' from data/chars/enemies/vice/viceP.txt
+Cacheing 'Garnet' from data/chars/enemies/garnet/garnetP.txt
+Cacheing 'Macleod' from data/chars/enemies/macleod/macleodP.txt
+Cacheing 'Common_Shot' from data/chars/enemies/macleod/shot/shot.txt
+Cacheing 'Tiger' from data/chars/enemies/tiger/tigerP.txt
+Cacheing 'P1' from data/chars/enemies/p1/p1P.txt
+Cacheing 'P1_Laser' from data/chars/enemies/p1/laser/laser.txt
+Cacheing 'Bongo' from data/chars/enemies/bongo/bongoP.txt
+Cacheing 'Bongo_Fire' from data/chars/enemies/bongo/fire/fire.txt
+Cacheing 'Bongo_Fire_B' from data/chars/enemies/bongo/fire/fire_b.txt
+Cacheing 'Electra' from data/chars/enemies/electra/electraP.txt
+Cacheing 'Ash' from data/chars/enemies/ash/ashP.txt
+Cacheing 'Bruce' from data/chars/enemies/bruce/bruceP.txt
+Cacheing 'Roo' from data/chars/enemies/roo/rooP.txt
+Cacheing 'Monalisa' from data/chars/bosses/monalisa/monalisaP.txt
+Cacheing 'Monalisa_Wave' from data/chars/bosses/monalisa/wave/wave.txt
+Cacheing 'Monalisa_WaveR' from data/chars/bosses/monalisa/wave/waveR.txt
+Cacheing 'MonalisaS' from data/chars/bosses/monalisa/monalisaS.txt
+Cacheing 'Break' from data/chars/heroes/axel/breakP.txt
+Cacheing 'BreakS' from data/chars/heroes/axel/breakS.txt
+Cacheing 'Yamato' from data/chars/bosses/yamato/yamatoP.txt
+Cacheing 'Yamato_Star' from data/chars/bosses/yamato/star/star.txt
+Cacheing 'Yamato_Double' from data/chars/bosses/yamato/yamato_double.txt
+Cacheing 'YamatoS' from data/chars/bosses/yamato/yamatoS.txt
+Cacheing 'Yamato_DoubleS' from data/chars/bosses/yamato/yamato_doubleS.txt
+Cacheing 'Robot_X' from data/chars/bosses/robotx/robotxP.txt
+Cacheing 'Robotx_Shot' from data/chars/bosses/robotx/shot/shot.txt
+Cacheing 'Robotx_Missile' from data/chars/bosses/robotx/missile/missile.txt
+Cacheing 'RobotxS' from data/chars/bosses/robotx/robotxS.txt
+Cacheing 'Jet_' from data/chars/bosses/rocket/rocketP.txt
+Cacheing 'Rocket_Bomb' from data/chars/bosses/rocket/bomb/bomb.txt
+Cacheing 'Rocket_FireBall' from data/chars/bosses/rocket/fireball/fireball.txt
+Cacheing 'Rocket_FireBall_B' from data/chars/bosses/rocket/fireball/fireball_b.txt
+Cacheing 'RocketS' from data/chars/bosses/rocket/rocketS.txt
+Cacheing 'Shiva_' from data/chars/bosses/shivabot/shiva_botP.txt
+Cacheing 'Shiva_BotS' from data/chars/bosses/shivabot/shiva_botS.txt
+Cacheing 'Neo._X' from data/chars/bosses/neox/neoxP.txt
+Cacheing 'Neox_Missile' from data/chars/bosses/neox/missile/missile.txt
+Cacheing 'Neox_Missile_Fake' from data/chars/bosses/neox/missile_fake/missile_fake.txt
+Cacheing 'NeoxS' from data/chars/bosses/neox/neoxS.txt
+Cacheing 'Slum0' from data/chars/enemies/slum/slum0.txt
+Cacheing 'Slum1' from data/chars/enemies/slum/slum1.txt
+Cacheing 'Slum2' from data/chars/enemies/slum/slum2.txt
+Cacheing 'Slum3' from data/chars/enemies/slum/slum3.txt
+Cacheing 'Slum4' from data/chars/enemies/slum/slum4.txt
+Cacheing 'Slum0_Hide' from data/chars/enemies/slum/slum0_hide.txt
+Cacheing 'Slum2_Hide' from data/chars/enemies/slum/slum2_hide.txt
+Cacheing 'Slum2_Wait' from data/chars/enemies/slum/slum2_wait.txt
+Cacheing 'Vice0' from data/chars/enemies/vice/vice0.txt
+Cacheing 'Vice1' from data/chars/enemies/vice/vice1.txt
+Cacheing 'Vice2' from data/chars/enemies/vice/vice2.txt
+Cacheing 'Vice3' from data/chars/enemies/vice/vice3.txt
+Cacheing 'Vice4' from data/chars/enemies/vice/vice4.txt
+Cacheing 'Vice0_Hide' from data/chars/enemies/vice/vice0_hide.txt
+Cacheing 'Vice2_Hide' from data/chars/enemies/vice/vice2_hide.txt
+Cacheing 'Garnet0' from data/chars/enemies/garnet/garnet0.txt
+Cacheing 'Garnet1' from data/chars/enemies/garnet/garnet1.txt
+Cacheing 'Garnet2' from data/chars/enemies/garnet/garnet2.txt
+Cacheing 'Garnet3' from data/chars/enemies/garnet/garnet3.txt
+Cacheing 'Garnet4' from data/chars/enemies/garnet/garnet4.txt
+Cacheing 'Garnet0_Hide' from data/chars/enemies/garnet/garnet0_hide.txt
+Cacheing 'Garnet1_Dance' from data/chars/enemies/garnet/garnet1_dance.txt
+Cacheing 'McBride0' from data/chars/enemies/mcbride/mcbride0.txt
+Cacheing 'McBride1' from data/chars/enemies/mcbride/mcbride1.txt
+Cacheing 'McBride1_Wait' from data/chars/enemies/mcbride/mcbride1_wait.txt
+Cacheing 'Maclean0' from data/chars/enemies/maclean/maclean0.txt
+Cacheing 'Maclean1' from data/chars/enemies/maclean/maclean1.txt
+Cacheing 'Maclean1_Wait' from data/chars/enemies/maclean/maclean1_wait.txt
+Cacheing 'Macleod0' from data/chars/enemies/macleod/macleod0.txt
+Cacheing 'Macleod1' from data/chars/enemies/macleod/macleod1.txt
+Cacheing 'Macleod1_Wait' from data/chars/enemies/macleod/macleod1_wait.txt
+Cacheing 'Tiger0' from data/chars/enemies/tiger/tiger0.txt
+Cacheing 'Tiger1' from data/chars/enemies/tiger/tiger1.txt
+Cacheing 'Tiger2' from data/chars/enemies/tiger/tiger2.txt
+Cacheing 'Tiger3' from data/chars/enemies/tiger/tiger3.txt
+Cacheing 'Tiger4' from data/chars/enemies/tiger/tiger4.txt
+Cacheing 'P10' from data/chars/enemies/p1/p10.txt
+Cacheing 'P11' from data/chars/enemies/p1/p11.txt
+Cacheing 'P12' from data/chars/enemies/p1/p12.txt
+Cacheing 'P13' from data/chars/enemies/p1/p13.txt
+Cacheing 'P14' from data/chars/enemies/p1/p14.txt
+Cacheing 'Bongo0' from data/chars/enemies/bongo/bongo0.txt
+Cacheing 'Bongo1' from data/chars/enemies/bongo/bongo1.txt
+Cacheing 'Bongo2' from data/chars/enemies/bongo/bongo2.txt
+Cacheing 'Bongo3' from data/chars/enemies/bongo/bongo3.txt
+Cacheing 'Bongo4' from data/chars/enemies/bongo/bongo4.txt
+Cacheing 'Bongo0_Hide' from data/chars/enemies/bongo/bongo0_hide.txt
+Cacheing 'Bongo1_Wait' from data/chars/enemies/bongo/bongo1_wait.txt
+Cacheing 'Electra0' from data/chars/enemies/electra/electra0.txt
+Cacheing 'Electra1' from data/chars/enemies/electra/electra1.txt
+Cacheing 'Electra2' from data/chars/enemies/electra/electra2.txt
+Cacheing 'Electra3' from data/chars/enemies/electra/electra3.txt
+Cacheing 'Electra4' from data/chars/enemies/electra/electra4.txt
+Cacheing 'Electra0_Wait' from data/chars/enemies/electra/electra0_wait.txt
+Cacheing 'Electra2_Wait' from data/chars/enemies/electra/electra2_wait.txt
+Cacheing 'Ash0' from data/chars/enemies/ash/ash0.txt
+Cacheing 'Ash1' from data/chars/enemies/ash/ash1.txt
+Cacheing 'Ash_Boat' from data/chars/enemies/ash/ash_boat.txt
+Cacheing 'Bruce0' from data/chars/enemies/bruce/bruce0.txt
+Cacheing 'Bruce1' from data/chars/enemies/bruce/bruce1.txt
+Cacheing 'Roo0' from data/chars/enemies/roo/roo0.txt
+Cacheing 'Roo1' from data/chars/enemies/roo/roo1.txt
+Cacheing 'Trap' from data/chars/trap/trap.txt
+Cacheing 'Arm' from data/chars/enemies/arm/arm.txt
+Cacheing 'Monalisa0' from data/chars/bosses/monalisa/monalisa0.txt
+Cacheing 'Monalisa1' from data/chars/bosses/monalisa/monalisa1.txt
+Cacheing 'Monalisa2' from data/chars/bosses/monalisa/monalisa2.txt
+Cacheing 'Monalisa3' from data/chars/bosses/monalisa/monalisa3.txt
+Cacheing 'Break0' from data/chars/heroes/axel/break0.txt
+Cacheing 'Break1' from data/chars/heroes/axel/break1.txt
+Cacheing 'Yamato0' from data/chars/bosses/yamato/yamato0.txt
+Cacheing 'Yamato1' from data/chars/bosses/yamato/yamato1.txt
+Cacheing 'Yamato2' from data/chars/bosses/yamato/yamato2.txt
+Cacheing 'Yamato3' from data/chars/bosses/yamato/yamato3.txt
+Cacheing 'Robotx0' from data/chars/bosses/robotx/robotx0.txt
+Cacheing 'Robotx1' from data/chars/bosses/robotx/robotx1.txt
+Cacheing 'Robotx2' from data/chars/bosses/robotx/robotx2.txt
+Cacheing 'Rocket0' from data/chars/bosses/rocket/rocket0.txt
+Cacheing 'Rocket1' from data/chars/bosses/rocket/rocket1.txt
+Cacheing 'Rocket_Rescue' from data/chars/bosses/rocket/rocket_rescue.txt
+Cacheing 'Neox0' from data/chars/bosses/neox/neox0.txt
+Cacheing 'Neox1' from data/chars/bosses/neox/neox1.txt
+Cacheing 'Shiva_Bot0' from data/chars/bosses/shivabot/shiva_bot0.txt
+Cacheing 'Shiva_Bot1' from data/chars/bosses/shivabot/shiva_bot1.txt
+Cacheing 'Shiva_Bot2' from data/chars/bosses/shivabot/shiva_bot2.txt
+Cacheing 'BasicX0' from data/chars/random/basicX0.txt
+Cacheing 'BasicX1' from data/chars/random/basicX1.txt
+Cacheing 'BasicX2' from data/chars/random/basicX2.txt
+Cacheing 'BasicX3' from data/chars/random/basicX3.txt
+Cacheing 'BasicX4' from data/chars/random/basicX4.txt
+Cacheing 'BasicX0b' from data/chars/random/basicX0b.txt
+Cacheing 'BasicX1b' from data/chars/random/basicX1b.txt
+Cacheing 'BasicX2b' from data/chars/random/basicX2b.txt
+Cacheing 'BasicX3b' from data/chars/random/basicX3b.txt
+Cacheing 'BasicX4b' from data/chars/random/basicX4b.txt
+Cacheing 'SignalX' from data/chars/random/signalx.txt
+Cacheing 'FogX' from data/chars/random/fogX.txt
+Cacheing 'MotoX0' from data/chars/random/motoX0.txt
+Cacheing 'MotoX1' from data/chars/random/motoX1.txt
+Cacheing 'HakuyoX' from data/chars/random/hakuyoX.txt
+Cacheing 'KusanagiX' from data/chars/random/kusanagiX.txt
+Cacheing 'RavenX' from data/chars/random/ravenX.txt
+Cacheing 'BigbenX' from data/chars/random/bigbenX.txt
+Cacheing 'ReineX' from data/chars/random/reineX.txt
+Cacheing 'JetX' from data/chars/random/jetX.txt
+Cacheing 'ParticleX' from data/chars/random/particleX.txt
+Cacheing 'GarnetX' from data/chars/random/garnetX.txt
+Cacheing 'BodyGuardX' from data/chars/random/bodyguardX.txt
+Cacheing 'TigerX' from data/chars/random/tigerX.txt
+Cacheing 'P1X' from data/chars/random/p1X.txt
+Cacheing 'BongoX' from data/chars/random/bongoX.txt
+Cacheing 'ElectraX' from data/chars/random/electraX.txt
+Cacheing 'BossX' from data/chars/random/bossX.txt
+Cacheing 'WeaponX' from data/chars/random/weaponX.txt
+Cacheing 'FoodX' from data/chars/random/foodX.txt
+Cacheing 'spawnTime' from data/chars/random/spawnTime.txt
+
+Loaded 'Flash' from data/chars/misc/flash/flash.txt 
+Loaded 'Flash_B' from data/chars/misc/flash/flash_b.txt 
+Loaded 'NoFlash' from data/chars/misc/flash/noflash.txt 
+Loaded 'Block' from data/chars/misc/block/block.txt 
+Loaded 'Block_B' from data/chars/misc/block/block_b.txt 
+Loaded 'Burn' from data/chars/misc/burn/burn.txt 
+Loaded 'Burn_B' from data/chars/misc/burn/burn_b.txt 
+Loaded 'Shock' from data/chars/misc/shock/shock.txt 
+Loaded 'Shock_B' from data/chars/misc/shock/shock_b.txt 
+Loaded 'Impact' from data/chars/misc/impact/impact.txt 
+Loaded 'Impact_B' from data/chars/misc/impact/impact_b.txt 
+Loaded 'Escape' from data/chars/misc/escape/escape.txt 
+Loaded 'Escape_B' from data/chars/misc/escape/escape_b.txt 
+Loaded 'Dust' from data/chars/misc/dust/dust.txt 
+Loaded 'Dust_B' from data/chars/misc/dust/dust_b.txt 
+Loaded 'Blast' from data/chars/misc/explosion/blast.txt 
+Loaded 'Destruction' from data/chars/misc/explosion/destruction.txt 
+Loaded 'Destruction_B' from data/chars/misc/explosion/destruction_b.txt 
+Loaded 'Explosion' from data/chars/misc/explosion/explosion.txt 
+Loaded 'Explosion_B' from data/chars/misc/explosion/explosion_b.txt 
+Loaded 'QuakeLow' from data/chars/misc/quake/quakelow.txt 
+Loaded 'QuakeHigh' from data/chars/misc/quake/quakehigh.txt 
+Loaded 'Smoke' from data/chars/misc/smoke/smoke.txt 
+Loaded 'Smoke_B' from data/chars/misc/smoke/smoke_b.txt 
+Loaded 'Gas' from data/chars/misc/gas/gas.txt 
+Loaded 'Gas_B' from data/chars/misc/gas/gas_b.txt 
+Loaded 'BloodHit' from data/chars/misc/bloodhit/bloodhit.txt 
+Loaded 'LaserHit' from data/chars/misc/laserhit/laserhit.txt 
+Loaded 'FallHit' from data/chars/misc/fallhit/fallhit.txt 
+Loaded 'Counter' from data/chars/misc/counter/counter.txt 
+Loaded 'Super' from data/chars/misc/super/super.txt 
+Loaded 'Rage' from data/chars/misc/rage/rage.txt 
+Loaded 'RageSpend' from data/chars/misc/rage/ragespend.txt 
+Loaded 'Splash' from data/chars/misc/splash/splash.txt 
+Loaded 'Water' from data/chars/misc/water/water.txt 
+Loaded 'Nitro' from data/chars/misc/nitro/nitro.txt 
+Loaded 'knife' from data/chars/weapons/knife.txt 
+Loaded 'knifeT' from data/chars/weapons/knifeT.txt 
+Loaded 'kunai' from data/chars/weapons/kunai.txt 
+Loaded 'kunaiT' from data/chars/weapons/kunaiT.txt 
+Loaded 'pipe' from data/chars/weapons/pipe.txt 
+Loaded 'pipeT' from data/chars/weapons/pipeT.txt 
+Loaded 'sword' from data/chars/weapons/sword.txt 
+Loaded 'swordT' from data/chars/weapons/swordT.txt 
+Loaded 'cartridge' from data/chars/weapons/cartridge.txt 
+Loaded '1up' from data/chars/itens/1up.txt 
+Loaded 'Apple' from data/chars/itens/apple.txt 
+Loaded 'Cash' from data/chars/itens/cash.txt 
+Loaded 'Chicken' from data/chars/itens/chicken.txt 
+Loaded 'Gold' from data/chars/itens/gold.txt 
+Loaded 'None' from data/chars/itens/none.txt 
+Loaded 'select_back' from data/bgs/select/select_back.txt 
+Loaded 'cursor' from data/bgs/select/cursor.txt 
+Loaded 'Route_Up' from data/bgs/route/route_up.txt 
+Loaded 'Route_Down' from data/bgs/route/route_down.txt 
+Loaded 'Route_Left' from data/bgs/route/route_left.txt 
+Loaded 'Route_Right' from data/bgs/route/route_right.txt 
+Loaded 'RouteS' from data/bgs/route/routeS.txt 
+Loaded 'Moves' from data/chars/misc/text/moves.txt 
+Loaded '0' from data/chars/misc/text/0.txt 
+Loaded '1' from data/chars/misc/text/1.txt 
+Loaded '2' from data/chars/misc/text/2.txt 
+Loaded '3' from data/chars/misc/text/3.txt 
+Loaded '4' from data/chars/misc/text/4.txt 
+Loaded '5' from data/chars/misc/text/5.txt 
+Loaded '6' from data/chars/misc/text/6.txt 
+Loaded '7' from data/chars/misc/text/7.txt 
+Loaded '8' from data/chars/misc/text/8.txt 
+Loaded '9' from data/chars/misc/text/9.txt 
+Loaded 'Null' from data/chars/misc/text/null.txt 
+Loaded 'Axel' from data/chars/heroes/axel/axel.txt 
+Loaded 'Axel_Slash' from data/chars/heroes/axel/slash/slash.txt 
+Loaded 'Axel_SlashS' from data/chars/heroes/axel/slash/slashS.txt 
+Loaded 'AxelS' from data/chars/heroes/axel/axelS.txt 
+Loaded 'AxelSW' from data/chars/heroes/axel/axelSW.txt 
+Loaded 'Axel_Knife' from data/chars/heroes/axel/axel_knife.txt 
+Loaded 'Axel_Sword' from data/chars/heroes/axel/axel_sword.txt 
+Loaded 'Axel_Pipe' from data/chars/heroes/axel/axel_pipe.txt 
+Loaded 'Axel_Kunai' from data/chars/heroes/axel/axel_kunai.txt 
+Loaded 'Axel_Bike' from data/chars/heroes/axel/axel_bike.txt 
+Loaded 'Blaze' from data/chars/heroes/blaze/blaze.txt 
+Loaded 'Blaze_Orb' from data/chars/heroes/blaze/orb/orb.txt 
+Loaded 'Blaze_Orb_B' from data/chars/heroes/blaze/orb/orb_b.txt 
+Loaded 'BlazeS' from data/chars/heroes/blaze/blazeS.txt 
+Loaded 'BlazeSW' from data/chars/heroes/blaze/blazeSW.txt 
+Loaded 'Blaze_Knife' from data/chars/heroes/blaze/blaze_knife.txt 
+Loaded 'Blaze_Sword' from data/chars/heroes/blaze/blaze_sword.txt 
+Loaded 'Blaze_Pipe' from data/chars/heroes/blaze/blaze_pipe.txt 
+Loaded 'Blaze_Kunai' from data/chars/heroes/blaze/blaze_kunai.txt 
+Loaded 'Blaze_Bike' from data/chars/heroes/blaze/blaze_bike.txt 
+Loaded 'Max' from data/chars/heroes/max/max.txt 
+Loaded 'MaxS' from data/chars/heroes/max/maxS.txt 
+Loaded 'MaxSW' from data/chars/heroes/max/maxSW.txt 
+Loaded 'Max_Knife' from data/chars/heroes/max/max_knife.txt 
+Loaded 'Max_Sword' from data/chars/heroes/max/max_sword.txt 
+Loaded 'Max_Pipe' from data/chars/heroes/max/max_pipe.txt 
+Loaded 'Max_Kunai' from data/chars/heroes/max/max_kunai.txt 
+Loaded 'Max_Bike' from data/chars/heroes/max/max_bike.txt 
+Loaded 'Sammy' from data/chars/heroes/sammy/sammy.txt 
+Loaded 'SammyS' from data/chars/heroes/sammy/sammyS.txt 
+Loaded 'SammySW' from data/chars/heroes/sammy/sammySW.txt 
+Loaded 'Sammy_Knife' from data/chars/heroes/sammy/sammy_knife.txt 
+Loaded 'Sammy_Sword' from data/chars/heroes/sammy/sammy_sword.txt 
+Loaded 'Sammy_Pipe' from data/chars/heroes/sammy/sammy_pipe.txt 
+Loaded 'Sammy_Kunai' from data/chars/heroes/sammy/sammy_kunai.txt 
+Loaded 'Sammy_Bike' from data/chars/heroes/sammy/sammy_bike.txt 
+Loaded 'Adam' from data/chars/heroes/adam/adam.txt 
+Loaded 'Adam_Wave' from data/chars/heroes/adam/wave/wave.txt 
+Loaded 'AdamS' from data/chars/heroes/adam/adamS.txt 
+Loaded 'AdamSW' from data/chars/heroes/adam/adamSW.txt 
+Loaded 'Adam_Knife' from data/chars/heroes/adam/adam_knife.txt 
+Loaded 'Adam_Sword' from data/chars/heroes/adam/adam_sword.txt 
+Loaded 'Adam_Pipe' from data/chars/heroes/adam/adam_pipe.txt 
+Loaded 'Adam_Kunai' from data/chars/heroes/adam/adam_kunai.txt 
+Loaded 'Adam_Bike' from data/chars/heroes/adam/adam_bike.txt 
+Loaded 'Zan' from data/chars/heroes/zan/zan.txt 
+Loaded 'Zan_Shot' from data/chars/heroes/zan/shot/shot.txt 
+Loaded 'Zan_Shot_B' from data/chars/heroes/zan/shot/shot_b.txt 
+Loaded 'Zan_Orb1' from data/chars/heroes/zan/orb/orb1.txt 
+Loaded 'Zan_Orb2' from data/chars/heroes/zan/orb/orb2.txt 
+Loaded 'Zan_Orb3' from data/chars/heroes/zan/orb/orb3.txt 
+Loaded 'Zan_OrbS' from data/chars/heroes/zan/orb/orbS.txt 
+Loaded 'ZanS' from data/chars/heroes/zan/zanS.txt 
+Loaded 'ZanSW' from data/chars/heroes/zan/zanSW.txt 
+Loaded 'Zan_Knife' from data/chars/heroes/zan/zan_knife.txt 
+Loaded 'Zan_Sword' from data/chars/heroes/zan/zan_sword.txt 
+Loaded 'Zan_Pipe' from data/chars/heroes/zan/zan_pipe.txt 
+Loaded 'Zan_Kunai' from data/chars/heroes/zan/zan_kunai.txt 
+Loaded 'Zan_Bike' from data/chars/heroes/zan/zan_bike.txt 
+Loaded 'Galsia' from data/chars/enemies/galsia/galsiaP.txt 
+Loaded 'Galsia_KnifeP' from data/chars/enemies/galsia/galsia_knifeP.txt 
+Loaded 'Donovan' from data/chars/enemies/donovan/donovanP.txt 
+Loaded 'Donovan_PipeP' from data/chars/enemies/donovan/donovan_pipeP.txt 
+Loaded 'Signal' from data/chars/enemies/signal/signalP.txt 
+Loaded 'Signal_Bottle1' from data/chars/enemies/signal/bottle/bottle1.txt 
+Loaded 'Signal_Bottle2' from data/chars/enemies/signal/bottle/bottle2.txt 
+Loaded 'Signal_Bottle3' from data/chars/enemies/signal/bottle/bottle3.txt 
+Loaded 'Fog' from data/chars/enemies/fog/fogP.txt 
+Loaded 'Fog_Grenade' from data/chars/enemies/fog/grenade/grenade.txt 
+Loaded 'Fog_Molotov' from data/chars/enemies/fog/molotov/molotov.txt 
+Loaded 'Fog_PipeP' from data/chars/enemies/fog/fog_pipeP.txt 
+Loaded 'Hakuyo' from data/chars/enemies/hakuyo/hakuyoP.txt 
+Loaded 'Kusanagi' from data/chars/enemies/kusanagi/kusanagiP.txt 
+Loaded 'Kusanagi_Star' from data/chars/enemies/kusanagi/star/star.txt 
+Loaded 'KusanagiS' from data/chars/enemies/kusanagi/kusanagiS.txt 
+Loaded 'KusanagiSW1' from data/chars/enemies/kusanagi/kusanagiSW1.txt 
+Loaded 'KusanagiSW2' from data/chars/enemies/kusanagi/kusanagiSW2.txt 
+Loaded 'Kusanagi_KunaiP' from data/chars/enemies/kusanagi/kusanagi_kunaiP.txt 
+Loaded 'Kusanagi_SwordP' from data/chars/enemies/kusanagi/kusanagi_swordP.txt 
+Loaded 'Raven' from data/chars/enemies/raven/ravenP.txt 
+Loaded 'Big-Ben' from data/chars/enemies/bigben/bigbenP.txt 
+Loaded 'Electra_' from data/chars/enemies/reine/reineP.txt 
+Loaded 'Reine_Shock' from data/chars/enemies/reine/whip/shock.txt 
+Loaded 'Reine_Whip' from data/chars/enemies/reine/whip/whip.txt 
+Loaded 'Jack' from data/chars/enemies/jack/jackP.txt 
+Loaded 'Jack_KnifeP' from data/chars/enemies/jack/jack_knifeP.txt 
+Loaded 'Barbon' from data/chars/bosses/barbon/barbonP.txt 
+Loaded 'BarbonS' from data/chars/bosses/barbon/barbonS.txt 
+Loaded 'Jet' from data/chars/bosses/jet/jetP.txt 
+Loaded 'JetS' from data/chars/bosses/jet/jetS.txt 
+Loaded 'Zamza' from data/chars/bosses/zamza/zamzaP.txt 
+Loaded 'ZamzaS' from data/chars/bosses/zamza/zamzaS.txt 
+Loaded 'Abadede' from data/chars/bosses/abadede/abadedeP.txt 
+Loaded 'AbadedeS' from data/chars/bosses/abadede/abadedeS.txt 
+Loaded 'R._Bear' from data/chars/bosses/bear/bearP.txt 
+Loaded 'BearS' from data/chars/bosses/bear/bearS.txt 
+Loaded 'Harakiri' from data/chars/bosses/harakiri/harakiriP.txt 
+Loaded 'Harakiri_Star' from data/chars/bosses/harakiri/star/star.txt 
+Loaded 'HarakiriS' from data/chars/bosses/harakiri/harakiriS.txt 
+Loaded 'Particle' from data/chars/bosses/particle/particleP.txt 
+Loaded 'Particle_Laser' from data/chars/bosses/particle/laser/laser.txt 
+Loaded 'Particle_LaserR' from data/chars/bosses/particle/laser/laserR.txt 
+Loaded 'Particle_LaserR_B' from data/chars/bosses/particle/laser/laserR_b.txt 
+Loaded 'ParticleS' from data/chars/bosses/particle/particleS.txt 
+Loaded 'Shiva' from data/chars/bosses/shiva/shivaP.txt 
+Loaded 'ShivaS' from data/chars/bosses/shiva/shivaS.txt 
+Loaded 'Mr._X' from data/chars/bosses/mrx/mrxP.txt 
+Loaded 'Mrx_Shot1' from data/chars/bosses/mrx/shot/shot1.txt 
+Loaded 'Mrx_Shot2' from data/chars/bosses/mrx/shot/shot2.txt 
+Loaded 'Mrx_Shot3' from data/chars/bosses/mrx/shot/shot3.txt 
+Loaded 'Axel_' from data/chars/heroes/axel/axel_.txt 
+Loaded 'Axel_Bike_' from data/chars/heroes/axel/axel_bike_.txt 
+Loaded 'Blaze_' from data/chars/heroes/blaze/blaze_.txt 
+Loaded 'Blaze_Bike_' from data/chars/heroes/blaze/blaze_bike_.txt 
+Loaded 'Max_' from data/chars/heroes/max/max_.txt 
+Loaded 'Max_Bike_' from data/chars/heroes/max/max_bike_.txt 
+Loaded 'Sammy_' from data/chars/heroes/sammy/sammy_.txt 
+Loaded 'Sammy_Bike_' from data/chars/heroes/sammy/sammy_bike_.txt 
+Loaded 'Adam_' from data/chars/heroes/adam/adam_.txt 
+Loaded 'Adam_Bike_' from data/chars/heroes/adam/adam_bike_.txt 
+Loaded 'Zan_' from data/chars/heroes/zan/zan_.txt 
+Loaded 'Zan_Bike_' from data/chars/heroes/zan/zan_bike_.txt 
+Loaded 'Slum' from data/chars/enemies/slum/slumP.txt 
+Loaded 'Vice' from data/chars/enemies/vice/viceP.txt 
+Loaded 'Garnet' from data/chars/enemies/garnet/garnetP.txt 
+Loaded 'Macleod' from data/chars/enemies/macleod/macleodP.txt 
+Loaded 'Common_Shot' from data/chars/enemies/macleod/shot/shot.txt 
+Loaded 'Tiger' from data/chars/enemies/tiger/tigerP.txt 
+Loaded 'P-1' from data/chars/enemies/p1/p1P.txt 
+Loaded 'P1_Laser' from data/chars/enemies/p1/laser/laser.txt 
+Loaded 'Bongo' from data/chars/enemies/bongo/bongoP.txt 
+Loaded 'Bongo_Fire' from data/chars/enemies/bongo/fire/fire.txt 
+Loaded 'Bongo_Fire_B' from data/chars/enemies/bongo/fire/fire_b.txt 
+Loaded 'Electra' from data/chars/enemies/electra/electraP.txt 
+Loaded 'Ash' from data/chars/enemies/ash/ashP.txt 
+Loaded 'Bruce' from data/chars/enemies/bruce/bruceP.txt 
+Loaded 'Roo' from data/chars/enemies/roo/rooP.txt 
+Loaded 'Monalisa' from data/chars/bosses/monalisa/monalisaP.txt 
+Loaded 'Monalisa_Wave' from data/chars/bosses/monalisa/wave/wave.txt 
+Loaded 'Monalisa_WaveR' from data/chars/bosses/monalisa/wave/waveR.txt 
+Loaded 'MonalisaS' from data/chars/bosses/monalisa/monalisaS.txt 
+Loaded 'Break' from data/chars/heroes/axel/breakP.txt 
+Loaded 'BreakS' from data/chars/heroes/axel/breakS.txt 
+Loaded 'Yamato' from data/chars/bosses/yamato/yamatoP.txt 
+Loaded 'Yamato_Star' from data/chars/bosses/yamato/star/star.txt 
+Loaded 'Yamato_Double' from data/chars/bosses/yamato/yamato_double.txt 
+Loaded 'YamatoS' from data/chars/bosses/yamato/yamatoS.txt 
+Loaded 'Yamato_DoubleS' from data/chars/bosses/yamato/yamato_doubleS.txt 
+Loaded 'Robot_X' from data/chars/bosses/robotx/robotxP.txt 
+Loaded 'Robotx_Shot' from data/chars/bosses/robotx/shot/shot.txt 
+Loaded 'Robotx_Missile' from data/chars/bosses/robotx/missile/missile.txt 
+Loaded 'RobotxS' from data/chars/bosses/robotx/robotxS.txt 
+Loaded 'Jet_' from data/chars/bosses/rocket/rocketP.txt 
+Loaded 'Rocket_Bomb' from data/chars/bosses/rocket/bomb/bomb.txt 
+Loaded 'Rocket_FireBall' from data/chars/bosses/rocket/fireball/fireball.txt 
+Loaded 'Rocket_FireBall_B' from data/chars/bosses/rocket/fireball/fireball_b.txt 
+Loaded 'RocketS' from data/chars/bosses/rocket/rocketS.txt 
+Loaded 'Shiva_' from data/chars/bosses/shivabot/shiva_botP.txt 
+Loaded 'Shiva_BotS' from data/chars/bosses/shivabot/shiva_botS.txt 
+Loaded 'Neo._X' from data/chars/bosses/neox/neoxP.txt 
+Loaded 'Neox_Missile' from data/chars/bosses/neox/missile/missile.txt 
+Loaded 'Neox_Missile_Fake' from data/chars/bosses/neox/missile_fake/missile_fake.txt 
+Loaded 'NeoxS' from data/chars/bosses/neox/neoxS.txt 
+
+Loading models...............	Done!
+Object engine init...........	Done!
+Input init...................	
+2 joystick(s) found!
+1. UNKNOWN - 4 axes, 12 buttons, 1 hat(s)
+
+2. UNKNOWN - 8 axes, 15 buttons, 1 hat(s)
+Done!
+Create blending tables.......	Done!
+Save settings so far........	Done!
+
+
+Loaded 32-bit background 'data/bgs/logo'
+
+Can't play music file 'data/music/remix'
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Loaded 32-bit background 'data/bgs/title'
+
+Can't play music file 'data/music/remix'
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Loaded 32-bit background 'data/bgs/titleb'
+
+Can't play music file 'data/music/remix'
+Invalid filename used in openfilestream.
+Loaded 32-bit background 'data/bgs/select_default.png'
+Level Loading:   'data/levels/route.txt'
+Total Ram: 1636966400 Bytes
+ Free Ram: 354652160 Bytes
+ Used Ram: 66551808 Bytes
+
+Loaded 32-bit background 'data/bgs/loading1.png'
+
+Level Loaded:    'data/levels/route.txt'
+Total Ram: 1636966400 Bytes
+ Free Ram: 354136064 Bytes
+ Used Ram: 66616320 Bytes
+Total sprites mapped: 4910
+
+Level Unloading: 'data/levels/route.txt'
+Total Ram: 1636966400 Bytes
+ Free Ram: 352206848 Bytes
+ Used Ram: 66616320 Bytes
+
+RAM Status:
+Total Ram: 1636966400 Bytes
+ Free Ram: 352206848 Bytes
+ Used Ram: 66616320 Bytes
+
+
+Can't play music file 'data/music/gameover'
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Loaded 32-bit background 'data/bgs/hiscore'
+Loaded 32-bit background 'data/bgs/title'
+
+Can't play music file 'data/music/remix'
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+Video track: resolution=1920*1080, display resolution=1920*1080, 29.97 frames/second
+Audio track: 44100.000000 Hz, 1 channels, 32 bits/sample
+
+************ Shutting Down ************
+
+OpenBOR v3.0 Build , Compile Date: Sep 28 2020
+Presented by the OpenBOR Team.
+www.chronocrash.com
+OpenBOR is the open source continuation of Beats of Rage by Senile Team.
+
+Special thanks to SEGA and SNK.
+
+Total Ram: 1636966400 Bytes
+ Free Ram: 346902528 Bytes
+ Used Ram: 71241216 Bytes
+
+Release level data...........
+Done!
+
+Release graphics data........	Done!
+Release game data............
+
+Unload 'Flash' ............Done.
+Unload 'Flash_B' ............Done.
+Unload 'NoFlash' ............Done.
+Unload 'Block' ............Done.
+Unload 'Block_B' ............Done.
+Unload 'Burn' ............Done.
+Unload 'Burn_B' ............Done.
+Unload 'Shock' ............Done.
+Unload 'Shock_B' ............Done.
+Unload 'Impact' ............Done.
+Unload 'Impact_B' ............Done.
+Unload 'Escape' ............Done.
+Unload 'Escape_B' ............Done.
+Unload 'Dust' ............Done.
+Unload 'Dust_B' ............Done.
+Unload 'Blast' ............Done.
+Unload 'Destruction' ............Done.
+Unload 'Destruction_B' ............Done.
+Unload 'Explosion' ............Done.
+Unload 'Explosion_B' ............Done.
+Unload 'QuakeLow' ............Done.
+Unload 'QuakeHigh' ............Done.
+Unload 'Smoke' ............Done.
+Unload 'Smoke_B' ............Done.
+Unload 'Gas' ............Done.
+Unload 'Gas_B' ............Done.
+Unload 'BloodHit' ............Done.
+Unload 'LaserHit' ............Done.
+Unload 'FallHit' ............Done.
+Unload 'Counter' ............Done.
+Unload 'Super' ............Done.
+Unload 'Rage' ............Done.
+Unload 'RageSpend' ............Done.
+Unload 'Splash' ............Done.
+Unload 'Water' ............Done.
+Unload 'Nitro' ............Done.
+Unload 'knife' ............Done.
+Unload 'knifeT' ............Done.
+Unload 'kunai' ............Done.
+Unload 'kunaiT' ............Done.
+Unload 'pipe' ............Done.
+Unload 'pipeT' ............Done.
+Unload 'sword' ............Done.
+Unload 'swordT' ............Done.
+Unload 'cartridge' ............Done.
+Unload '1up' ............Done.
+Unload 'Apple' ............Done.
+Unload 'Cash' ............Done.
+Unload 'Chicken' ............Done.
+Unload 'Gold' ............Done.
+Unload 'None' ............Done.
+Unload 'select_back' ............Done.
+Unload 'cursor' ............Done.
+Unload 'Route_Up' ............Done.
+Unload 'Route_Down' ............Done.
+Unload 'Route_Left' ............Done.
+Unload 'Route_Right' ............Done.
+Unload 'RouteS' ............Done.
+Unload 'Moves' ............Done.
+Unload '0' ............Done.
+Unload '1' ............Done.
+Unload '2' ............Done.
+Unload '3' ............Done.
+Unload '4' ............Done.
+Unload '5' ............Done.
+Unload '6' ............Done.
+Unload '7' ............Done.
+Unload '8' ............Done.
+Unload '9' ............Done.
+Unload 'Null' ............Done.
+Unload 'Axel' ............Done.
+Unload 'Axel_Slash' ............Done.
+Unload 'Axel_SlashS' ............Done.
+Unload 'AxelS' ............Done.
+Unload 'AxelSW' ............Done.
+Unload 'Axel_Knife' ............Done.
+Unload 'Axel_Sword' ............Done.
+Unload 'Axel_Pipe' ............Done.
+Unload 'Axel_Kunai' ............Done.
+Unload 'Axel_Bike' ............Done.
+Unload 'Blaze' ............Done.
+Unload 'Blaze_Orb' ............Done.
+Unload 'Blaze_Orb_B' ............Done.
+Unload 'BlazeS' ............Done.
+Unload 'BlazeSW' ............Done.
+Unload 'Blaze_Knife' ............Done.
+Unload 'Blaze_Sword' ............Done.
+Unload 'Blaze_Pipe' ............Done.
+Unload 'Blaze_Kunai' ............Done.
+Unload 'Blaze_Bike' ............Done.
+Unload 'Max' ............Done.
+Unload 'MaxS' ............Done.
+Unload 'MaxSW' ............Done.
+Unload 'Max_Knife' ............Done.
+Unload 'Max_Sword' ............Done.
+Unload 'Max_Pipe' ............Done.
+Unload 'Max_Kunai' ............Done.
+Unload 'Max_Bike' ............Done.
+Unload 'Sammy' ............Done.
+Unload 'SammyS' ............Done.
+Unload 'SammySW' ............Done.
+Unload 'Sammy_Knife' ............Done.
+Unload 'Sammy_Sword' ............Done.
+Unload 'Sammy_Pipe' ............Done.
+Unload 'Sammy_Kunai' ............Done.
+Unload 'Sammy_Bike' ............Done.
+Unload 'Adam' ............Done.
+Unload 'Adam_Wave' ............Done.
+Unload 'AdamS' ............Done.
+Unload 'AdamSW' ............Done.
+Unload 'Adam_Knife' ............Done.
+Unload 'Adam_Sword' ............Done.
+Unload 'Adam_Pipe' ............Done.
+Unload 'Adam_Kunai' ............Done.
+Unload 'Adam_Bike' ............Done.
+Unload 'Zan' ............Done.
+Unload 'Zan_Shot' ............Done.
+Unload 'Zan_Shot_B' ............Done.
+Unload 'Zan_Orb1' ............Done.
+Unload 'Zan_Orb2' ............Done.
+Unload 'Zan_Orb3' ............Done.
+Unload 'Zan_OrbS' ............Done.
+Unload 'ZanS' ............Done.
+Unload 'ZanSW' ............Done.
+Unload 'Zan_Knife' ............Done.
+Unload 'Zan_Sword' ............Done.
+Unload 'Zan_Pipe' ............Done.
+Unload 'Zan_Kunai' ............Done.
+Unload 'Zan_Bike' ............Done.
+Unload 'Galsia' ............Done.
+Unload 'Galsia_KnifeP' ............Done.
+Unload 'Donovan' ............Done.
+Unload 'Donovan_PipeP' ............Done.
+Unload 'Signal' ............Done.
+Unload 'Signal_Bottle1' ............Done.
+Unload 'Signal_Bottle2' ............Done.
+Unload 'Signal_Bottle3' ............Done.
+Unload 'Fog' ............Done.
+Unload 'Fog_Grenade' ............Done.
+Unload 'Fog_Molotov' ............Done.
+Unload 'Fog_PipeP' ............Done.
+Unload 'Hakuyo' ............Done.
+Unload 'Kusanagi' ............Done.
+Unload 'Kusanagi_Star' ............Done.
+Unload 'KusanagiS' ............Done.
+Unload 'KusanagiSW1' ............Done.
+Unload 'KusanagiSW2' ............Done.
+Unload 'Kusanagi_KunaiP' ............Done.
+Unload 'Kusanagi_SwordP' ............Done.
+Unload 'Raven' ............Done.
+Unload 'Big-Ben' ............Done.
+Unload 'Electra_' ............Done.
+Unload 'Reine_Shock' ............Done.
+Unload 'Reine_Whip' ............Done.
+Unload 'Jack' ............Done.
+Unload 'Jack_KnifeP' ............Done.
+Unload 'Barbon' ............Done.
+Unload 'BarbonS' ............Done.
+Unload 'Jet' ............Done.
+Unload 'JetS' ............Done.
+Unload 'Zamza' ............Done.
+Unload 'ZamzaS' ............Done.
+Unload 'Abadede' ............Done.
+Unload 'AbadedeS' ............Done.
+Unload 'R._Bear' ............Done.
+Unload 'BearS' ............Done.
+Unload 'Harakiri' ............Done.
+Unload 'Harakiri_Star' ............Done.
+Unload 'HarakiriS' ............Done.
+Unload 'Particle' ............Done.
+Unload 'Particle_Laser' ............Done.
+Unload 'Particle_LaserR' ............Done.
+Unload 'Particle_LaserR_B' ............Done.
+Unload 'ParticleS' ............Done.
+Unload 'Shiva' ............Done.
+Unload 'ShivaS' ............Done.
+Unload 'Mr._X' ............Done.
+Unload 'Mrx_Shot1' ............Done.
+Unload 'Mrx_Shot2' ............Done.
+Unload 'Mrx_Shot3' ............Done.
+Unload 'Axel_' ............Done.
+Unload 'Axel_Bike_' ............Done.
+Unload 'Blaze_' ............Done.
+Unload 'Blaze_Bike_' ............Done.
+Unload 'Max_' ............Done.
+Unload 'Max_Bike_' ............Done.
+Unload 'Sammy_' ............Done.
+Unload 'Sammy_Bike_' ............Done.
+Unload 'Adam_' ............Done.
+Unload 'Adam_Bike_' ............Done.
+Unload 'Zan_' ............Done.
+Unload 'Zan_Bike_' ............Done.
+Unload 'Slum' ............Done.
+Unload 'Vice' ............Done.
+Unload 'Garnet' ............Done.
+Unload 'Macleod' ............Done.
+Unload 'Common_Shot' ............Done.
+Unload 'Tiger' ............Done.
+Unload 'P-1' ............Done.
+Unload 'P1_Laser' ............Done.
+Unload 'Bongo' ............Done.
+Unload 'Bongo_Fire' ............Done.
+Unload 'Bongo_Fire_B' ............Done.
+Unload 'Electra' ............Done.
+Unload 'Ash' ............Done.
+Unload 'Bruce' ............Done.
+Unload 'Roo' ............Done.
+Unload 'Monalisa' ............Done.
+Unload 'Monalisa_Wave' ............Done.
+Unload 'Monalisa_WaveR' ............Done.
+Unload 'MonalisaS' ............Done.
+Unload 'Break' ............Done.
+Unload 'BreakS' ............Done.
+Unload 'Yamato' ............Done.
+Unload 'Yamato_Star' ............Done.
+Unload 'Yamato_Double' ............Done.
+Unload 'YamatoS' ............Done.
+Unload 'Yamato_DoubleS' ............Done.
+Unload 'Robot_X' ............Done.
+Unload 'Robotx_Shot' ............Done.
+Unload 'Robotx_Missile' ............Done.
+Unload 'RobotxS' ............Done.
+Unload 'Jet_' ............Done.
+Unload 'Rocket_Bomb' ............Done.
+Unload 'Rocket_FireBall' ............Done.
+Unload 'Rocket_FireBall_B' ............Done.
+Unload 'RocketS' ............Done.
+Unload 'Shiva_' ............Done.
+Unload 'Shiva_BotS' ............Done.
+Unload 'Neo._X' ............Done.
+Unload 'Neox_Missile' ............Done.
+Unload 'Neox_Missile_Fake' ............Done.
+Unload 'NeoxS' ............Done.
+
+Release game data............	Done!
+Release timer................	Done!
+Release input hardware.......	Done!
+Release sound system.........	Done!
+Release FileCaching System...	Done!
+
+**************** Done *****************
+
+OpenBOR v3.0 Build , Compile Date: Sep 28 2020
+Presented by the OpenBOR Team.
+www.chronocrash.com
+OpenBOR is the open source continuation of Beats of Rage by Senile Team.
+
+Special thanks to SEGA and SNK.
+

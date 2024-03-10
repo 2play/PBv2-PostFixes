@@ -1,0 +1,6 @@
+#neocd_bios = "CDZ"
+neocd_bios = "Front Loader"
+neocd_cdspeedhack = "On"
+neocd_loadskip = "On"
+neocd_per_content_saves = "Off"
+neocd_region = "Japan"
