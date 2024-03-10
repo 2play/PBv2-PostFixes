@@ -1,0 +1,20 @@
+;ZEsarUX sample configuration file
+;
+;Lines beginning with ; or # are ignored
+
+;Run zesarux with --help or --experthelp to see all the options
+--disableborder
+--disablefooter
+--vo sdl
+--ao sdl
+--hidemousepointer
+--fullscreen
+
+--smartloadpath /home/pi/RetroPie/roms/zxspectrum
+
+--joystickemulated Kempston
+
+;Remap Fire Event. Uncomment and amend if you wish to change the default button 3.
+;--joystickevent 3 Fire
+;Remap On-screen keyboard. Uncomment and amend if you wish to change the default button 5.
+;--joystickevent 5 Osdkeyboard
