@@ -40,7 +40,7 @@ dir_inp /home/pi/RetroPie/roms/mame-advmame/inp
 dir_memcard /home/pi/RetroPie/roms/mame-advmame/memcard
 dir_nvram /home/pi/RetroPie/roms/mame-advmame/nvram
 dir_rom /home/pi/RetroPie/roms/mame-advmame:/home/pi/RetroPie/roms/arcade:/home/pi/RetroPie/roms/lightgun:/home/pi/RetroPie/roms/spinner/:/home/pi/RetroPie/roms/trackball
-dir_sample /home/pi/RetroPie/BIOS/mame/samples
+dir_sample /opt/retropie/configs/mame-advmame/samples
 dir_snap /home/pi/RetroPie/roms/mame-advmame/snap
 dir_sta /home/pi/RetroPie/roms/mame-advmame/nvram
 display_adjust none
