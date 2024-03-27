@@ -17,20 +17,19 @@ $(tput bold)$(tput setaf 5)
 Date & Time     : `date +"%A, %e %B %Y, %r"`
 $(tput bold)$(tput setaf 7)
 ...SYSTEM INFO...$(tput sgr0)$(tput setaf 3)
-                            $(tput bold)Size 	Used	Avail 	Used%
-SD Boot         Partition: `df -h | grep '/dev/mmcblk[0-9]*p1' | awk '{print " "$2,"	"$3," 	"$4," 	 "$5}'`
-SD/USB Root     Partition: `df -h | grep '/dev/root' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
-Ext-USB/USBBoot Partition: `df -h | grep '/dev/sda1' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`$(tput sgr0)
+                          $(tput bold)Size 	Used	Avail 	Used%
+Int-SSD/HDD   Partition: `df -h | grep '/dev/sda3' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
+Int-SSD/HDD2  Partition: `df -h | grep '/dev/sda4' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
+Ext-USB       Partition: `df -h | grep '/dev/sda1' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
+SD Boot       Partition: `df -h | grep '/dev/mmcblk[0-9]*p1' | awk '{print " "$2,"	"$3," 	"$4," 	 "$5}'`
+SD/USB Root   Partition: `df -h | grep '/dev/root' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`$(tput sgr0)
 
-$(tput bold)$(tput setaf 7)`grep Model /proc/cpuinfo`$(tput sgr0)
-CPU & Board     : `tr -d '\0' </proc/device-tree/model`
-GPU Version     : Mali™-T764 ARM MP4 GPU
+$(tput bold)$(tput setaf 2)CPU         :`neofetch | grep "CPU" | cut -d ":" -f2`
+$(tput bold)$(tput setaf 2)GPU         :`neofetch | grep "GPU" | cut -d ":" -f2`$(tput sgr0)
 
-$(tput bold)$(tput setaf 1)SoC Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`
-CPU Cur. Speed  : `cpumxs=$(($(cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq)/1000)); printf "$cpumxs MHz"`
-GPU Cur. Speed  : `gpumxs=$(($(cat /sys/class/devfreq/ffa30000.gpu/cur_freq)/1000000)); printf "$gpumxs  MHz"`$(tput sgr0)
+$(tput bold)$(tput setaf 1)Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`$(tput sgr0)
 $(tput setaf 6)
-Memory          : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
-Local IP        : `hostname -I` 
+Memory      : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
+Local IP    : `hostname -I`
 $(tput setaf 7)$(tput sgr0)"
 source ~/.bashrc
