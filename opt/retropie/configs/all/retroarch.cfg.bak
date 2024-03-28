@@ -73,7 +73,7 @@ core_options_path = ""
 # Show startup screen in menu.
 # Is automatically set to false when seen for the first time.
 # This is only updated in config if config_save_on_exit is set to true, however.
-# rgui_show_start_screen = true
+# rgui_show_start_screen = false
 
 # Flushes config to disk on exit. Useful for menu as settings can be modified.
 # Overwrites the config. #include's and comments are not preserved.
@@ -113,6 +113,7 @@ input_joypad_driver = "udev"
 
 # Menu driver to use. ("rgui", "xmb", "glui")
 menu_driver = "ozone"
+ozone_menu_color_theme = "3"
 
 # Record driver. Used when recording video.
 # record_driver =
@@ -473,8 +474,6 @@ input_player1_y = "s"
 input_player1_x = "a"
 input_player1_start = "f6"
 input_player1_select = "f5"
-input_player1_start = "f6"
-input_player1_select = "f5"
 input_player1_l = "q"
 input_player1_r = "w"
 input_player1_left = "left"
@@ -608,7 +607,7 @@ input_rewind = "r"
 
 # Reset the content.
 # input_reset = h
-# input_reset = x
+input_reset = x
 
 # Cheats.
 # input_cheat_index_plus = y
@@ -660,8 +659,7 @@ input_rewind = "r"
 # input_disk_next =
 
 # Toggles menu.
-# input_menu_toggle = a
-input_menu_toggle = "f1"
+input_menu_toggle = a
 
 # Toggles display of on-screen technical statistics.
 # input_toggle_statistics =
@@ -884,7 +882,7 @@ rgui_browser_directory = "/home/pi/RetroPie/roms"
 
 # Directory to dump screenshots to.
 # screenshot_directory =
-screenshot_directory = "~/Screenshots"
+screenshot_directory = "~/ScreenShots"
 
 # Directory for joypad autoconfigs.
 # If a joypad is plugged in, that joypad will be autoconfigured if a config file
