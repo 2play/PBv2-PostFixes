@@ -1,5 +1,5 @@
 # PlayBox Project
-# 26.03.2022
+# 15.05.2024
 #clear
 echo "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
@@ -20,7 +20,7 @@ $(tput bold)$(tput setaf 7)
                             $(tput bold)Size 	Used	Avail 	Used%
 SD Boot         Partition: `df -h | grep '/dev/mmcblk[0-9]*p1' | awk '{print " "$2,"	"$3," 	"$4," 	 "$5}'`
 SD/USB Root     Partition: `df -h | grep '/dev/root' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`
-Ext-USB/USBBoot Partition: `df -h | grep '/dev/sda1' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`$(tput sgr0)
+Ext-USB/USBBoot Partition: `df -h | grep '/dev/sd.1' 	 | awk '{print " "$2,"	"$3,"	"$4," 	 "$5}'`$(tput sgr0)
 
 $(tput bold)$(tput setaf 7)`grep Model /proc/cpuinfo`$(tput sgr0)
 CPU & Board     : `tr -d '\0' </proc/device-tree/model`
