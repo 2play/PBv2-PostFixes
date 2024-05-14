@@ -1,0 +1,21 @@
+[Plymouth Theme]
+Name=cyanidepbv2
+Description=display a sci-fi ring
+Comment=created By Aditya Shakya (@adi1090x) PlayBox v2 Version By 2Play!
+ModuleName=script
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[script]
+ImageDir=/usr/share/plymouth/themes/cyanidepbv2
+ScriptFile=/usr/share/plymouth/themes/cyanidepbv2/cyanidepbv2.script
