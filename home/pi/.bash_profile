@@ -1,5 +1,5 @@
 # PlayBox Project
-# 25.03.2024
+# 03.2026
 #clear
 echo "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
@@ -29,7 +29,7 @@ $(tput bold)$(tput setaf 2)GPU         :`neofetch | grep "GPU" | cut -d ":" -f2`
 
 $(tput bold)$(tput setaf 1)Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`$(tput sgr0)
 $(tput setaf 6)
-Memory      : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
-Local IP    : `hostname -I`
+Memory          : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
+Local IP & WAN  : `ip route get 8.8.8.8 | awk '{print $7}'` / `curl -s https://api.ipify.org`
 $(tput setaf 7)$(tput sgr0)"
 source ~/.bashrc

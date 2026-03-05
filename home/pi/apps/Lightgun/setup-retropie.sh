@@ -1,0 +1,1 @@
+cp -v Borders/RetroArchBorders/* /opt/retropie/emulators/retroarch/overlays/
