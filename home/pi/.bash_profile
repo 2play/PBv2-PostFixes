@@ -29,7 +29,7 @@ $(tput bold)$(tput setaf 2)GPU         :`neofetch | grep "GPU" | cut -d ":" -f2`
 
 $(tput bold)$(tput setaf 1)Temperature : `exec -- /home/pi/PlayBox-Setup/.pb-fixes/_scripts/temperature.sh`$(tput sgr0)
 $(tput setaf 6)
-Memory          : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
-Local IP & WAN  : `ip route get 8.8.8.8 | awk '{print $7}'` / `curl -s https://api.ipify.org`
+Memory      : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
+LAN & WAN   : `ip route get 8.8.8.8 | awk '{print $7}'` / `curl -s https://api.ipify.org`
 $(tput setaf 7)$(tput sgr0)"
 source ~/.bashrc
