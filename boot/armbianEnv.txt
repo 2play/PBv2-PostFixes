@@ -7,12 +7,12 @@ rootfstype=ext4
 console=tty3
 #With plymouth splash
 #Rotate console vertical
-#extraargs=vt.global_cursor_default=0 quiet splash fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=3
+#extraargs=vt.global_cursor_default=0 quiet splash fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=0
 #Normal orientation
-#extraargs=vt.global_cursor_default=0 quiet splash plymouth.ignore-serial-consoles loglevel=3
+#extraargs=vt.global_cursor_default=0 quiet splash plymouth.ignore-serial-consoles loglevel=0
 #With no plymouth splash
 #Rotate console vertical
-#extraargs=vt.global_cursor_default=0 quiet fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=3
+#extraargs=vt.global_cursor_default=0 quiet fbcon=rotate:3 plymouth.ignore-serial-consoles loglevel=0
 #Normal orientation
-#extraargs=vt.global_cursor_default=0 quiet plymouth.ignore-serial-consoles loglevel=3
+#extraargs=vt.global_cursor_default=0 quiet plymouth.ignore-serial-consoles loglevel=0
 #usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
