@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=IPTVnator
-Exec=sh -c 'setsid /usr/bin/iptvnator %U >/dev/null 2>&1 &'
+Exec=sh -c 'setsid /opt/IPTVnator/iptvnator %U >/dev/null 2>&1 &'
 Terminal=true
 Type=Application
 Icon=iptvnator
