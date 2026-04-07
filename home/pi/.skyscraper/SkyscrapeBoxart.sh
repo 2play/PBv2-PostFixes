@@ -52,15 +52,17 @@ echo
 
 if [ -d "$sname" ]; then
     stop_es
-    Skyscraper -a artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
-    Skyscraper -a artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
+    ~/code/skysource/Skyscraper -a artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
+    ~/code/skysource/Skyscraper -a artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,
+	#~/code/skysource/Skyscraper "$@" -a artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
+    #~/code/skysource/Skyscraper "$@" -a artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
     rm -rf ~/.skyscraper/cache/"$sname"
 
     echo
     while true; do
         read -p 'Would you like to Skyscrape another system [y/n]? ' yn
         case $yn in
-            [Yy]*) ~/.skyscraper/2PSkyscrape_boxart.sh ;;
+            [Yy]*) ~/.skyscraper/SkyscrapeBoxart.sh ;;
             [Nn]*) break ;;
             *) echo "Please answer yes or no." ;;
         esac
