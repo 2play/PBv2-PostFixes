@@ -2,18 +2,24 @@
 # PlayBox Skyscraper BoxArt Wrapper with ES stop/start
 
 stop_es() {
-    if pgrep -x "emulationstation" >/dev/null; then
-        echo "[Stopping EmulationStation...]"
-        pkill -x "emulationstation"
-        while pgrep -x "emulationstation" >/dev/null; do
-            sleep 1
-        done
-    fi
+    clear
+	echo "[Stopping EmulationStation...]"
+	sleep 1
+	
+	# Stop ES
+    pkill -f emulationstation
+	
+    while pgrep -f emulationstation >/dev/null; do
+        sleep 2
+    done
+
+    # Extra delay to let esbgm service react
+    sleep 1
 }
 
 start_es() {
     echo "[Starting EmulationStation...]"
-    nohup emulationstation --no-splash >/tmp/es_restart.log 2>&1 &
+    nohup emulationstation --no-splash 2>/dev/null &
     disown
 }
 
@@ -52,17 +58,17 @@ echo
 
 if [ -d "$sname" ]; then
     stop_es
-    ~/code/skysource/Skyscraper -a artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
-    ~/code/skysource/Skyscraper -a artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,
-	#~/code/skysource/Skyscraper "$@" -a artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
-    #~/code/skysource/Skyscraper "$@" -a artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
+    ~/code/skysource/Skyscraper -a ~/.skyscraper/artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
+    ~/code/skysource/Skyscraper -a ~/.skyscraper/artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,
+	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
+    #~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
     rm -rf ~/.skyscraper/cache/"$sname"
 
     echo
     while true; do
         read -p 'Would you like to Skyscrape another system [y/n]? ' yn
         case $yn in
-            [Yy]*) ~/.skyscraper/SkyscrapeBoxart.sh ;;
+            [Yy]*) SkyscrapeBoxart ;;
             [Nn]*) break ;;
             *) echo "Please answer yes or no." ;;
         esac
@@ -70,7 +76,7 @@ if [ -d "$sname" ]; then
 
     cd "$HOME"
     clear
-    echo "[OK DONE!...]"
+    echo -e "[OK \033[32mDONE\033[0m!...]"
     sleep 1
     start_es
 fi
