@@ -59,7 +59,7 @@ echo
 if [ -d "$sname" ]; then
     stop_es
     ~/code/skysource/Skyscraper -a ~/.skyscraper/artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
-    ~/code/skysource/Skyscraper -a ~/.skyscraper/artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,
+    ~/code/skysource/Skyscraper -a ~/.skyscraper/artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
 	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artwork2P.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos
     #~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artwork2P.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
     rm -rf ~/.skyscraper/cache/"$sname"
