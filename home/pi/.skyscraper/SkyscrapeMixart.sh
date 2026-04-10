@@ -1,5 +1,8 @@
 #!/bin/bash
-# PlayBox Skyscraper MixArt Wrapper with ES stop/start
+# PlayBox Skyscraper BoxArt Wrapper with ES stop/start
+# Watch a video demonstrating the artwork compositing features here: https://youtu.be/TIDD8EFSz50
+# ReadThis For Extra help on manual scrapes: https://github.com/muldjord/skyscraper/blob/master/docs/ARTWORK.md
+# And here https://github.com/muldjord/skyscraper/tree/master?tab=readme-ov-file
 
 stop_es() {
     clear
@@ -58,10 +61,10 @@ echo
 
 if [ -d "$sname" ]; then
     stop_es
-    ~/code/skysource/Skyscraper -a ~/.skyscraper/artworkMix.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos;
-	~/code/skysource/Skyscraper -a ~/.skyscraper/artworkMix.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos
-	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artworkMix.xml -p "$sname" -s screenscraper --flags unattend,skipped,videos;
-	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artworkMix.xml -p "$sname" --flags unattend,skipped,nobrackets,relative,videos;
+    ~/code/skysource/Skyscraper -a ~/.skyscraper/artworkMix.xml -p "$sname" -s screenscraper --flags unattend,skipped,onlymissing,relative,theinfront,videos
+	~/code/skysource/Skyscraper -a ~/.skyscraper/artworkMix.xml -p "$sname" --flags unattend,skipped,onlymissing,relative,theinfront,videos
+	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artworkMix.xml -p "$sname" -s screenscraper --flags unattend,skipped,onlymissing,relative,theinfront,videos
+	#~/code/skysource/Skyscraper "$@" -a ~/.skyscraper/artworkMix.xml -p "$sname" --flags unattend,skipped,onlymissing,relative,theinfront,videos
     rm -rf ~/.skyscraper/cache/"$sname"
 
     echo
