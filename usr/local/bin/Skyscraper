@@ -2,6 +2,10 @@
 # The PlayBox Project
 # Copyright (C)2018-2026 2Play! (S.R.)
 # 04.2026
+# PlayBox Skyscraper BoxArt Wrapper with ES stop/start
+# Watch a video demonstrating the artwork compositing features here: https://youtu.be/TIDD8EFSz50
+# ReadThis For Extra help on manual scrapes: https://github.com/muldjord/skyscraper/blob/master/docs/ARTWORK.md
+# And here https://github.com/muldjord/skyscraper/tree/master?tab=readme-ov-file
 
 clear
 
@@ -41,10 +45,17 @@ check_and_run() {
     fi
 }
 
+stop_es
 check_and_run ~/code/skysource/Skyscraper --help
+	echo
+	echo -e "\033[32mAlso check the --flags settings\033[0m!..."
+	echo
+check_and_run ~/code/skysource/Skyscraper --flags help
     echo -e "[OK \033[32mDONE\033[0m!...]"
     sleep 1
-    #start_es
-	
-	
+	echo
+	read -n 1 -s -r -p "Press any key to continue..."
+	echo
+    
+start_es
 	
