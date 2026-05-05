@@ -1,5 +1,5 @@
 # PlayBox Project
-# 03.2026
+# 05.05.2026
 #clear
 echo "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
@@ -32,4 +32,46 @@ $(tput setaf 6)
 Memory      : `cat /proc/meminfo | grep MemFree | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk '{printf( "%.2f\n", $2 / 1024 )}'`MB (Total)
 LAN & WAN   : `ip route get 8.8.8.8 | awk '{print $7}'` / `curl -s https://api.ipify.org`
 $(tput setaf 7)$(tput sgr0)"
+
+# Detect location via IP
+city=$(curl -s ipinfo.io/city)
+country=$(curl -s ipinfo.io/country)
+location="$city,$country"
+#echo "[.] Detected location: $location"
+
+# Try AccuWeather RSS feed
+weather=$(curl -s "http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=$city" \
+    | sed -n '/Currently:/ s/.*: \(.*\): \([0-9]*\)\([CF]\).*/\2°\3, \1/p')
+
+# Fallback to wttr.in if empty
+if [[ -z "$weather" ]]; then
+    weather=$(curl -s "wttr.in/$city?format=%C+%t")
+fi
+
+# Extract numeric temperature
+temp=$(echo "$weather" | grep -oE '[+-]?[0-9]+' | head -1)
+
+# Default color + emoji
+color=$(tput sgr0)
+emoji="🌡️"
+
+if [[ -n "$temp" ]]; then
+    if (( temp <= 5 )); then
+        color=$(tput setaf 4)   # Blue
+        emoji="❄️"
+    elif (( temp <= 20 )); then
+        color=$(tput setaf 2)   # Green
+        emoji="🌱"
+    elif (( temp <= 30 )); then
+        color=$(tput setaf 3)   # Yellow
+        emoji="☀️"
+    else
+        color=$(tput setaf 1)   # Red
+        emoji="🔥"
+    fi
+fi
+
+echo "...WEATHER INFO..."
+echo "${color}- $location : $emoji $weather$(tput sgr0)"
+echo
 source ~/.bashrc
