@@ -9,3 +9,5 @@ ls -1 ~/RetroPie/splashscreens/* | shuf -n1 | mpv -playlist - >/dev/null 2>&1
 #mpv ~/RetroPie/splashscreens/filename.mp4 >/dev/null 2>&1
 #/home/pi/scripts/themerandom.sh
 emulationstation --no-splash #auto
+#mpv ~/.attract/intro/intro.mp4 - >/dev/null 2>&1
+#attractplus #auto
