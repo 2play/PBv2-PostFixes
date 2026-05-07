@@ -131,7 +131,7 @@
 # This allows Unix users to be created on the domain controller via the SAMR
 # RPC pipe.  The example command creates a user account with a disabled Unix
 # password; please adapt to your needs
-; add user script = /usr/sbin/adduser --quiet --disabled-password --gecos "" %u
+; add user script = /usr/sbin/useradd --create-home %u
 
 # This allows machine accounts to be created on the domain controller via the 
 # SAMR RPC pipe.  
@@ -172,28 +172,28 @@
 # Un-comment the following (and tweak the other settings below to suit)
 # to enable the default home directory shares. This will share each
 # user's home directory as \\server\username
-[homes]
-   comment = Home Directories
-   browseable = no
+;[homes]
+;   comment = Home Directories
+;   browseable = no
 
 # By default, the home directories are exported read-only. Change the
 # next parameter to 'no' if you want to be able to write to them.
-   read only = yes
+;   read only = yes
 
 # File creation mask is set to 0700 for security reasons. If you want to
 # create files with group=rw permissions, set next parameter to 0775.
-   create mask = 0700
+;   create mask = 0700
 
 # Directory creation mask is set to 0700 for security reasons. If you want to
 # create dirs. with group=rw permissions, set next parameter to 0775.
-   directory mask = 0700
+;   directory mask = 0700
 
 # By default, \\server\username shares can be connected to by anyone
 # with access to the samba server.
 # Un-comment the following parameter to make sure that only "username"
 # can connect to \\server\username
 # This might need tweaking when using external authentication schemes
-   valid users = %S
+;   valid users = %S
 
 # Un-comment the following and create the netlogon directory for Domain Logons
 # (you need to configure Samba to act as a domain controller too.)
@@ -219,7 +219,7 @@
 [printers]
    comment = All Printers
    browseable = no
-   path = /var/spool/samba
+   path = /var/tmp
    printable = yes
    guest ok = no
    read only = yes
