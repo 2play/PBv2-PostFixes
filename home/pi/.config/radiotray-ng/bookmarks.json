@@ -1,241 +1,208 @@
 [
-   {
+	{
 		"group" : "root",
 		"stations" : []
 	},
 	{
-      "group" : "Jazz",
-      "stations" : [
-         {
-            "name" : "Smooth Jazz",
-            "url" : "http://smoothjazz.com/streams/smoothjazz_128.pls"
-         },
-         {
-            "name" : "The Jazz Groove",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1528122"
-         },
-		 {
-            "name" : "1.FM - Adore Jazz",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1859817"
-         },
-		 {
-            "name" : "Sonic Universe",
-            "url" : "http://somafm.com/sonicuniverse.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Latin",
-      "stations" : [
-         {
-            "name" : "Colombia Crossover",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99572214"
-         },
-         {
-            "name" : "Colombia Vallenata",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99506414"
-         },
-		 {
-            "name" : "113.fm Salsa!",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1846053"
-         }
-      ]
-   },
-   {
-      "group" : "Classic Rock",
-      "stations" : [
-         {
-            "name" : "Radio Caroline",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1364747"
-         },
-         {
-            "name" : ".977 Classic Rock",
-            "url" : "http://www.977music.com/tunein/web/classicrock.asx"
-         },
-         {
-            "name" : "1.FM - Classic Rock Replay",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1807142"
-         }
-      ]
-   },
-   {
-      "group" : "Classical",
-      "stations" : [
-         {
-            "name" : "KDFC",
-            "url" : "http://provisioning.streamtheworld.com/pls/KDFCFM.pls"
-         },
-         {
-            "name" : "Classic FM",
-            "url" : "http://media-ice.musicradio.com/ClassicFMMP3.m3u"
-         },
-         {
-            "name" : "CINEMIX",
-            "url" : "http://cinemix.us/cine.asx"
-         },
-         {
-            "name" : "WCPE The Classical Station",
-            "url" : "http://www.ibiblio.org/wcpe/wcpe.pls"
-         },
-         {
-            "name" : "Sweet Melodies",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99503690"
-         }
-      ]
-   },
-   {
-      "group" : "Pop / Rock",
-      "stations" : [
-         {
-            "name" : "Radio Paradise",
-            "url" : "http://www.radioparadise.com/musiclinks/rp_128.m3u"
-         },
-         {
-            "name" : ".977 The Hitz Channel",
-            "url" : "http://www.977music.com/tunein/web/hitz.asx"
-         },
-         {
-            "name" : "Indie Pop Rocks!",
-            "url" : "http://somafm.com/indiepop.pls"
-         },
-         {
-            "name" : "Covers",
-            "url" : "http://somafm.com/covers.pls"
-         },
-		 {
-            "name" : "PopTron",
-            "url" : "http://somafm.com/poptron.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Oldies",
-      "stations" : [
-         {
-            "name" : "ANTENNE BAYERN Oldies but Goldies (Germany)",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99497958"
-         },
-         {
-            "name" : "Radio Caroline Flashback",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1420778"
-         },
-         {
-            "name" : "Radio Ekspres SI",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1472429"
-         },
-         {
-            "name" : "Illinois Street Lounge",
-            "url" : "http://somafm.com/illstreet.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Chill / Lounge",
-      "stations" : [
-         {
-            "name" : "Lounge Radio",
-            "url" : "http://www.lounge-radio.com/listen128.m3u"
-         },
-         {
-            "name" : "1.FM - Chillout Lounge",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1778139"
-         },
-         {
-            "name" : "Secret Agent",
-            "url" : "http://somafm.com/secretagent.pls"
-         },
-         {
-            "name" : "Groove Salad",
-            "url" : "http://somafm.com/groovesalad.pls"
-         },
-         {
-            "name" : "Beat Blender",
-            "url" : "http://somafm.com/beatblender.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Country",
-      "stations" : [
-         {
-            "name" : "America's Country",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1909361"
-         },
-         {
-            "name" : "Boot Liquor",
-            "url" : "http://somafm.com/bootliquor.pls"
-         },
-         {
-            "name" : "Country 108",
-            "url" : "http://www.country108.com/listen.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Techno / Electronic",
-      "stations" : [
-         {
-            "name" : "Space Station Soma",
-            "url" : "http://somafm.com/spacestation.pls"
-         },
-         {
-            "name" : "cliqhop idm",
-            "url" : "http://somafm.com/cliqhop.pls"
-         },
-         {
-            "name" : "Black Rock FM",
-            "url" : "http://somafm.com/brfm.pls"
-         },
-         {
-            "name" : "DubStep Beyond",
-            "url" : "http://somafm.com/play/dubstep32"
-         },
-		 {
-            "name" : "Drone Zone",
-            "url" : "http://somafm.com/dronezone.pls"
-         }
-      ]
-   },
-   {
-      "group" : "Community / Talk Radio",
-      "stations" : [
-         {
-            "name" : "Jupiter Broadcasting",
-            "url" : "http://jblive.stream/"
-         },
-		 {
-            "name" : "Truth Seeker JoshWho Talk Radio",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99551433"
-         },
-		 {
-            "name" : "Alex Jones - Infowars.com",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1419651"
-         }
-      ]
-   },
-   {
-      "group" : "Various / Office",
-      "stations" : [
-         {
-            "name" : "POWERHITZ.COM - THE OFFICEMIX - The Best Soft Rock And Pop",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1542116"
-         },
-		 {
-            "name" : "Easy Hits Florida",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99527781"
-         },
-		 {
-            "name" : "COOLfahrenheit | Easy Listening",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1916740"
-         },
-		 {
-            "name" : "ANTENNE BAYERN Coffee Music",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99497952"
-         },
-		 {
-            "name" : "1.FM - Cafe Radio",
-            "url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1677115"
-         }
-      ]
-   }
+		"group" : "Various / Office",
+		"stations" : 
+		[
+			{
+				"name" : "POWERHITZ.COM - THE OFFICEMIX - The Best Soft Rock And Pop",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1542116"
+			},
+			{
+				"name" : "Easy Hits Florida",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99527781"
+			},
+			{
+				"name" : "1.FM - Cafe Radio",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1677115"
+			}
+		]
+	},
+	{
+		"group" : "Classic Rock",
+		"stations" : 
+		[
+			{
+				"name" : "Radio Caroline",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1206978"
+			},
+			{
+				"name" : "Classic Rock Florida Music Radio",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99593982"
+			},
+			{
+				"name" : "1.FM - Classic Rock Replay",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1807142"
+			}
+		]
+	},
+	{
+		"group" : "Pop / Rock",
+		"stations" : 
+		[
+			{
+				"name" : "Riviera Radio MC",
+				"url" : "https://media-ssl.musicradio.com/RivieraRadio?dax_player%3DRivieraPlayer%26dax_platform%3DWeb%26gdpr%3Dgdpr_pd%26gdpr_consent%3D"
+			},
+			{
+				"name" : "ANTENNE BAYERN",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99497996"
+			},
+			{
+				"name" : "ANTENA1 - 94 7 FM",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1933007"
+			}
+		]
+	},
+	{
+		"group" : "Chill / Lounge",
+		"stations" : 
+		[
+			{
+				"name" : "1.FM - Chillout Lounge",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1778139"
+			},
+			{
+				"name" : "Secret Agent",
+				"url" : "http://somafm.com/secretagent.pls"
+			},
+			{
+				"name" : "Beat Blender",
+				"url" : "http://somafm.com/beatblender.pls"
+			}
+		]
+	},
+	{
+		"group" : "Oldies",
+		"stations" : 
+		[
+			{
+				"name" : "ANTENNE BAYERN Oldies but Goldies (Germany)",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=99497958"
+			},
+			{
+				"name" : "Radio Caroline Flashback",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1420778"
+			},
+			{
+				"name" : "Illinois Street Lounge",
+				"url" : "http://somafm.com/illstreet.pls"
+			}
+		]
+	},
+	{
+		"group" : "Jazz",
+		"stations" : 
+		[
+			{
+				"name" : "Smooth Jazz",
+				"url" : "http://smoothjazz.com/streams/smoothjazz_128.pls"
+			},
+			{
+				"name" : "1.FM - Adore Jazz",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1859817"
+			},
+			{
+				"name" : "Sonic Universe",
+				"url" : "http://somafm.com/sonicuniverse.pls"
+			}
+		]
+	},
+	{
+		"group" : "Classical",
+		"stations" : 
+		[
+			{
+				"name" : "KDFC",
+				"url" : "http://provisioning.streamtheworld.com/pls/KDFCFM.pls"
+			},
+			{
+				"name" : "Classic FM",
+				"url" : "http://media-ice.musicradio.com/ClassicFMMP3.m3u"
+			},
+			{
+				"name" : "CINEMIX",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99521096"
+			},
+			{
+				"name" : "WCPE The Classical Station",
+				"url" : "http://www.ibiblio.org/wcpe/wcpe.pls"
+			}
+		]
+	},
+	{
+		"group" : "Country",
+		"stations" : 
+		[
+			{
+				"name" : "1.FM - Classic Country",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1747698"
+			},
+			{
+				"name" : "Boot Liquor",
+				"url" : "http://somafm.com/bootliquor.pls"
+			},
+			{
+				"name" : "Country 108",
+				"url" : "http://www.country108.com/listen.pls"
+			}
+		]
+	},
+	{
+		"group" : "Latin",
+		"stations" : 
+		[
+			{
+				"name" : "Motiva",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99618213"
+			},
+			{
+				"name" : "La Chismosa 2",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99613155"
+			},
+			{
+				"name" : "113.fm Salsa!",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1846053"
+			}
+		]
+	},
+	{
+		"group" : "Techno / Electronic",
+		"stations" : 
+		[
+			{
+				"name" : "Space Station Soma",
+				"url" : "http://somafm.com/spacestation.pls"
+			},
+			{
+				"name" : "Black Rock FM",
+				"url" : "http://somafm.com/brfm.pls"
+			},
+			{
+				"name" : "Drone Zone",
+				"url" : "http://somafm.com/dronezone.pls"
+			}
+		]
+	},
+	{
+		"group" : "Community / Talk Radio",
+		"stations" : 
+		[
+			{
+				"name" : "Talk America Radio - WDDQ",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1459867"
+			},
+			{
+				"name" : "Car Radio",
+				"url" : "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99595806"
+			},
+			{
+				"name" : "89.7 NPR News",
+				"url" : "https://wosu.streamguys1.com/NPR_128"
+			}
+		]
+	}
 ]
