@@ -31,6 +31,12 @@
 # server string is the equivalent of the NT Description field
    server string = %h server (Samba, Ubuntu)
 
+#### ACL Support n more ####
+nt acl support = no
+store dos attributes = no
+map archive = no
+
+
 #### Networking ####
 
 # The specific set of interfaces / networks to bind to
