@@ -2,7 +2,7 @@
 # Copyright (C)2018-2026 2Play! (S.R.)
 # 24.06.2026
 #clear
-echo "
+printf "%s\n" "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
         $(tput setaf 1)\______   \  | _____   ___.__.$(tput setaf 7)\______   \ ________  ___
         $(tput setaf 1) |     ___/  | \__  \ <   |  | $(tput setaf 7)|    |  _//  _  \  \/  /
