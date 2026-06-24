@@ -2,15 +2,15 @@
 # Copyright (C)2018-2026 2Play! (S.R.)
 # 24.06.2026
 #clear
-printf "%s\n" "
+echo "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
         $(tput setaf 1)\______   \  | _____   ___.__.$(tput setaf 7)\______   \ ________  ___
         $(tput setaf 1) |     ___/  | \__  \ <   |  | $(tput setaf 7)|    |  _//  _  \  \/  /
         $(tput setaf 1) |    |   |  |__/ __ \ \___  | $(tput setaf 7)|    |   (  <_>  >    <
         $(tput setaf 1) |____|   |____(____  )/ ____| $(tput setaf 7)|______  /\_____/__/\_ \ 
         $(tput setaf 1)                    \/ \/      $(tput setaf 7)       \/             \/
-                                                      By $(tput setaf 1)2$(tput setaf 7)Play!
-
+                                                      By $(tput setaf 1)2$(tput setaf 7)Play!"
+echo "
 $(tput setaf 2)`uname -srmo` - `lsb_release -ds`
 $(tput setaf 2)Your $(tput setaf 1)Play$(tput setaf 7)Box $(tput setaf 2)is `uptime -p` since `uptime -s` 😃
 User `exec -- last | head -1`
