@@ -1,6 +1,6 @@
 # The PlayBox Project
 # Copyright (C)2018-2026 2Play! (S.R.)
-# 05.05.2026
+# 24.06.2026
 #clear
 echo "
         $(tput setaf 1)__________.__                 $(tput setaf 7)__________
@@ -35,18 +35,23 @@ LAN & WAN   : `ip route get 8.8.8.8 | awk '{print $7}'` / `curl -s https://api.i
 $(tput setaf 7)$(tput sgr0)"
 
 # Detect location via IP
-city=$(curl -s ipinfo.io/city)
-country=$(curl -s ipinfo.io/country)
-location="$city,$country"
+city=$(curl -s --max-time 2 https://ipinfo.io | jq -r '.city')
+country=$(curl -s --max-time 2 https://ipinfo.io | jq -r '.country')
+location="$city, $country"
 #echo "[.] Detected location: $location"
 
+# Fallback if city/country empty
+if [[ -z "$city" ]]; then
+    location=$(curl -s --max-time 2 wttr.in/?format="%l" | sed 's/, ,/,/g' | sed 's/, $//' 2>/dev/null)
+fi
+
 # Try AccuWeather RSS feed
-weather=$(curl -s "http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=$city" \
+weather=$(curl -s --max-time 2 "http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=$city" \
     | sed -n '/Currently:/ s/.*: \(.*\): \([0-9]*\)\([CF]\).*/\2°\3, \1/p')
 
 # Fallback to wttr.in if empty
 if [[ -z "$weather" ]]; then
-    weather=$(curl -s "wttr.in/$city?format=%C+%t")
+    weather=$(curl -s --max-time 2 "wttr.in/$city?format=%C+%t")
 fi
 
 # Extract numeric temperature
@@ -56,19 +61,21 @@ temp=$(echo "$weather" | grep -oE '[+-]?[0-9]+' | head -1)
 color=$(tput sgr0)
 emoji="🌡️"
 
+if [[ $TERM == "linux" ]]; then
+    cold="❄︎"; mild="~"; warm=">O<"; hot="H"
+else
+    cold="🧊"; mild="🍃"; warm="🔆"; hot="🔥"
+fi
+
 if [[ -n "$temp" ]]; then
     if (( temp <= 5 )); then
-        color=$(tput setaf 4)   # Blue
-        emoji="❄️"
+        color=$(tput setaf 4); emoji=$cold
     elif (( temp <= 20 )); then
-        color=$(tput setaf 2)   # Green
-        emoji="🌱"
+        color=$(tput setaf 2); emoji=$mild
     elif (( temp <= 30 )); then
-        color=$(tput setaf 3)   # Yellow
-        emoji="☀️"
+        color=$(tput setaf 3); emoji=$warm
     else
-        color=$(tput setaf 1)   # Red
-        emoji="🔥"
+        color=$(tput setaf 1); emoji=$hot
     fi
 fi
 
