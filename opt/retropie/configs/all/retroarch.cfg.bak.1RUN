@@ -788,6 +788,7 @@ menu_unified_controls = "true"
 
 # URL to core update directory on buildbot.
 # core_updater_buildbot_url = "http://buildbot.libretro.com"
+core_updater_buildbot_url = "http://buildbot.libretro.com/nightly/linux/x86_64/latest/"
 
 # URL to assets update directory on buildbot.
 # core_updater_buildbot_assets_url = "http://buildbot.libretro.com/assets/"
