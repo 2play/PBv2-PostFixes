@@ -1,5 +1,5 @@
 shaders = "1"
-shader0 = "shaders_slang/interpolation/shaders/sharp-bilinear-scanlines.slang"
+shader0 = "shaders_slang/pixel-art-scaling/shaders/sharp-bilinear-scanlines.slang"
 filter_linear0 = "true"
 wrap_mode0 = "clamp_to_border"
 mipmap_input0 = "false"
