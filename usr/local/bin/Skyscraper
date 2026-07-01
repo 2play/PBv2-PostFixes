@@ -1,7 +1,7 @@
 #!/bin/bash
 # The PlayBox Project
 # Copyright (C)2018-2026 2Play! (S.R.)
-# 04.2026
+# 06.2026
 # PlayBox Skyscraper BoxArt Wrapper with ES stop/start
 # Watch a video demonstrating the artwork compositing features here: https://youtu.be/TIDD8EFSz50
 # ReadThis For Extra help on manual scrapes: https://github.com/muldjord/skyscraper/blob/master/docs/ARTWORK.md
@@ -9,27 +9,37 @@
 
 clear
 
-# If EmulationStation is running, kill it first
-stop_es() {
+function tostop_es() {
     clear
-	echo "[Stopping EmulationStation...]"
-	sleep 1
-	
-	# Stop ES
-    pkill -f emulationstation
-	
-    while pgrep -f emulationstation >/dev/null; do
-        sleep 2
-    done
-
-    # Extra delay to let esbgm service react
-    sleep 1
+    ensure_lolcat
+    echo "[WARN] Please exit EmulationStation manually before you continue with Skyscraper..." | lolcat
+ 	pausepress
 }
 
-start_es() {
-    echo "[Starting EmulationStation...]"
-    nohup emulationstation --no-splash 2>/dev/null &
-    disown
+function tostart_es() {
+    clear
+    ensure_lolcat
+    echo "[WARN] Please start EmulationStation again or restart your system..." | lolcat
+ 	pausepress
+}
+
+
+function pausepress() {
+    echo
+    read -n 1 -s -r -p "Press any key to continue..."
+    echo
+}
+
+
+function ensure_lolcat() {
+    if ! command -v lolcat >/dev/null 2>&1; then
+        sudo gem install lolcat >/dev/null 2>&1
+    else
+        # Test if lolcat runs without Ruby errors
+        if ! echo "test" | lolcat >/dev/null 2>&1; then
+            sudo gem install lolcat >/dev/null 2>&1
+        fi
+    fi
 }
 
 check_and_run() {
@@ -45,7 +55,7 @@ check_and_run() {
     fi
 }
 
-stop_es
+tostop_es
 check_and_run ~/code/skysource/Skyscraper --help
 	echo
 	echo -e "\033[32mAlso check the --flags settings\033[0m!..."
@@ -57,5 +67,5 @@ check_and_run ~/code/skysource/Skyscraper --flags help
 	read -n 1 -s -r -p "Press any key to continue..."
 	echo
     
-start_es
+tostart_es
 	
